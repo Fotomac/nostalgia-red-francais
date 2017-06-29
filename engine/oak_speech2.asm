@@ -262,7 +262,7 @@ DefaultNamesPlayer:
 	db "@"
 
 DefaultNamesGirl:
-    db   "NOM:"
+	db   "NOM:"
 	next "SCARLET"
 	next "LEAF"
 	next "NICOLE"
