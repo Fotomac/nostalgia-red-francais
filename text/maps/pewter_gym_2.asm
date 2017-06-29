@@ -4,8 +4,20 @@ _PewterGymText_5c4a3::
 	cont "dresseurs dans le"
 	cont "monde!"
 
-	para "Tu sembles être"
-	line "un dresseur"
+	para "Certaines élèvent"
+	line "les #MON pour"
+	cont "combattre et"
+	cont "d'autres en tant"
+	cont "qu'animaux"
+	cont "domestiques."
+
+	para "Moi, je veux être"
+	line "un éleveur de"
+	cont "#MON."
+
+	para "Et tu..."
+	line "Tu sembles être"
+	cont "un dresseur"
 	cont "d'exception!"
 
 	para "Va à l'ARENE"
@@ -14,16 +26,16 @@ _PewterGymText_5c4a3::
 	cont "capacités."
 	done
 
-_TM34PreReceiveText::
+_TM39PreReceiveText::
 	text "Attends! Prends"
 	line "ça avec toi!"
 	done
 
-_ReceivedTM34Text::
-	text $52," reçoit"
-	line "la CT34!@@"
+_ReceivedTM39Text::
+	text "<PLAYER> reçoit"
+	line "la CT39!@@"
 
-_TM34ExplanationText::
+_TM39ExplanationText::
 	text ""
 
 	para "Une CT (Capsule"
@@ -38,17 +50,17 @@ _TM34ExplanationText::
 	cont "bien le #MON"
 	cont "à qui la donner!"
 
-	para "CT34 contient"
-	line "PATIENCE!"
+	para "CT39 contient"
+	line "TOMBEROCHE!"
 
 	para "Ton #MON"
-	line "absorbera les"
-	cont "dégâts pour"
-	cont "ensuite infliger"
-	cont "le double!"
+	line "lancera des"
+	cont "roches sur son"
+	cont "ennemi pour"
+	cont "baisser sa VIT!"
 	done
 
-_TM34NoRoomText::
+_TM39NoRoomText::
 	text "Votre inventaire"
 	line "est plein!"
 	done
@@ -56,6 +68,10 @@ _TM34NoRoomText::
 _PewterGymText_5c4bc::
 	text "Hmm..."
 	line "Beau combat."
+	cont "J'étais trop sûr"
+	cont "de moi, c'est"
+	cont "pour ça que j'ai"
+	cont "perdu."
 
 	para "En reconnaissance"
 	line "de ta victoire,"

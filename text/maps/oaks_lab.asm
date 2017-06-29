@@ -4,22 +4,22 @@ _OaksLabGaryText1::
 	cont "n'est pas là!"
 	done
 
-_OaksLabText40::
+_OaksLabText41::
 	text "<RIVAL>: Je ne"
 	line "suis pas avide"
 	cont "comme toi!"
 
 	para "Allez, choisis,"
-	line $52,"!"
+	line "<PLAYER>!"
 	done
 
-_OaksLabText41::
+_OaksLabText42::
 	text "<RIVAL>: Mon"
 	line "#MON est"
 	cont "plus fort."
 	done
 
-_OaksLabText39::
+_OaksLabText40::
 	text "Ces # BALL"
 	line "contiennent des"
 	cont "#MON!"
@@ -50,7 +50,7 @@ _OaksLabMonEnergeticText::
 	prompt
 
 _OaksLabReceivedMonText::
-	text $52," obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcd6d
 	text "!@@"
@@ -115,52 +115,9 @@ _OaksLabAroundWorldText::
 	text "Les #MON du"
 	line "monde entier sont"
 	cont "à toi, <PLAYER>!"
-	done
 
-_OaksLabGivePokeballsText1::
-	text "CHEN: Il ne te"
-	line "suffit pas de"
-	cont "voir un #MON"
-	cont "pour tout savoir"
-	cont "sur lui, mon"
-	cont "p'tit bonhomme!"
-
-	para "Il te faut aussi"
-	line "l'attraper! Voici"
-	cont "des # BALL"
-	cont "pour en capturer."
-
-	para "<PLAYER> obtient"
-	line "5 # BALL!@@"
-
-_OaksLabGivePokeballsText2::
-	text ""
-
-	para "Quand un #MON"
-	line "sauvage apparaît,"
-	cont "il faut jouer"
-	cont "serré."
-
-	para "Lance-lui une"
-	line "# BALL pour le"
-	line "capturer!"
-
-	para "Mais ça ne"
-	line "marchera pas à"
-	cont "tous les coups!"
-
-	para "Un #MON en"
-	line "pleine forme peut"
-	cont "s'échapper!"
-	cont "C'est ça, la"
-	cont "grande aventure"
-	cont "des #MON!"
-	done
-
-_OaksLabPleaseVisitText::
-	text "CHEN: Reviens me"
-	line "voir de temps en"
-	cont "temps."
+	para "Reviens me voir de"
+	line "temps en temps."
 
 	para "Tiens-moi informé"
 	line "du niveau de ton"
@@ -268,8 +225,12 @@ _OaksLabRivalChallengeText::
 	cont "nos #MON est"
 	cont "le plus fort!"
 
-	para "Allez viens te"
-	line "battre, minable!"
+	para "C'est le moins"
+	line "que nous pouvons"
+	cont "faire pour"
+	cont "remercier mon"
+	cont "pépé pour notres"
+	cont "nouveaux #MON!"
 	done
 
 _OaksLabText_1d3be::
@@ -290,7 +251,7 @@ _OaksLabRivalToughenUpText::
 	cont "mon #MON!"
 
 	para "<PLAYER>! Pépé!"
-	line "A plus tard!"
+	line "A Pluto!"
 	done
 
 _OaksLabText21::
@@ -333,7 +294,41 @@ _OaksLabText25::
 	line "le #DEX!@@"
 
 _OaksLabText26::
-	text "Faire un guide"
+	text "Il ne vous suffit"
+	line "pas de voir un"
+	cont "#MON pour tout"
+	cont "savoir sur lui!"
+
+	para "Il vous faut aussi"
+	line "l'attraper! Voici"
+	cont "des # BALL"
+	cont "pour en capturer."
+
+	para "<PLAYER> obtient"
+	line "5 # BALL!@@"
+
+_OaksLabText27::
+	text "Quand un #MON"
+	line "sauvage apparaît,"
+	cont "il faut jouer"
+	cont "serré."
+
+	para "Lancez-lui une"
+	line "# BALL pour le"
+	cont "capturer!"
+
+	para "Mais ça ne"
+	line "marchera pas à"
+	cont "tous les coups!"
+
+	para "Un #MON en"
+	line "pleine forme peut"
+	cont "s'échapper!"
+	cont "Il faut aussi"
+	cont "beaucoup de"
+	cont "chance!"
+
+	para "Faire un guide"
 	line "complet sur les"
 	cont "#MON du monde"
 	cont "entier..."
@@ -356,10 +351,10 @@ _OaksLabText26::
 	cont "commence!"
 	done
 
-_OaksLabText27::
+_OaksLabText28::
 	text "<RIVAL>: OK,"
-	line "pépé! Donne-les"
-	cont "moi tous!"
+	line "pépé! Tu peux"
+	cont "compter sur moi!"
 
 	para "<PLAYER>, c'est"
 	line "clair, j'ai pas"
@@ -372,7 +367,12 @@ _OaksLabText27::
 
 	para "Et je lui dirai"
 	line "de ne pas t'en"
-	cont "donner une! Yark!"
+	cont "donner une, parce"
+	cont "que je crois que"
+	cont "c'est une affaire"
+	cont "familiale! Et tu"
+	cont "n'est pas de ma"
+	cont "famille, oui?"
 	done
 
 _OaksLabText_1d405::

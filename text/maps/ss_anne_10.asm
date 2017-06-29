@@ -75,7 +75,7 @@ _SSAnne10AfterBattleText4::
 _SSAnne10BattleText5::
 	text "Si tu perds, on"
 	line "te balance aux"
-	cont "requins!"
+	cont "putain de requins!"
 	done
 
 _SSAnne10EndBattleText5::

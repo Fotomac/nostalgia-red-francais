@@ -2576,7 +2576,15 @@ wDestinationWarpID:: ; d42f
 ; if $ff, the player's coordinates are not updated when entering the map
 	ds 1
 
-	ds 128
+	ds 66
+
+wd472::
+	ds 1
+
+wd473::
+	ds 1
+
+	ds 60
 
 wNumSigns:: ; d4b0
 ; number of signs in the current map (up to 16)
@@ -3205,6 +3213,9 @@ wDayCareMonName:: ds NAME_LENGTH ; da49
 wDayCareMonOT::   ds NAME_LENGTH ; da54
 
 wDayCareMon:: box_struct wDayCareMon ; da5f
+
+wPlayerGender::
+	ds 1
 
 wMainDataEnd::
 

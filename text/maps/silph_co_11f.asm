@@ -67,11 +67,10 @@ _SilphCo11Text3::
 	cont "très importante."
 
 	para "Viens pas t'mêler"
-	line "de tout ça, mon"
-	cont "bonhomme..."
+	line "de ça..."
 
-	para "Dégage ou..."
-	line "Déguste!"
+	para "Ou prêpare-toi à"
+	line "souffrir!"
 	done
 
 _SilphCo10Text_62330::
@@ -89,15 +88,15 @@ _SilphCo10Text_62335::
 	line "ROCKET est"
 	cont "invincible!"
 
-	para $52,"! N'oublie"
+	para "<PLAYER>! N'oublie"
 	line "jamais que tous"
 	cont "les #MON sont"
 	cont "pour la TEAM"
 	cont "ROCKET!"
 
 	para "Je pars, mais..."
-	line "Ma vengeance te"
-	cont "fera bobo!"
+	line "Je reviendrai"
+	cont "bientôt!"
 	done
 
 _SilphCo11BattleText1::

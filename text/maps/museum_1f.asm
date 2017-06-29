@@ -55,8 +55,12 @@ _Museum1FText_5c242::
 	done
 
 _Museum1FText_5c251::
-	text "Voici un"
-	line "sublime fossile!"
+	text "Je ne pensais pas"
+	line "que je pourrais"
+	cont "vivre suffisam-"
+	cont "ment vieux pour"
+	cont "pouvoir voir des"
+	cont "os du dieu dragon!"
 	done
 
 _Museum1FText_5c28e::

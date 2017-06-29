@@ -46,10 +46,16 @@ _ViridianCityText_19157::
 	done
 
 _ViridianCityText_19175::
-	text "Papinou! Tu vas"
-	line "t'lever, ouais?"
-	cont "T'as vidé la cave"
-	cont "ou quoi?"
+	text "Bon sang Papinou!"
+	line "Tu dois dormir en"
+	cont "public? Et ici,"
+	cont "de tous les"
+	cont "endroits!"
+
+	para "C'est forcé. Nous"
+	line "devons attendre"
+	cont "jusqu'à ce qu'il"
+	cont "se dégrise..."
 	done
 
 _ViridianCityText_1917a::
@@ -61,10 +67,23 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "Passage..."
-	line "INTERDIT!"
+	text "Uuuf...! Hoc..."
+	line "Minute mon p'tit!"
+	cont "Ecoutezz bien que"
+	cont "je vais dier!"
 
-	para "Propriété privée!"
+	para "...Hé! Ne va"
+	line "toujourse pass!"
+	done
+
+_ViridianCityText_19191_2::
+	text "Uuuf...! Hoc..."
+	line "Minute ma p'tite!"
+	cont "Ecoutezz bien que"
+	cont "je vais dier!"
+
+	para "...Hé! Ne va"
+	line "toujourse pass!"
 	done
 
 _ViridianCityText_191ca::
@@ -100,14 +119,12 @@ _TM42NoRoomText::
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh... Un p'tit"
-	line "somme, un bon"
-	cont "café et hop! La"
-	cont "pêche pour la"
-	cont "journée!"
+	text "Heu... Il paraît"
+	line "que j'étais"
+	cont "assez ivre!"
 
-	para "Mais bien sûr que"
-	line "tu peux passer!"
+	para "J'ai mal à la"
+	line "tête..."
 
 	para "Mais au fait..."
 	line "T'es pressé?"

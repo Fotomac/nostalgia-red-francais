@@ -599,7 +599,7 @@ _CinnabarGymQuizIntroText::
 
 _CinnabarQuizQuestionsText1::
 	text "CHENIPAN évolue"
-	line "en PAPILUSION?"
+	line "en CHRYSACIER?"
 	done
 
 _CinnabarQuizQuestionsText2::
@@ -613,10 +613,10 @@ _CinnabarQuizQuestionsText3::
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "La foudre est"
-	line "efficace contre"
-	cont "les #MON du"
-	cont "sol?"
+	text "Les capacités"
+	line "ELECTRIK CONT"
+	cont "efficaces contre"
+	cont "les #MON SOL?"
 	done
 
 _CinnabarQuizQuestionsText5::
@@ -1295,14 +1295,23 @@ _IsFrozenText::
 	line "est congelé!"
 	prompt
 
+_DefrostedText::
+	text "<USER>"
+	line "est dégelé!"
+	prompt
+
 _FullyParalyzedText::
 	text "<USER>"
 	line "est paralysé!"
+	cont "Il n'a pas pu"
+	cont "attaquer!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
 	line "a la trouille!"
+	cont "Il ne peut plus"
+	cont "attaquer!"
 	prompt
 
 _MustRechargeText::
@@ -1592,7 +1601,7 @@ _ComeBackText::
 	line "Reviens!@@"
 
 _SuperEffectiveText::
-	text "C'est très"
+	text "C'est super"
 	line "efficace!"
 	prompt
 
@@ -2120,13 +2129,14 @@ _ChooseABoxText::
 	line "BOITE <pkmn>.@@"
 
 _EvolvedText::
+	text "Félicitations!"
+	line "@"
 	TX_RAM wcf50
 	text " évolue"
 	done
 
 _IntoText::
-	text ""
-	line "en @"
+	text $4c,"en @"
 	TX_RAM wcd6d
 	text "!"
 	done
@@ -2139,7 +2149,7 @@ _StoppedEvolvingText::
 	prompt
 
 _IsEvolvingText::
-	text "Hein? @"
+	text "Quoi? @"
 	TX_RAM wcf50
 	text ""
 	line "évolue!"
@@ -2280,7 +2290,8 @@ _NothingHappenedText::
 	prompt
 
 _NoEffectText::
-	text "Sans effet!"
+	text "Mais rien ne se"
+	line "passe!"
 	prompt
 
 _ButItFailedText::
@@ -2332,6 +2343,11 @@ _GettingPumpedText::
 _WasSeededText::
 	text "<TARGET>"
 	line "est infecté!"
+	prompt
+
+_AlreadySeededText::
+	text "<TARGET>"
+	line "est déjà infecté!"
 	prompt
 
 _EvadedAttackText::
@@ -2803,7 +2819,7 @@ _NotHealthyEnoughText::
 	prompt
 
 _NewBadgeRequiredText::
-	text "Non! Un nouveau"
+	text "Désolé! Un nouveau"
 	line "BADGE est requis."
 	prompt
 
@@ -2865,30 +2881,29 @@ _ItemUseBallText00::
 	prompt
 
 _ItemUseBallText01::
-	text "Vous manquez le"
-	line "#MON!"
-	prompt
-
-_ItemUseBallText02::
-	text "Zut de flûte! Il"
+	text "Oh non! Le #MON"
 	line "s'est libéré!"
 	prompt
 
+_ItemUseBallText02::
+	text "Raaah! Ca y était"
+	line "presque!"
+	prompt
+
 _ItemUseBallText03::
-	text "Méga-mince..."
-	line "Presque!"
+	text "Aaaaah! Presque!"
 	prompt
 
 _ItemUseBallText04::
-	text "Pas d'bol, hein?"
+	text "Mince! Ca y était"
+	line "presque!"
 	prompt
 
 _ItemUseBallText05::
-	text "Top cool!"
-	line "@"
+	text "Et hop! @"
 	TX_RAM wEnemyMonNick
-	text " est"
-	cont "capturé!@@"
+	text ""
+	line "attrapé!@@"
 
 _ItemUseBallText07::
 	TX_RAM wBoxMonNicks
@@ -2905,18 +2920,18 @@ _ItemUseBallText08::
 	prompt
 
 _ItemUseBallText06::
-	text "Le profil de"
+	text "Les données du"
 	line "@"
 	TX_RAM wEnemyMonNick
-	text " est"
-	cont "transféré sur le"
+	text " sont"
+	cont "ajoutées au"
 	cont "#DEX!@@"
 
 _SurfingGotOnText::
-	text "<PLAYER> monte sur"
-	line "@"
+	text "@"
 	TX_RAM wcd6d
-	text "!"
+	text ""
+	line "lance SURF!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::

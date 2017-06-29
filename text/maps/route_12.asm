@@ -59,7 +59,8 @@ _Route12BattleText3::
 	done
 
 _Route12EndBattleText3::
-	text "Aïe!"
+	text "Bordel"
+	line "de merde!"
 	prompt
 
 _Route12AfterBattleText3::

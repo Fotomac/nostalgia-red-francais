@@ -218,7 +218,14 @@ ViridianCityText_1917a:
 
 ViridianCityText5:
 	TX_ASM
+	ld a, [wPlayerGender]
+	bit 2, a
+	jr nz, .girl
 	ld hl, ViridianCityText_19191
+	jr .continue
+.girl
+	ld hl, ViridianCityText_19191_2
+.continue
 	call PrintText
 	call ViridianCityScript_190cf
 	ld a, $3
@@ -227,6 +234,10 @@ ViridianCityText5:
 
 ViridianCityText_19191:
 	TX_FAR _ViridianCityText_19191
+	db "@"
+
+ViridianCityText_19191_2:
+	TX_FAR _ViridianCityText_19191_2
 	db "@"
 
 ViridianCityText6:

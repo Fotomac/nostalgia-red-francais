@@ -2,7 +2,7 @@ _LavenderHouse2Text1::
 	text "OSSELAIT: Lailaii!@@"
 
 _LavenderHouse2Text_1d9dc::
-	text "Je déteste ces"
+	text "Ces bordel de"
 	line "méchants ROCKET!"
 
 	para "La pauvre mère de"

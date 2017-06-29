@@ -21,8 +21,9 @@ _Route6BattleText2::
 	done
 
 _Route6EndBattleText2::
-	text "Non!"
-	line "Pas bon perdre!"
+	text "Merde"
+	line "alors! Pas bon"
+	cont "perdre!"
 	prompt
 
 _Route6BattleText3::

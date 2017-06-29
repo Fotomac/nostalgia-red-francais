@@ -3,11 +3,13 @@ _OakAppearsText::
 	line "Ne pars pas!@@"
 
 _OakWalksUpText::
-	text "CHEN: C'est super"
-	line "dangereux! Des"
-	cont "#MON sauvages"
-	cont "infestent les"
-	cont "hautes herbes!"
+	text "PROF. CHEN:"
+	line "De justesse!"
+
+	para "Des #MON"
+	line "sauvages vivent"
+	cont "dans les hautes"
+	cont "herbes!"
 
 	para "Il te faut un"
 	line "#MON pour te"

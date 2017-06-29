@@ -1,18 +1,19 @@
 _DaisyInitialText::
-	text "Salut ",$52,"!"
-	line $53," est dans"
+	text "Salut <PLAYER>!"
+	line "<RIVAL> est dans"
 	cont "le labo de pépé! "
 	done
 
 _DaisyOfferMapText::
-	text "Tu dois faire une"
-	line "course pour pépé?"
-	cont "Prends ceci,"
-	cont "ça peut servir!"
+	text "Tu pars explorer"
+	line "la région pour"
+	cont "pépé? Prends"
+	cont "ceci, ça peut"
+	cont "servir!"
 	prompt
 
 _GotMapText::
-	text $52," obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -37,7 +38,8 @@ _BluesHouseText2::
 	done
 
 _BluesHouseText3::
-	text "C'est une carte!"
-	line "Ca peut être"
-	cont "utile!"
+	text "Une carte de"
+	line "KANTO! J'espère"
+	cont "qu'elle la me"
+	cont "donne..."
 	done

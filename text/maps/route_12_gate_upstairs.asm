@@ -1,4 +1,4 @@
-_TM39PreReceiveText::
+_TM27PreReceiveText::
 	text "Les cendres de"
 	line "mes #MON"
 	cont "sont dans la"
@@ -9,22 +9,22 @@ _TM39PreReceiveText::
 	cont "ai plus besoin..."
 	prompt
 
-_ReceivedTM39Text::
-	text $52," obtient"
-	line "CT39!@@"
+_ReceivedTM27Text::
+	text "<PLAYER> obtient"
+	line "CT27!@@"
 
-_TM39ExplanationText::
-	text "La CT39 s'appelle"
-	line "METEORES."
+_TM27ExplanationText::
+	text "La CT27 s'appelle"
+	line "RETOUR."
 
 	para "Cette attaque est"
-	line "très précise."
-	cont "Utilise-la pour"
-	cont "ne pas rater ton"
-	cont "coup!"
+	line "très puissante,"
+	cont "si t'aimes tes"
+	cont "#MON comme j'ai"
+	cont "aimée les miens."
 	done
 
-_TM39NoRoomText::
+_TM27NoRoomText::
 	text "Ton inventaire"
 	line "est plein!"
 	done

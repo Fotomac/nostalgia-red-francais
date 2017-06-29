@@ -16,6 +16,10 @@ _Route22GateText_1e715::
 	done
 
 _Route22GateText_1e71a::
-	text "Oh! Tu as le"
+	text "Seul un dresseur"
+	line "expérimenté peut"
+	cont "passer."
+
+	para "Oh! Tu as le"
 	line "BADGE ROCHE!"
 	cont "Tu peux passer!@@"

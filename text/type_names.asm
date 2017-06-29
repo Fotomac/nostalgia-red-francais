@@ -9,8 +9,8 @@ TypeNames:
 	dw .Bird
 	dw .Bug
 	dw .Ghost
+	dw .Steel
 
-	dw .Normal
 	dw .Normal
 	dw .Normal
 	dw .Normal
@@ -29,6 +29,7 @@ TypeNames:
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
+	dw .Dark
 
 .Normal:   db "NORMAL@"
 .Fighting: db "COMBAT@"
@@ -46,3 +47,5 @@ TypeNames:
 .Bug:      db "INSECTE@"
 .Ghost:    db "SPECTRE@"
 .Dragon:   db "DRAGON@"
+.Dark:     db "TENEBRES@"
+.Steel:    db "ACIER@"

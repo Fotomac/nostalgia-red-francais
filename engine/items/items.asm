@@ -185,6 +185,11 @@ ItemUseBall:
 	call Random
 	ld b,a
 
+; Captures always succeed on Route 1.
+	ld a, [wCurMap]
+	cp a,ROUTE_1
+	jp z, .captured
+
 ; Get the item ID.
 	ld hl,wcf91
 	ld a,[hl]
@@ -518,6 +523,7 @@ ItemUseBall:
 	call PrintText
 
 ; Add the caught Pokémon to the Pokédex.
+	callba PlayDefeatedWildMonMusic
 	predef IndexToPokedex
 	ld a,[wd11e]
 	dec a
@@ -2345,7 +2351,7 @@ ThrowBallAtTrainerMon:
 	call PrintText
 	ld hl,ThrowBallAtTrainerMonText2
 	call PrintText
-	jr RemoveUsedItem
+	ret
 
 NoCyclingAllowedHere:
 	ld hl,NoCyclingAllowedHereText

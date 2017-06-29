@@ -9,40 +9,41 @@ _ViridianGymText_74ace::
 	para "Mais tu as encore"
 	line "tout fait rater!"
 	cont "Je suis furieux"
-	cont "et ça sent pas"
-	cont "bon pour toi!"
+	cont "et c'est très"
+	cont "mauvais signe"
+	cont "pour toi!"
 
 	para "Une fois de plus"
 	line "tu oses me"
 	cont "défier, moi, le"
 	cont "grand GIOVANNI!"
 	cont "Mais aujourd'hui,"
-	cont "tu vas déguster!"
+	cont "tu vas le"
+	cont "regretter!"
 	done
 
 _ViridianGymText_74ad3::
 	text "Ah!"
 	line "Voilà ce que"
-	cont "j'appelle du"
+	cont "j'appelle un vrai"
 	cont "combat! Tu as"
 	cont "gagné! En"
 	cont "récompense voici"
 	cont "le BADGE TERRE!@@"
 
 _ViridianGymText_74ad9::
-	text "OK, j'ai perdu!"
-	line "Je ne suis pas"
-	cont "digne d'être le"
-	cont "chef de la TEAM"
-	cont "ROCKET! Ainsi,"
-	cont "son existence"
-	cont "s'achève avec ma"
-	cont "défaite!"
+	text "Après cette"
+	line "défaite, je ne"
+	cont "suis plus digne"
+	cont "d'être le chef de"
+	cont "la TEAM ROCKET!"
+	cont "Ainsi, son"
+	cont "existence s'achève"
+	cont "avec ma défaite!"
 
 	para "Je vais me"
-	line "retirer, loin, en"
-	cont "ermite, pour"
-	cont "étudier les"
+	line "retirer, loin,"
+	cont "pour étudier les"
 	cont "#MON!"
 
 	para "Un jour, nos"
@@ -56,10 +57,10 @@ _ViridianGymText12::
 	cont "#MON obéiront"
 	cont "à tes ordres!"
 
-	para "Il est le"
-	line "témoignage de ta"
-	cont "grande maîtrise"
-	cont "des #MON!"
+	para "Il est le prevue"
+	line "de ta grande"
+	cont "maîtrise des"
+	cont "#MON!"
 
 	para "Tu pourras ainsi"
 	line "accéder à la"
@@ -73,25 +74,25 @@ _ViridianGymText12::
 	cont "dresseurs!"
 	done
 
-_ReceivedTM27Text::
-	text $52," reçoit"
-	line "CT27!@@"
+_ReceivedTM26Text::
+	text "<PLAYER> reçoit"
+	line "CT26!@@"
 
-_TM27ExplanationText::
+_TM26ExplanationText::
 	text ""
 
-	para "CT27: ABIME!"
+	para "CT26: SEISME!"
 	line "Cette attaque"
-	cont "peut mettre hors"
-	cont "combat un #MON"
-	cont "en un seul coup!"
+	cont "peut créer de"
+	cont "vrais tremble-"
+	cont "ments de terre!"
 
 	para "Je l'ai inventée"
 	line "il y a bien"
 	cont "longtemps..."
 	done
 
-_TM27NoRoomText::
+_TM26NoRoomText::
 	text "Votre inventaire"
 	line "est plein!"
 	done

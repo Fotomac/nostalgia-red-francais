@@ -137,10 +137,9 @@ _CeladonCityText16::
 
 	para "DEFENSE SPEC"
 	line "protège les"
-	cont "#MON des atta-"
-	cont "ques SPECIALES"
-	cont "telles que le feu"
-	cont "ou l'eau!"
+	cont "#MON de la"
+	cont "réduction des"
+	cont "statistiques!"
 
 	para "Y'a tout c'qui"
 	line "t'faut au CENTRE"

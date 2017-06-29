@@ -73,6 +73,9 @@ CredVersion:
 IF DEF(_RED)
 	db -6, "VERSION ROUGE@"
 ENDC
+IF DEF(_GREEN)
+	db -6, "VERSION VERTE@"
+ENDC
 IF DEF(_BLUE)
 	db -6, "VERSION BLEUE@"
 ENDC

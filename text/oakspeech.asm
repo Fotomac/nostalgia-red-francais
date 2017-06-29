@@ -64,3 +64,8 @@ _OakSpeechText3::
 	cont "de #MON"
 	cont "t'attend! Dingue!"
 	done
+
+_BoyGirlText::
+	text "Es-tu un garçon"
+	line "ou une fille?"
+	done

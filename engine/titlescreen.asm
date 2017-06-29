@@ -120,6 +120,9 @@ DisplayTitleScreen:
 IF DEF(_RED)
 	ld a,CHARMANDER ; which Pokemon to show first on the title screen
 ENDC
+IF DEF(_GREEN)
+	ld a,BULBASAUR ; which Pokemon to show first on the title screen
+ENDC
 IF DEF(_BLUE)
 	ld a,SQUIRTLE ; which Pokemon to show first on the title screen
 ENDC
@@ -308,10 +311,19 @@ ScrollTitleScreenGameVersion:
 	ret
 
 DrawPlayerCharacter:
+IF DEF(_GREEN)
+	ld hl, FemaleCharacterTitleGraphics
+ELSE
 	ld hl, PlayerCharacterTitleGraphics
+ENDC
 	ld de, vSprites
+IF DEF(_GREEN)
+	ld bc, FemaleCharacterTitleGraphicsEnd - FemaleCharacterTitleGraphics
+	ld a, BANK(FemaleCharacterTitleGraphics)
+ELSE
 	ld bc, PlayerCharacterTitleGraphicsEnd - PlayerCharacterTitleGraphics
 	ld a, BANK(PlayerCharacterTitleGraphics)
+ENDC
 	call FarCopyData2
 	call ClearSprites
 	xor a
@@ -384,7 +396,7 @@ CopyrightTextString:
 
 INCLUDE "data/title_mons.asm"
 
-; prints version text (red, blue)
+; prints version text (red, green, blue)
 PrintGameVersionOnTitleScreen:
 	coord hl, 6, 8
 	ld de, VersionOnTitleScreenText
@@ -392,7 +404,7 @@ PrintGameVersionOnTitleScreen:
 
 ; these point to special tiles specifically loaded for that purpose and are not usual text
 VersionOnTitleScreenText:
-db $60,$61,$62,$63,$64,$65,$66,$67,$68,$69,"@" ; "Version Rouge" or "Version Bleue"
+db $60,$61,$62,$63,$64,$65,$66,$67,$68,$69,"@" ; "Version Rouge", "Version Verte", or "Version Bleue"
 
 NintenText: db "NINTEN@"
 SonyText:   db "SONY@"

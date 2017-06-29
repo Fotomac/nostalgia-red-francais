@@ -2,7 +2,22 @@ _RocketHideout4Text_4557a::
 	text "Hmm! Tu me"
 	line "surprends. T'es"
 	cont "dans le genre"
-	cont "PENIBLE!"
+	cont "coriace!"
+
+	para "Pour financer ses"
+	line "plans, la TEAM"
+	cont "ROCKET a besoin"
+	cont "de #MON!"
+
+	para "Pour ça, nous en"
+	line "capturons dans le"
+	cont "monde entier!"
+
+	para "Et je suis le"
+	line "chef, moi..."
+	cont "GIOVANNI! Je vais"
+	cont "te punir pour ton"
+	cont "insolence!"
 	done
 
 _RocketHideout4Text_4557f::
@@ -12,8 +27,8 @@ _RocketHideout4Text_4557f::
 
 _RocketHideout4Text_45584::
 	text "Tu élèves tes"
-	line "#MON trop"
-	cont "soigneusement."
+	line "#MON avec le"
+	cont "plus grand soin."
 
 	para "Un gosse comme"
 	line "toi ne peut"
