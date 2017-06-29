@@ -3002,13 +3002,13 @@ DisabledText:
 	db "NON DISP.@"
 
 OtherText:
-	db "STATUS/@"
+	db "STATUT/@"
 
 PhysicalText:
-	db "PHYSICAL/@"
+	db "PHYSIQUE/@"
 
 SpecialText:
-	db "SPECIAL/@"
+	db "SPECIALE/@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
