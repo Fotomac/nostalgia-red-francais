@@ -614,7 +614,7 @@ _CinnabarQuizQuestionsText3::
 
 _CinnabarQuizQuestionsText4::
 	text "Les capacités"
-	line "ELECTRIK CONT"
+	line "ELECTRIK sont"
 	cont "efficaces contre"
 	cont "les #MON SOL?"
 	done
