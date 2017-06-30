@@ -99,13 +99,15 @@ _PewterGymText_5c4c1::
 	prompt
 
 _PewterGymBattleText1::
-	text "Une minute,"
-	line "gamin!"
+	text "Une minute!"
 
 	para "Tu es encore loin"
-	line "de PIERRE, tu"
-	cont "vas devoir"
-	cont "m'affronter!"
+	line "de pouvour te"
+	cont "battre con"
+	cont "PIERRE!"
+
+	para "Tu vas devoir"
+	line "m'affronter avant!"
 	done
 
 _PewterGymEndBattleText1::
