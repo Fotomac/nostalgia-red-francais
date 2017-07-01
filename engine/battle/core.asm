@@ -7359,16 +7359,20 @@ PoisonEffect:
 	ld de, wEnemyMoveEffect
 .poisonEffect
 	call CheckTargetSubstitute
-	jr nz, .noEffect ; can't posion a substitute target
+	jr nz, .noEffect ; can't poison a substitute target
 	ld a, [hli]
 	ld b, a
 	and a
 	jr nz, .noEffect ; miss if target is already statused
 	ld a, [hli]
-	cp POISON ; can't posion a poison-type target
+	cp POISON ; can't poison a poison-type target
+	jr z, .noEffect
+	cp STEEL ; can't poison a steel-type target
 	jr z, .noEffect
 	ld a, [hld]
-	cp POISON ; can't posion a poison-type target
+	cp POISON ; can't poison a poison-type target
+	jr z, .noEffect
+	cp STEEL ; can't poison a steel-type target
 	jr z, .noEffect
 	ld a, [de]
 	cp POISON_SIDE_EFFECT1
