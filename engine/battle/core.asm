@@ -4396,7 +4396,7 @@ GetDamageVarsForEnemyAttack:
 	ld d, a ; d = move power
 	and a
 	ret z ; return if move power is zero
-	ld a,[wEnemySpecialMove]
+	ld a,[wEnemySelectedMove]
 	call PhysicalSpecialSplit
 	cp a, SPECIAL
 	jr z, .specialAttack
