@@ -22,6 +22,6 @@ Special thanks to BettyNewbie, _Crystal, DarioEMeloD, MadameFrog, Mateo, and oth
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
-[pokered-f]: https://github.com/einstein95/pokered-fr
+[pokered-fr]: https://github.com/einstein95/pokered-fr
 [pokecrystal]: https://github.com/kanzure/pokecrystal
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
