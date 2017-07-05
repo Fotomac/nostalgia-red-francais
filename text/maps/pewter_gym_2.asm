@@ -123,6 +123,27 @@ _PewterGymAfterBattleText1::
 	cont "que PIERRE!"
 	done
 
+_PewterGymBattleText2::
+	text "Rock and roll!"
+	line "En garde!"
+	done
+
+_PewterGymEndBattleText2::
+	text "C'était"
+	line "juste la"
+	cont "commencement!"
+	prompt
+
+_PewterGymAfterBattleText2::
+	text "Ne te reposes"
+	line "toujours pas sur"
+	cont "tes lauriers!"
+
+	para "PIERRE est parmi"
+	line "les dresseurs"
+	cont "plus durs ici!"
+	done
+
 _PewterGymText_5c515::
 	text "Salut graine de"
 	line "CHAMPION!"

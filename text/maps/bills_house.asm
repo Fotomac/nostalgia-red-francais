@@ -39,9 +39,35 @@ _BillsHouseText_1e86f::
 	cont "doux seigneur?"
 	prompt
 
+_BillsHouseText_1e86f_2::
+	text "Non!? Hé, mais tu"
+	line "dois m'aider, je"
+	cont "suis un mec cool!"
+
+	para "Bon, que veux-tu"
+	line "en échange, ma"
+	cont "douce belle?"
+	prompt
+
 _BillThankYouText::
 	text "LEO: Yahoo!"
 	line "Merci, mec!"
+	cont "Je t'en dois une!"
+
+	para "Bon, tu es venu"
+	line "pour voir ma"
+	cont "collection de"
+	cont "#MON?"
+	cont "Non? Tu rigoles!"
+
+	para "Bon, ben,"
+	line "prends ça en"
+	cont "remerciement!"
+	prompt
+
+_BillThankYouText2::
+	text "LEO: Yahoo!"
+	line "Merci, ma belle!"
 	cont "Je t'en dois une!"
 
 	para "Bon, tu es venu"
@@ -62,8 +88,13 @@ _SSTicketReceivedText::
 	text "!@@"
 
 _SSTicketNoRoomText::
-	text "Ton inventaire"
-	line "est plein, mec!"
+	text "Ton inventaire est"
+	line "plein, mec!"
+	done
+
+_SSTicketNoRoomText2::
+	text "Ton inventaire est"
+	line "plein, ma belle!"
 	done
 
 _BillsHouseText_1e8cb::

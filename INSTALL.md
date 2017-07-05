@@ -7,16 +7,17 @@
 	sudo make install
 	cd ..
 
-	git clone --recursive https://github.com/pret/pokered
-	cd pokered
+	git clone --recursive https://github.com/Fotomac/nostalgia-red-francais
+	cd nostalgia-red-francais
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **pokered.gbc**, **pokegreen.gbc**, and **pokeblue.gbc**:
 
 	make
 
 To build them individually:
 
 	make red
+	make green
 	make blue
 
 
@@ -31,8 +32,8 @@ In **Terminal**, run:
 	sudo make install
 	cd ..
 
-	git clone --recursive https://github.com/pret/pokered
-	cd pokered
+	git clone --recursive https://github.com/Fotomac/nostalgia-red-francais
+	cd nostalgia-red-francais
 
 	make
 
@@ -48,7 +49,7 @@ Extract the archive and put `rgbasm.exe`, `rgblink.exe` and `rgbfix.exe` in `C:\
 
 In the **Cygwin terminal**:
 
-	git clone --recursive https://github.com/pret/pokered
-	cd pokered
+	git clone --recursive https://github.com/Fotomac/nostalgia-red-francais
+	cd nostalgia-red-francais
 
 	make

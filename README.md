@@ -1,21 +1,27 @@
-# Pokémon: Version Rouge and Bleue
+# Pokémon Tri-Color Nostalgia Series
 
-This is a disassembly of Pokémon: Version Rouge and Bleue.
+This is based on the [**Pokémon Rouge disassembly**][pokered-fr]
 
 It builds the following roms:
 
-* Pokemon - Version Rouge (F) [S][!].gb  `md5: 669700657cb06ed09371cdbdef69e8a3`
-* Pokemon - Version Bleue (F) [S][!].gb  `md5: 35c8154c81abb2ab850689fd28a03515`
+* Pokemon Rouge
+* Pokemon Verte
+* Pokemon Bleue
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+It's also an update of all three, with bug fixes and new features. It's still a work in progress, but there's still potential.
+
+The current version is v10.0.3 (Summer of Adventure)
+
+To set up the repository, see [**INSTALL.md**](INSTALL.md). Also see the main Pokered repository for more information.
+
+Special thanks to BettyNewbie, _Crystal, DarioEMeloD, MadameFrog, Mateo, and others.
 
 
 ## See also
 
-* Disassembly of [**Pokémon Red & Blue**][pokered]
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
-[pokered]: https://github.com/pret/pokered
+[pokered-f]: https://github.com/einstein95/pokered-fr
 [pokecrystal]: https://github.com/kanzure/pokecrystal
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
