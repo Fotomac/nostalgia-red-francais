@@ -26,19 +26,36 @@ _OaksLabText40::
 	done
 
 _OaksLabCharmanderText::
-	text "Veux-tu le"
+	text "SALAMECHE?"
+	line "C'est un bon"
+	cont "choix! Tu vas"
+	cont "devoir t'occuper"
+	cont "de lui avec"
+	cont "beaucoup de"
+	cont "patience!"
+
+	para "Veux-tu le"
 	line "#MON de feu,"
 	cont "SALAMECHE?"
 	done
 
 _OaksLabSquirtleText::
-	text "Veux-tu le"
+	text "CARAPUCE?"
+	line "Il est facile à"
+	cont "dresser, tu ne le"
+	cont "regretteras pas!"
+
+	para "Veux-tu le"
 	line "#MON de l'eau,"
 	cont "CARAPUCE?"
 	done
 
 _OaksLabBulbasaurText::
-	text "Veux-tu le"
+	text "BULBIZARRE?"
+	line "Il est très"
+	cont "facile à dresser!"
+
+	para "Veux-tu le"
 	line "#MON des"
 	cont "plantes,"
 	cont "BULBIZARRE?"

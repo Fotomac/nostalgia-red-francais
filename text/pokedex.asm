@@ -78,6 +78,7 @@ _SlowbroDexEntry::
 	dex
 
 _IvysaurDexEntry::
+IF DEF(_BLUE)
 	text "Son bulbe dorsal"
 	next "devient si gros"
 	next "qu'il ne peut"
@@ -85,6 +86,15 @@ _IvysaurDexEntry::
 	page "plus se tenir sur"
 	next "ses membres"
 	next "postérieurs."
+ELSE
+	text "Il y a une bulbe"
+	next "sur son dos. S'il"
+	next "absorbe assez de"
+
+	page "nutriments, ce"
+	next "se transforme en"
+	next "une jolie fleur."
+ENDC
 	dex
 
 _ExeggutorDexEntry::
@@ -265,6 +275,7 @@ _StaryuDexEntry::
 	dex
 
 _BlastoiseDexEntry::
+IF DEF(_BLUE)
 	text "Un #MON brutal"
 	next "armé de canons"
 	next "hydrauliques."
@@ -272,6 +283,15 @@ _BlastoiseDexEntry::
 	page "Ses puissants"
 	next "jets d'eau sont"
 	next "dévastateurs."
+ELSE
+	text "Il écrase ses"
+	next "adversaires de"
+	next "tout son poids."
+
+	page "Il rentre dans sa"
+	next "carapace s'il se"
+	next "sent en danger."
+ENDC
 	dex
 
 _PinsirDexEntry::
@@ -1237,6 +1257,15 @@ _StarmieDexEntry::
 	dex
 
 _BulbasaurDexEntry::
+IF DEF(_RED)
+	text "Il y a une étrange"
+	next "graine sur son"
+	next "dos. Elle devient"
+
+	page "chaque jour un peu"
+	next "plus grosse."
+ENDC
+IF DEF(_GREEN)
 	text "Il a une étrange"
 	next "graine plantée"
 	next "sur son dos."
@@ -1244,9 +1273,20 @@ _BulbasaurDexEntry::
 	page "Elle grandit avec"
 	next "lui depuis la"
 	next "naissance."
+ENDC
+IF DEF(_BLUE)
+	text "Au matin, la"
+	next "graine sur son dos"
+	next "lui fournit les"
+
+	page "éléments dont il"
+	next "a besoin pour"
+	next "grandir."
+ENDC
 	dex
 
 _VenusaurDexEntry::
+IF DEF(_BLUE)
 	text "Sa plante mûrit"
 	next "en absorbant les"
 	next "rayons du soleil."
@@ -1254,6 +1294,15 @@ _VenusaurDexEntry::
 	page "Il migre souvent"
 	next "vers les endroits"
 	next "ensoleillés."
+ELSE
+	text "Une douce senteur"
+	next "émane de sa"
+	next "plante. Cette"
+
+	page "fragrance calme"
+	next "tous ceux engagés"
+	next "dans un combat."
+ENDC
 	dex
 
 _TentacruelDexEntry::
@@ -1383,6 +1432,25 @@ _MagnemiteDexEntry::
 	dex
 
 _CharmanderDexEntry::
+IF DEF(_RED)
+	text "La flamme sur sa"
+	next "queue représente"
+	next "sa énergie vitale."
+
+	page "Quand il est"
+	next "vigoureux, elle"
+	next "brûle plus fort."
+ENDC
+IF DEF(_GREEN)
+	text "Une petite flamme"
+	next "brûle au bout de"
+	next "sa queue. Si cette"
+
+	page "flamme s'éteint,"
+	next "sa vie s'éteindra"
+	next "elle aussi."
+ENDC
+IF DEF(_BLUE)
 	text "Il préfère les"
 	next "endroits chauds."
 	next "En cas de pluie,"
@@ -1390,9 +1458,19 @@ _CharmanderDexEntry::
 	page "de la vapeur"
 	next "se forme autour"
 	next "de sa queue."
+ENDC
 	dex
 
 _SquirtleDexEntry::
+IF DEF(_RED)
+	text "Quand il rentre"
+	next "son coup dans sa"
+	next "carapace, il peut"
+
+	page "projeter de l'eau"
+	next "à haute tension."
+ENDC
+IF DEF(_GREEN)
 	text "Son dos durcit"
 	next "avec l'âge et"
 	next "devient une super"
@@ -1400,9 +1478,20 @@ _SquirtleDexEntry::
 	page "carapace. Il peut"
 	next "cracher des"
 	next "jets d'écume."
+ENDC
+IF DEF(_BLUE)
+	text "Il se réfugie dans"
+	next "sa carapace et"
+	next "réplique en"
+
+	page "éclaboussant"
+	next "l'ennemi à la"
+	next "première occasion."
+ENDC
 	dex
 
 _CharmeleonDexEntry::
+IF DEF(_BLUE)
 	text "En agitant sa"
 	next "queue, il peut"
 	next "élever le niveau"
@@ -1410,9 +1499,19 @@ _CharmeleonDexEntry::
 	page "de la température"
 	next "à un degré"
 	next "incroyable."
+ELSE
+	text "Il se sert de sa"
+	next "queue pour faire"
+	next "tomber ses"
+
+	page "adversaires et les"
+	next "lacère de ses"
+	next "griffes acérées."
+ENDC
 	dex
 
 _WartortleDexEntry::
+IF DEF(_BLUE)
 	text "Il se cache au"
 	next "fond de l'eau"
 	next "pour guetter sa"
@@ -1420,9 +1519,19 @@ _WartortleDexEntry::
 	page "proie. Ses"
 	next "oreilles sont des"
 	next "gouvernails."
+ELSE
+	text "Il est très appré-"
+	next "cié comme animal"
+	next "de compagnie. La"
+
+	page "fourrure sur sa"
+	next "queue est symbole"
+	next "de sa longévité."
+ENDC
 	dex
 
 _CharizardDexEntry::
+IF DEF(_BLUE)
 	text "Il peut fondre"
 	next "la roche de son"
 	next "souffle brûlant."
@@ -1430,6 +1539,15 @@ _CharizardDexEntry::
 	page "Il est souvent la"
 	next "cause de nombreux"
 	next "incendies."
+ELSE
+	text "Il peut voler à"
+	next "plus de 1 400"
+	next "mètres. Ce #MON"
+
+	page "crache du feu à"
+	next "des températures"
+	next "très élevées."
+ENDC
 	dex
 
 _OddishDexEntry::
