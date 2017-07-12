@@ -19,9 +19,11 @@ Special thanks to BettyNewbie, _Crystal, DarioEMeloD, MadameFrog, Mateo, and oth
 
 ## See also
 
+* Disassembly of [**Pokémon Red/Blue**][pokered]
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
 [pokered-fr]: https://github.com/einstein95/pokered-fr
+[pokered]: https://github.com/iimarckus/pokered
 [pokecrystal]: https://github.com/kanzure/pokecrystal
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
