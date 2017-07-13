@@ -18,6 +18,25 @@ _KangaskhanDexEntry::
 	dex
 
 _NidoranMDexEntry::
+IF DEF(_RED)
+	text "Il jauge le ter-"
+	next "rain en laissant"
+	next "ses oreilles dé-"
+
+	page "passer de l'herbe."
+	next "Il se défend avec"
+	next "sa corne toxique."
+ENDC
+IF DEF(_GREEN)
+	text "Il agite ses or-"
+	next "eilles pour enten-"
+	next "dre tout ce qui se"
+
+	page "passe au loin. Il"
+	next "déploie des aigui-"
+	next "llons en colère."
+ENDC
+IF DEF(_BLUE)
 	text "Son ouïe très"
 	next "fine l'avertit du"
 	next "danger. Plus"
@@ -25,6 +44,7 @@ _NidoranMDexEntry::
 	page "ses cornes sont"
 	next "grandes, plus son"
 	next "poison est mortel."
+ENDC
 	dex
 
 _ClefairyDexEntry::
@@ -38,6 +58,24 @@ _ClefairyDexEntry::
 	dex
 
 _SpearowDexEntry::
+IF DEF(_RED)
+	text "Il vole activement"
+	next "ça et là. Même"
+	next "s'il semble frêle,"
+
+	page "sa MIMIQUE fait de"
+	next "lui un adversaire"
+	next "redoutable."
+ENDC
+IF DEF(_GREEN)
+	text "Très protecteur de"
+	next "son territoire, il"
+	next "bat vite des ailes"
+
+	page "pour se déplacer à"
+	next "toute allure."
+ENDC
+IF DEF(_BLUE)
 	text "Il chasse les"
 	next "insectes dans les"
 	next "hautes herbes."
@@ -45,6 +83,7 @@ _SpearowDexEntry::
 	page "Ses petites ailes"
 	next "lui permettent de"
 	next "voler très vite."
+ENDC
 	dex
 
 _VoltorbDexEntry::
@@ -146,6 +185,15 @@ _GengarDexEntry::
 	dex
 
 _NidoranFDexEntry::
+IF DEF(_BLUE)
+	text "Petit et docile,"
+	next "il se protège avec"
+	next "sa minuscule corne"
+
+	page "empoisonnée"
+	next "lorsqu'il est"
+	next "attaqué."
+ELSE
 	text "Ce #MON est"
 	next "hérissé de dards"
 	next "empoisonnés."
@@ -153,6 +201,7 @@ _NidoranFDexEntry::
 	page "Les femelles ont"
 	next "des dards plus"
 	next "petits."
+ENDC
 	dex
 
 _NidoqueenDexEntry::
@@ -345,6 +394,16 @@ _FearowDexEntry::
 	dex
 
 _PidgeyDexEntry::
+IF DEF(_RED)
+	text "Ce #MON n'aime"
+	next "pas se battre, il"
+	next "se cache dans les"
+
+	page "herbes à recherche"
+	next "de petits insectes"
+	next "pour se nourrir."
+ENDC
+IF DEF(_GREEN)
 	text "Il est souvent vu"
 	next "dans les forêts."
 	next "Il brasse l'air"
@@ -352,6 +411,16 @@ _PidgeyDexEntry::
 	page "de ses ailes près"
 	next "du sol pour"
 	next "projeter du sable."
+ENDC
+IF DEF(_BLUE)	
+	text "Ce #MON docile"
+	next "préfère éviter le"
+	next "combat. Toutefois,"
+
+	page "il se montre très"
+	next "féroce quand on"
+	next "l'agresse."
+ENDC
 	dex
 
 _SlowpokeDexEntry::
@@ -524,6 +593,24 @@ _KoffingDexEntry::
 	dex
 
 _MankeyDexEntry::
+IF DEF(_RED)
+	text "Ils vivent en"
+	next "colonies sylves-"
+	next "tres. Quand un"
+
+	page "s'énerve, toute la"
+	next "colonie suit son"
+	next "exemple."
+ENDC
+IF DEF(_GREEN)
+	text "Il est léger, très"
+	next "agile sur ses"
+	next "pieds mais surtout"
+
+	page "doté d'un tempéra-"
+	next "ment hargneux."
+ENDC
+IF DEF(_BLUE)
 	text "Il se met en"
 	next "colère très vite."
 	next "Calme ou furieux,"
@@ -531,6 +618,7 @@ _MankeyDexEntry::
 	page "son humeur change"
 	next "d'une seconde à"
 	next "l'autre."
+ENDC
 	dex
 
 _SeelDexEntry::
@@ -1017,6 +1105,16 @@ _DewgongDexEntry::
 	dex
 
 _CaterpieDexEntry::
+IF DEF(_RED)
+	text "Quand il fait sa"
+	next "mue, il s'enroule"
+	next "dans un fil de"
+
+	page "soie pour"
+	next "s'enfermer dans"
+	next "un cocon."
+ENDC
+IF DEF(_GREEN)
 	text "Ses petites"
 	next "pattes sont"
 	next "équipées de"
@@ -1024,6 +1122,16 @@ _CaterpieDexEntry::
 	page "ventouses, lui"
 	next "permettant de"
 	next "grimper aux murs."
+ENDC
+IF DEF(_BLUE)
+	text "Pour se protéger,"
+	next "il s'enfonce dans"
+	next "le sol en se couv-"
+
+	page "rant de feuilles"
+	next "de la même couleur"
+	next "que son corps."
+ENDC
 	dex
 
 _MetapodDexEntry::
@@ -1355,12 +1463,32 @@ _RapidashDexEntry::
 	dex
 
 _RattataDexEntry::
+IF DEF(_RED)
+	text "Vivant là où se"
+	next "trouve la nourri-"
+	next "ture, ce charo-"
+
+	page "gnard passe ses"
+	next "journées à la"
+	next "rechercher."
+ENDC
+IF DEF(_GREEN)
+	text "Ses dents sont"
+	next "longues et tran-"
+	next "chantes. Il doit"
+
+	page "ronger ce qu'il"
+	next "trouve pour pou-"
+	next "voir les tailler."
+ENDC
+IF DEF(_BLUE)
 	text "Sa morsure est"
 	next "très puissante."
 	next "Petit et rapide,"
 
 	page "on en voit un"
 	next "peu partout."
+ENDC
 	dex
 
 _RaticateDexEntry::
