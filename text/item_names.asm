@@ -42,7 +42,7 @@ ItemNames:
 	db "FOSSILE DOME@"
 	db "NAUTILE@"
 	db "CLE SECRETE@"
-	db "?????@"
+	db "PIERRESOLEIL@"
 	db "BON COMMANDE@"
 	db "PRECISION +@"
 	db "PIERREPLANTE@"

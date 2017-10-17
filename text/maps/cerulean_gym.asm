@@ -1,6 +1,6 @@
 _CeruleanGymText_5c7be::
-	text "Salut! T'es un"
-	line "nouveau!"
+	text "Hé! T'es nouveau,"
+	line "toi!"
 
 	para "Si tu veux être"
 	line "un vrai dresseur,"
@@ -13,15 +13,51 @@ _CeruleanGymText_5c7be::
 	cont "capturer les"
 	cont "#MON sauvages?"
 
-	para "Moi je leur fonce"
-	line "dans le tas avec"
-	cont "mes #MON"
-	cont "aquatiques!"
+	para "Ma tactique?"
+	line "Attaquer avec"
+	cont "des #MON Eau!"
+
+	para "Mon p'tit chéri,"
+	line "j'suis ONDINE, la"
+	cont "plus belle et la"
+	cont "plus forte de"
+	cont "toute la région!"
+
+	para "Alors t'es prêt,"
+	line "petit bouchon?"
+	done
+
+_CeruleanGymText_5c7be_2::
+	text "Hé! T'es nouvelle,"
+	line "toi!"
+
+	para "Si tu veux être"
+	line "un vrai dresseur,"
+	cont "il te faut une"
+	cont "stratégie pour"
+	cont "tes #MON!"
+
+	para "C'est quoi ta"
+	line "tactique pour"
+	cont "capturer les"
+	cont "#MON sauvages?"
+
+	para "Ma tactique?"
+	line "Attaquer avec"
+	cont "des #MON Eau!"
+
+	para "Ma p'tite chérie,"
+	line "j'suis ONDINE, la"
+	cont "plus belle et la"
+	cont "plus forte de"
+	cont "toute la région!"
+
+	para "En garde, l'amie!"
 	done
 
 _CeruleanGymText_5c7c3::
-	text "La CT11 contient"
-	line "BULLES D'O!"
+	text "La CT03 contient"
+	line "VIBRAQUA!"
 
 	para "Apprends-la à un"
 	line "#MON de l'eau!"
@@ -34,13 +70,17 @@ _CeruleanGymText_5c7c8::
 	cont "niveau inférieur"
 	cont "à 30 à t'obéir!"
 
-	para "Les échangés"
-	line "aussi!"
+	para "Cela comprend"
+	line "aussi les"
+	cont "#MON obtenus"
+	cont "pendant un"
+	cont "échange!"
 
 	para "En plus, tu peux"
 	line "maintenant"
 	cont "utiliser la CS"
-	cont "COUPE!"
+	cont "COUPE, même hors"
+	cont "des combats!"
 
 	para "Tu peux COUPER"
 	line "les arbustes"
@@ -51,13 +91,13 @@ _CeruleanGymText_5c7c8::
 	line "CT favorite!"
 	done
 
-_ReceivedTM11Text::
-	text $52," reçoit"
-	line "la CT11!@@"
+_ReceivedTM03Text::
+	text "<PLAYER> reçoit"
+	line "la CT03!@@"
 
 _CeruleanGymText_5c7d3::
-	text "Ton inventaire"
-	line "est plein!"
+	text "Ton inventaire est"
+	line "putain de plein!"
 	done
 
 _CeruleanGymText_5c7d8::
@@ -71,8 +111,8 @@ _CeruleanGymText_5c7d8::
 	cont "m'avoir battue!@@"
 
 _CeruleanGymBattleText1::
-	text "Je suis très"
-	line "balèze!"
+	text "Je suis assez"
+	line "bonne pour toi!"
 
 	para "ONDINE attendra!"
 	done

@@ -36,7 +36,7 @@ _CardKeyFailText::
 	done
 
 _TrainerNameText::
-	TX_RAM wcd6d
+	TX_RAM wTrainerName
 	text ": @@"
 
 _NoNibbleText::
@@ -1411,9 +1411,8 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "L'attaque de"
-	line "<USER>"
-	cont "a échoué!"
+	text "<USER>"
+	line "rate son attaque!"
 	prompt
 
 _KeptGoingAndCrashedText::
@@ -2295,7 +2294,7 @@ _NoEffectText::
 	prompt
 
 _ButItFailedText::
-	text "Mais échoue!"
+	text "Mais cela échoue!"
 	prompt
 
 _DidntAffectText::

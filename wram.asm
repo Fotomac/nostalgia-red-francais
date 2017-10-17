@@ -1627,7 +1627,15 @@ wBattleMon:: battle_struct wBattleMon ; d014
 wTrainerClass:: ; d031
 	ds 1
 
+wTrainerPicID::
+; Defaults to trainer class, can be changed with trainer type $FE
 	ds 1
+
+wTrainerAINumber::
+; Defaults to trainer class, can be changed with trainer type $FE
+	ds 1
+
+wTrainerPicBank:: ds 1
 
 wTrainerPicPointer:: ; d033
 	ds 2
@@ -2091,6 +2099,8 @@ wMonHGrowthRate:: ; d0cb
 wMonHLearnset:: ; d0cc
 ; bit field
 	flag_array 50 + 5
+
+wMonHPicBank::
 	ds 1
 
 wSavedTilesetType:: ; d0d4

@@ -1,7 +1,7 @@
 TradeMons:
 ; givemonster, getmonster, textstring, nickname (11 bytes), 14 bytes total
 	db RHYDON,    KANGASKHAN,0,"RODAN@@@@@@"
-	db ABRA,      MR_MIME,   0,"MARCEL@@@@@"
+	db JIGGLYPUFF,MR_MIME,   0,"MARCEL@@@@@"
 	db BUTTERFREE,BEEDRILL,  2,"CHIKUCHIKU@"
 	db GROWLITHE, KRABBY,    0,"BIBI@@@@@@@"
 	db PIDGEY,    FARFETCHD, 2,"JULIO@@@@@@"

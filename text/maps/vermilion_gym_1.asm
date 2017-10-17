@@ -1,23 +1,28 @@
 _VermilionGymText_5cb6d::
-	text "Hé, gamin!"
+	text "Gard'vous! R'pos!"
+
+	para "Welcome to"
+	line "l'arène de"
+	cont "CARMIN SUR MER!"
+	
+	para "Quoi?! Hey! You!"
 	line "Tu fais quoi là?"
 
 	para "Tu ne résisterais"
 	line "pas longtemps"
-	cont "en temps de"
-	cont "guerre!"
+	cont "en times of war!"
 
-	para "Je vais te dire,"
-	line "mes #MON"
-	cont "électriques m'ont"
-	cont "sauvé la vie!"
+	para "Je vais t'avouer"
+	line "quelque chose,"
+	cont "my #MON"
+	cont "Electric m'ont"
+	cont "saved my life!"
 	cont "Et ouais!"
 
 	para "Ils ont paralysé"
-	line "mes ennemis avec"
+	line "my enemies avec"
 	cont "leurs éclairs!"
-	cont "Une vraie"
-	cont "boucherie!"
+	cont "A real butchery!"
 
 	para "Y va t'arriver la"
 	line "même chose!"

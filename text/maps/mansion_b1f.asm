@@ -35,7 +35,7 @@ _Mansion4Text7::
 	cont "MEWTWO est trop"
 	cont "puissant."
 
-	para "Nous sommes"
-	line "impuissants face"
-	cont "à ses pièges..."
+	para "Il est inutile..."
+	line "Je peux pas le"
+	cont "controller!"
 	done

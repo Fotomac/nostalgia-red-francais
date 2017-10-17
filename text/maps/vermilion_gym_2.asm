@@ -1,63 +1,60 @@
 _VermilionGymText_5cb72::
-	text "Un p'tit conseil,"
-	line "gamin!"
+	text "Un p'tit conseil!"
 
 	para "L'électricité est"
-	line "très puissante!"
+	line "very powerful!"
 
 	para "Mais elle est"
 	line "inutile face à"
 	cont "des #MON de"
-	cont "la terre!"
+	cont "la ground!"
 	done
 
 _VermilionGymText_5cb77::
-	text "Le BADGEFOUDRE"
+	text "The BADGEFOUDRE"
 	line "augmente la"
-	cont "VITESSE de tes"
+	cont "VITESSE of your"
 	cont "#MON!"
 
 	para "Il permet aussi"
 	line "à tes #MON"
-	cont "de VOLER!"
+	cont "d'utiliser FLY!"
 
-	para "Tu es un bon, mon"
-	line "p'tit gars!"
+	para "T'es quelqu'un"
+	line "extraordinary!"
 	cont "Prends ça!"
 	done
 
-_ReceivedTM24Text::
-	text $52," reçoit:"
+_ReceivedTM34Text::
+	text "<PLAYER> reçoit:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
 
-_TM24ExplanationText::
+_TM34ExplanationText::
 	text ""
 
-	para "CT24 : TONNERRE!"
+	para "CT34 : the ONDE"
+	line "DE SHOCK!"
 
 	para "Enseigne-la à un"
-	line "#MON de la"
-	cont "foudre!"
+	line "#MON Electric!"
 	done
 
-_TM24NoRoomText::
-	text "Revue d'paquetage"
-	line "p'tit gars, ton"
-	cont "inventaire est"
-	cont "plein!"
+_TM34NoRoomText::
+	text "Revue d'paquetage,"
+	line "ton inventaire"
+	cont "est full of stuff!"
 	done
 
 _ReceivedThunderbadgeText::
 	text "Whoo!"
 
-	para "Gard'vous! T'es"
-	line "un dur, mon p'tit"
-	cont "gars!"
+	para "Gard'vous! T'iras"
+	line "loin toi!"
 
 	para "Très bien, prends"
-	line "le BADGEFOUDRE!"
+	line "the BADGEFOUDRE!"
 	prompt
 
 _VermilionGymBattleText1::
@@ -122,6 +119,29 @@ _VermilionGymAfterBattleText3::
 	para "Appuie sur un"
 	line "bouton et le 2ème"
 	cont "est à côté!"
+	done
+
+_VermilionGymBattleText4::
+	text "I may be just a"
+	line "little girl, but"
+	cont "I volunteered to"
+	cont "defend our LEADER!"
+	done
+
+_VermilionGymEndBattleText4::
+	text "God"
+	line "bless America and"
+	cont "democracy!"
+	prompt
+
+_VermilionGymAfterBattleText4::
+	text "You ever been to"
+	line "DIGLETT'S CAVE?"
+
+	para "It's full of"
+	line "pests, but they"
+	cont "can be useful in"
+	cont "your challenge!"
 	done
 
 _VermilionGymText_5cbf4::

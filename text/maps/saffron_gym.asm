@@ -63,20 +63,23 @@ _SaffronGymText_5d173::
 	line "aussi!"
 	done
 
-ReceivedTM46Text::
-	text $52," obtient:"
-	line "CT46!@@"
+ReceivedTM04Text::
+	text "<PLAYER> obtient:"
+	line "CT04!@@"
 
-_TM46ExplanationText::
+_TM04ExplanationText::
 	text ""
 
-	para "CT46 : VAGUE PSY!"
-	line "Une onde"
-	cont "d'énergie psy"
-	cont "dévastatrice!"
+	para "CT04 : PLENITUDE!"
+	line "Avec cette"
+	cont "capacité, les"
+	cont "#MON se"
+	cont "concentrent et"
+	cont "augmentent leur"
+	cont "SPE!"
 	done
 
-_TM46NoRoomText::
+_TM04NoRoomText::
 	text "Ton inventaire"
 	line "est plein!"
 	done

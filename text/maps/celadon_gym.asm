@@ -1,8 +1,7 @@
 _CeladonGymText_48a5e::
-	text "Bonjour et sois"
-	line "le bienvenu. Il"
-	cont "fait beau, n'est-"
-	cont "ce pas?"
+	text "Bienvenu. Il fait"
+	line "beau, n'est-ce"
+	cont "pas?"
 
 	para "J'aime la vie."
 	line "J'aime les fleurs"
@@ -20,12 +19,10 @@ _CeladonGymText_48a5e::
 	cont "#MON sont du"
 	cont "type plante."
 
-	para "Il fit grand"
-	line "froid hier, alors"
-	cont "j'ai mis un pull."
-	cont "Hein? Tu veux te"
-	cont "battre? Bah..."
-	cont "Dis-le mon vieux!"
+	para "Hein? Tu veux te"
+	line "battre? Bah..."
+	cont "C'est sûr? Très"
+	cont "bien."
 
 	para "Tu sais quoi?"
 	line "Tu vas perdre!"
@@ -35,11 +32,14 @@ _CeladonGymText_48a63::
 	text "Oh!"
 	line "J'ai perdu?"
 
-	para "Bien joué."
-	line "C'est mérité."
+	para "Je dois avouer que"
+	line "tu sais te battre"
+	cont "avec tes #MON."
+	cont "Bien joué."
 
 	para "Je te confie le"
-	line "BADGE PRISME."
+	line "BADGE PRISME,"
+	cont "c'est mérité."
 	prompt
 
 _CeladonGymText_48a68::
@@ -49,8 +49,8 @@ _CeladonGymText_48a68::
 
 	para "Pour ma part, je"
 	line "collectionne les"
-	cont "plus beaux"
-	cont "#MON."
+	cont "#MON les plus"
+	cont "beaux."
 	done
 
 _CeladonGymText9::
@@ -60,32 +60,35 @@ _CeladonGymText9::
 	cont "Niveau 50."
 
 	para "Il permet aussi"
-	line "aux #MON"
-	cont "d'utiliser FORCE."
+	line "d'utiliser FORCE"
+	cont "hors des combats."
 
-	para "Prends également"
-	line "ceci."
+	para "Prends ceci."
 	done
 
-_ReceivedTM21Text::
-	text $52," reçoit"
+_ReceivedTM19Text::
+	text "<PLAYER> reçoit"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
 
-_TM21ExplanationText::
+_TM19ExplanationText::
 	text ""
 
-	para "CT21: "
-	line "MEGA-SANGSUE."
+	para "CT19: "
+	line "GIGA-SANGSUE."
 
 	para "La moitié des"
 	line "dégâts infligés"
 	cont "soigneront ton"
 	cont "#MON!"
+
+	para "C'est une super"
+	line "capacité. T'es"
+	cont "pas d'accord?"
 	done
 
-_TM21NoRoomText::
+_TM19NoRoomText::
 	text "Ton inventaire"
 	line "est plein."
 	done

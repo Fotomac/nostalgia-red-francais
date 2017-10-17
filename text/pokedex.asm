@@ -1737,3 +1737,33 @@ _VictreebelDexEntry::
 	next "vivant."
 	dex
 
+_PikabluDexEntry::
+	text "Le bout de sa"
+	next "queue est rempli"
+	next "d'une huile plus"
+
+	page "légère que l'eau,"
+	next "ce qui lui permet"
+	next "de ne pas couler."
+	dex
+
+_RaibluDexEntry::
+	text "En ne bougeant"
+	next "plus et en écou-"
+	next "tant, il peut dis-"
+
+	page "cerner ce qui se"
+	next "passe au fond des"
+	next "fleuves."
+	dex
+
+_BellossomDexEntry::
+	text "JOLIFLOR danse la"
+	next "majorité du temps."
+	next "Certains pensent"
+
+	page "que c'est un"
+	next "rituel pour"
+	next "appeler le soleil."
+	dex
+

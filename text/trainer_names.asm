@@ -11,7 +11,7 @@ TrainerNames:
 	db "MOTARD@"
 	db "PILLARD@"
 	db "MECANO@"
-	db "JONGLEUR@"
+	db "NAGEUSE@"
 	db "PECHEUR@"
 	db "NAGEUR@"
 	db "LOUBARD@"
@@ -46,3 +46,4 @@ TrainerNames:
 	db "EXORCISTE@"
 	db "AGATHA@"
 	db "PETER@"
+	db "JEANNINE@"
