@@ -95,7 +95,8 @@ _SaffronCityText15::
 	text "..."
 	line "(pionce)..."
 
-	para "Ha! Il dort!"
+	para "<PLAYER>: Ha! Il"
+	line "dort!"
 	done
 
 _SaffronCityText16::

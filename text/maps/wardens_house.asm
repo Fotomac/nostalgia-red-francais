@@ -18,7 +18,7 @@ _WardenGibberishText3::
 	done
 
 _WardenTeethText1::
-	text $52," donne la"
+	text "<PLAYER> donne la"
 	line "DENT D'OR au"
 	cont "GARDIEN!@@"
 

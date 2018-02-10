@@ -16,7 +16,7 @@ _VermilionHouse2Text_560b6::
 	para "Prends ça et..."
 	line "Pêche! Pêche!"
 
-	para $52," reçoit"
+	para "<PLAYER> reçoit"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -41,7 +41,7 @@ _VermilionHouse2Text_560c0::
 
 _VermilionHouse2Text_560c5::
 	text "B'jour à toi,"
-	line $52,"!"
+	line "<PLAYER>!"
 
 	para "Ca mord?"
 	line "Hein? Hein?"

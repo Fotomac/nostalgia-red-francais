@@ -3,7 +3,7 @@ _SSAnne7RubText::
 	line "J'suis pas bien."
 	cont "Beurp..."
 
-	para $52, " masse"
+	para "<PLAYER> masse"
 	line "le dos du"
 	cont "CAPITAINE!"
 
@@ -35,7 +35,7 @@ _ReceivingHM01Text::
 	prompt
 
 _ReceivedHM01Text::
-	text $52, " obtient"
+	text "<PLAYER> obtient"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

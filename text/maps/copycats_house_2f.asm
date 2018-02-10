@@ -1,13 +1,13 @@
 _CopycatsHouse2FText_5ccd4::
-	text $52,": Salut!"
+	text "<PLAYER>: Salut!"
 	line "tu aimes les"
 	cont "#MON?"
 
-	para $52,": Bwoarf!"
+	para "<PLAYER>: Bwoarf!"
 	line "J'disais ça comme"
 	cont "ça!"
 
-	para $52,": Hein?"
+	para "<PLAYER>: Hein?"
 	line "T'es bizarre toi!"
 
 	para "COPIEUSE: Hmm?"
@@ -29,7 +29,7 @@ _TM31PreReceiveText::
 	prompt
 
 _ReceivedTM31Text::
-	text $52," obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -43,13 +43,13 @@ _TM31ExplanationText1::
 	line "bon #MON!@@"
 
 _TM31ExplanationText2::
-	text $52,": Salut!"
+	text "<PLAYER>: Salut!"
 	line "Merci pour la"
 	cont "CT31!"
 
-	para $52,": Pardon?"
+	para "<PLAYER>: Pardon?"
 
-	para $52,": Heu..."
+	para "<PLAYER>: Heu..."
 	line "C'est aussi cool"
 	cont "que ça de"
 	cont "m'imiter?"

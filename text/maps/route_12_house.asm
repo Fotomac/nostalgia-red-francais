@@ -18,7 +18,7 @@ _Route12HouseText_564c5::
 	line "canne à pêche,"
 	cont "mon frère!"
 
-	para $52," obtient:"
+	para "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -42,7 +42,7 @@ _Route12HouseText_564cf::
 
 _Route12HouseText_564d4::
 	text "Salut,"
-	line $52,"!"
+	line "<PLAYER>!"
 
 	para "Avec cette MEGA"
 	line "CANNE, tu vas"

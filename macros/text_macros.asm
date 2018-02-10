@@ -43,7 +43,7 @@ ENDM
 
 TX_DELAY              EQUS "db $0a"
 TX_SFX_ITEM_1         EQUS "db $0b"
-TX_SFX_LEVEL_UP       EQUS "db $0b"
+;TX_SFX_LEVEL_UP      EQUS "db $0b"
 ;TX_ELLIPSES          EQUS "db $0c"
 TX_WAIT               EQUS "db $0d"
 ;TX_SFX_DEX_RATING    EQUS "db $0e"

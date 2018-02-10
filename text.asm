@@ -2335,7 +2335,7 @@ _CoinsScatteredText::
 	prompt
 
 _GettingPumpedText::
-	text $5a
+	text "<USER>"
 	line "accroît sa force!"
 	prompt
 
@@ -2924,7 +2924,8 @@ _ItemUseBallText06::
 	TX_RAM wEnemyMonNick
 	text " sont"
 	cont "ajoutées au"
-	cont "#DEX!@@"
+	cont "#DEX!"
+	prompt
 
 _SurfingGotOnText::
 	text "@"

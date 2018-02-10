@@ -33,6 +33,8 @@ Route22Script_50ed6:
 .asm_50ee1
 	ld a, [hl]
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 	ret
 
 Route22MoveRivalSprite:
@@ -92,7 +94,7 @@ Route22Script0:
 	ld [wNewSoundID], a
 	call PlaySound
 .asm_50f4e
-	ld c, BANK(Music_MeetRival)
+	ld c, 0 ; BANK(Music_MeetRival)
 	ld a, MUSIC_MEET_RIVAL
 	call PlayMusic
 	ld a, $1
@@ -149,6 +151,8 @@ Route22Script2:
 	ld a, [wIsInBattle]
 	cp $ff
 	jp z, Route22Script_50ece
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, [wSpriteStateData1 + 9]
 	and a ; cp SPRITE_FACING_DOWN
 	jr nz, .notDown
@@ -304,6 +308,8 @@ Route22Script5:
 	ld a, [wIsInBattle]
 	cp $ff
 	jp z, Route22Script_50ece
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, $2
 	ld [H_SPRITEINDEX], a
 	ld a, [wcf0d]

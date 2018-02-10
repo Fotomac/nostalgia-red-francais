@@ -6,7 +6,6 @@ _ViridianForestText1::
 	line "pour se battre!"
 	done
 
-
 _ViridianForestBattleText1::
 	text "Hé! Mais tu as"
 	line "des #MON!"
@@ -64,6 +63,40 @@ _ViridianFrstAfterBattleText3::
 	para "Je cherche les"
 	line "objets que j'ai"
 	cont "laissé tomber..."
+	done
+
+_ViridianForestBattleText4::
+	text "J'suis peut-être"
+	line "petit, mais faut"
+	cont "pas me sous-"
+	cont "estimer!"
+	done
+
+_ViridianForestEndBattleText4::
+	text "Oh, bordel!"
+	line "Tout va de"
+	cont "travers!"
+	prompt
+
+_ViridianFrstAfterBattleText4::
+	text "J'oublierai pas"
+	line "cette défaite..."
+	done
+
+_ViridianForestBattleText5::
+	text "Tu sais que les"
+	line "#MON évoluer?"
+	done
+
+_ViridianForestEndBattleText5::
+	text "Oh! Perdu!"
+	prompt
+
+_ViridianFrstAfterBattleText5::
+	text "Les #MON"
+	line "insecte évoluent"
+	cont "vite! Je les"
+	cont "adore!"
 	done
 
 _ViridianForestText8::

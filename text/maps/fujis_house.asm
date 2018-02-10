@@ -38,7 +38,7 @@ _LavenderHouse1Text4::
 	text "NIDORINO: Nido!@@"
 
 _LavenderHouse1Text_1d94c::
-	text "MR.FUJI: ",$52,"."
+	text "MR.FUJI: <PLAYER>."
 
 	para "Ta quête pour"
 	line "compléter ton"
@@ -51,7 +51,7 @@ _LavenderHouse1Text_1d94c::
 	prompt
 
 _ReceivedFluteText::
-	text $52," obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

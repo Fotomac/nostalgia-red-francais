@@ -1,10 +1,10 @@
 _GaryChampionIntroText::
-	text $53,":"
+	text "<RIVAL>:"
 	line "Bonjour minable."
 
 	para "Je t'attends"
 	line "depuis une bonne"
-	cont "plombe, ",$52,"!"
+	cont "plombe, <PLAYER>!"
 
 	para "Ton devoir en"
 	line "tant que rival"
@@ -91,7 +91,7 @@ _GaryText_76103::
 	done
 
 _GaryText2::
-	text "CHEN: ",$52,"!"
+	text "CHEN: <PLAYER>!"
 	done
 
 _GaryText_76120::
@@ -107,12 +107,12 @@ _GaryText_76120::
 	TX_RAM wcd6d
 	text "!"
 
-	para $52,", tu es"
+	para "<PLAYER>, tu es"
 	line "grand maintenant!"
 	done
 
 _GaryText_76125::
-	text "CHEN: ",$53,"!"
+	text "CHEN: <RIVAL>!"
 	line "Je suis... déçu!"
 
 	para "Apprenant que tu"
@@ -127,7 +127,7 @@ _GaryText_76125::
 	cont "déjà perdu..."
 	cont "C'est dingue!"
 
-	para $53,"! As-tu"
+	para "<RIVAL>! As-tu"
 	line "compris pourquoi"
 	cont "ton équipe s'est"
 	cont "fait moucher?"
@@ -144,7 +144,7 @@ _GaryText_76125::
 	done
 
 _GaryText_7612a::
-	text "CHEN: ",$52,"!"
+	text "CHEN: <PLAYER>!"
 
 	para "Cette victoire..."
 	line "Tu ne la dois pas"
@@ -157,6 +157,6 @@ _GaryText_7612a::
 
 	para "Et ça... "
 	line "C'est bien. "
-	cont $52,"!"
+	cont "<PLAYER>!"
 	cont "Suis-moi!"
 	done

@@ -9,7 +9,7 @@ _MtMoon3Text_49f64::
 	done
 
 _MtMoon3Text_49f6f::
-	text $52, " obtient"
+	text "<PLAYER> obtient"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

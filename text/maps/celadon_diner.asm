@@ -43,7 +43,7 @@ _CeladonDinerText_491a7::
 	prompt
 
 _ReceivedCoinCaseText::
-	text $52," reçoit"
+	text "<PLAYER> reçoit"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

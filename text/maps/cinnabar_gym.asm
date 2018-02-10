@@ -50,7 +50,7 @@ _BlaineBadgeText::
 	done
 
 _ReceivedTM38Text::
-	text $52," obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -244,6 +244,6 @@ _CinnabarGymText_75ac2::
 	done
 
 _CinnabarGymText_75ac7::
-	text $52,"! Tu as"
+	text "<PLAYER>! Tu as"
 	line "battu AUGUSTE!"
 	done

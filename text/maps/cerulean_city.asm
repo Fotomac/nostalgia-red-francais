@@ -1,6 +1,6 @@
 _CeruleanCityText_19668::
-	text $53, ": Yo!"
-	line $52, "!"
+	text "<RIVAL>: Yo!"
+	line "<PLAYER>!"
 
 	para "Alors tu t'en"
 	line "sors?"
@@ -29,7 +29,7 @@ _CeruleanCityText_19672::
 	prompt
 
 _CeruleanCityText_19677::
-	text $53, ": Hé!"
+	text "<RIVAL>: Hé!"
 	line "Tu sais quoi?"
 
 	para "Chuis allé chez"
@@ -69,7 +69,7 @@ _CeruleanCityText_196d9::
 	done
 
 _ReceivedTM28Text::
-	text $52, " récupère"
+	text "<PLAYER> récupère"
 	line "CT28!@@"
 
 _ReceivedTM28Text2::

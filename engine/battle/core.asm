@@ -954,7 +954,7 @@ EndLowHealthAlarm:
 ; This function is called when the player has the won the battle. It turns off
 ; the low health alarm and prevents it from reactivating until the next battle.
 	xor a
-	ld [wLowHealthAlarm], a ; turn off low health alarm
+	ld [wDanger], a ; turn off low health alarm
 	ld [wChannelSoundIDs + Ch4], a
 	inc a
 	ld [wLowHealthAlarmDisabled], a ; prevent it from reactivating
@@ -980,7 +980,7 @@ AnyEnemyPokemonAliveCheck:
 ; stores whether enemy ran in Z flag
 ReplaceFaintedEnemyMon:
 	ld hl, wEnemyHPBarColor
-	ld e, $30
+	ld e, $00
 	call GetBattleHealthBarColor
 	callab DrawEnemyPokeballs
 	ld a, [wLinkState]
@@ -1050,7 +1050,7 @@ PlayBattleVictoryMusic:
 	ld a, $ff
 	ld [wNewSoundID], a
 	call PlaySoundWaitForCurrent
-	ld c, BANK(Music_DefeatedTrainer)
+	ld c, 0 ; BANK(Music_DefeatedTrainer)
 	pop af
 	call PlayMusic
 	jp Delay3
@@ -1097,11 +1097,11 @@ RemoveFaintedPlayerMon:
 	predef FlagActionPredef ; clear gain exp flag for fainted mon
 	ld hl, wEnemyBattleStatus1
 	res 2, [hl]   ; reset "attacking multiple times" flag
-	ld a, [wLowHealthAlarm]
+	ld a, [wDanger]
 	bit 7, a      ; skip sound flag (red bar (?))
 	jr z, .skipWaitForSound
 	ld a, $ff
-	ld [wLowHealthAlarm], a ;disable low health alarm
+	ld [wDanger], a ;disable low health alarm
 	call WaitForSoundToFinish
 .skipWaitForSound
 ; a is 0, so this zeroes the enemy's accumulated damage.
@@ -1219,6 +1219,8 @@ ChooseNextMon:
 ; called when player is out of usable mons.
 ; prints approriate lose message, sets carry flag if player blacked out (special case for initial rival fight)
 HandlePlayerBlackOut:
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	jr z, .notSony1Battle
@@ -1912,6 +1914,7 @@ DrawPlayerHUDAndHPBar:
 	coord hl, 10, 7
 	call CenterMonName
 	call PlaceString
+	call PrintEXPBar
 	ld hl, wBattleMonSpecies
 	ld de, wLoadedMon
 	ld bc, wBattleMonDVs - wBattleMonSpecies
@@ -1948,7 +1951,7 @@ DrawPlayerHUDAndHPBar:
 	cp HP_BAR_RED
 	jr z, .setLowHealthAlarm
 .fainted
-	ld hl, wLowHealthAlarm
+	ld hl, wDanger
 	bit 7, [hl] ;low health alarm enabled?
 	ld [hl], $0
 	ret z
@@ -1956,7 +1959,7 @@ DrawPlayerHUDAndHPBar:
 	ld [wChannelSoundIDs + Ch4], a
 	ret
 .setLowHealthAlarm
-	ld hl, wLowHealthAlarm
+	ld hl, wDanger
 	set 7, [hl] ;enable low health alarm
 	ret
 
@@ -1971,7 +1974,7 @@ DrawEnemyHUDAndHPBar:
 	coord hl, 1, 0
 	call CenterMonName
 	call PlaceString
-	coord hl, 4, 1
+	coord hl, 6, 1
 	push hl
 	inc hl
 	ld de, wEnemyMonStatus
@@ -6932,9 +6935,11 @@ InitBattleCommon:
 	push af
 	res 1, [hl]
 	callab InitBattleVariables
+	ld a, [wIsTrainerBattle]
+	and a
+	jp z, InitWildBattle
 	ld a, [wEnemyMonSpecies2]
-	sub 200
-	jp c, InitWildBattle
+	sub 204
 	ld [wTrainerClass], a
 	ld [wTrainerPicID], a
 	ld [wTrainerAINumber], a
@@ -7174,7 +7179,7 @@ LoadMonBackPic:
 	ld b, 7
 	ld c, 8
 	call ClearScreenArea
-	ld hl,  wMonHBackSprite - wMonHeader
+	ld hl, wMonHBackSprite - wMonHeader
 	call UncompressMonSprite
 	call LoadBackSpriteUnzoomed
 	ld hl, vSprites
@@ -8977,28 +8982,36 @@ PhysicalSpecialSplit: ;Determines if a move is Physical or Special
 	db PHYSICAL;SLASH        EQU $A3
 	db OTHER_M ;SUBSTITUTE   EQU $A4
 	db PHYSICAL;METAL_CLAW   EQU $A5
-	db PHYSICAL;CRUNCH       EQU $A6
-	db PHYSICAL;THIEF        EQU $A7
-	db PHYSICAL;FAINT_ATTACK EQU $A8
-	db PHYSICAL;OUTRAGE      EQU $A9
-	db SPECIAL ;TWISTER      EQU $AA
-	db PHYSICAL;ROLLOUT      EQU $AB
-	db SPECIAL ;ANCIENTPOWER EQU $AC
-	db PHYSICAL;ROCK_TOMB    EQU $AD
-	db OTHER_M ;CALM_MIND    EQU $AE
-	db SPECIAL ;SLUDGE_BOMB  EQU $AF
-	db PHYSICAL;CROSS_CHOP   EQU $B0
-	db PHYSICAL;BRICK_BREAK  EQU $B1
-	db SPECIAL ;POWDER_SNOW  EQU $B2
-	db SPECIAL ;GIGA_DRAIN   EQU $B3
-	db PHYSICAL;BULLET_SEED  EQU $B4
-	db SPECIAL ;ZAP_CANNON   EQU $B5
-	db SPECIAL ;SHOCK_WAVE   EQU $B6
-	db SPECIAL ;WATER_PULSE  EQU $B7
-	db PHYSICAL;FLAME_WHEEL  EQU $B8
-	db PHYSICAL;RAPID_SPIN   EQU $B9
-	db OTHER_M ;SCARY_FACE   EQU $BA
-	db PHYSICAL;SECRET_POWER EQU $BB
-	db OTHER_M ;ATTRACT      EQU $BC
-	db PHYSICAL;RETURN       EQU $BD
+	db PHYSICAL;IRON_TAIL    EQU $A6
+	db PHYSICAL;CRUNCH       EQU $A7
+	db PHYSICAL;THIEF        EQU $A8
+	db PHYSICAL;FAINT_ATTACK EQU $A9
+	db PHYSICAL;OUTRAGE      EQU $AA
+	db SPECIAL ;TWISTER      EQU $AB
+	db SPECIAL ;SHADOW_BALL  EQU $AC
+	db PHYSICAL;SHADOW_PUNCH EQU $AD
+	db PHYSICAL;ROLLOUT      EQU $AE
+	db SPECIAL ;ANCIENTPOWER EQU $AF
+	db PHYSICAL;ROCK_TOMB    EQU $B0
+	db PHYSICAL;ROCK_BLAST   EQU $B1
+	db OTHER_M ;CALM_MIND    EQU $B2
+	db SPECIAL ;MUD_SLAP     EQU $B3
+	db PHYSICAL;SAND_TOMB    EQU $B4
+	db SPECIAL ;SLUDGE_BOMB  EQU $B5
+	db PHYSICAL;CROSS_CHOP   EQU $B6
+	db PHYSICAL;BRICK_BREAK  EQU $B7
+	db OTHER_M ;BULK_UP      EQU $B8
+	db SPECIAL ;POWDER_SNOW  EQU $B9
+	db SPECIAL ;GIGA_DRAIN   EQU $BA
+	db PHYSICAL;BULLET_SEED  EQU $BB
+	db SPECIAL ;MAGICAL_LEAF EQU $BC
+	db SPECIAL ;ZAP_CANNON   EQU $BD
+	db SPECIAL ;SHOCK_WAVE   EQU $BE
+	db SPECIAL ;WATER_PULSE  EQU $BF
+	db PHYSICAL;FLAME_WHEEL  EQU $C0
+	db PHYSICAL;RAPID_SPIN   EQU $C1
+	db OTHER_M ;SCARY_FACE   EQU $C2
+	db OTHER_M ;SWEET_SCENT  EQU $C3
+	db PHYSICAL;SECRET_POWER EQU $C4
+	db PHYSICAL;RETURN       EQU $C5
 	db PHYSICAL;STRUGGLE

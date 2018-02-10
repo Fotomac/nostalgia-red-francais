@@ -44,7 +44,7 @@ _LanceAfterBattleText::
 	line "dragons ont-ils"
 	cont "pu succomber à"
 	cont "tes attaques,"
-	cont $52,"?"
+	cont "<PLAYER>?"
 
 	para "Tu es désormais"
 	line "champion de la"
@@ -57,13 +57,9 @@ _LanceAfterBattleText::
 	cont "imposée..."
 
 	para "Un grand dresseur"
-	line "t'attend. Son nom"
-	cont "est..."
-
-	para $53,"!"
-	line "Il a vaincu le"
-	cont "CONSEIL des 4"
-	cont "avant toi!"
+	line "t'attend. Il a"
+	cont "vaincu le CONSEIL"
+	cont "des 4 avant toi!"
 
 	para "Il est le vrai"
 	line "champion #MON!@@"

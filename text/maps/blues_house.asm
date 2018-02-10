@@ -30,11 +30,13 @@ _DaisyUseMapText::
 	done
 
 _BluesHouseText2::
-	text "Les #MON sont"
-	line "vivants! Une fois"
-	cont "fatigués, ils"
-	cont "doivent se"
-	cont "reposer!"
+	text "Comme les gents,"
+	line "les #MON sont"
+	cont "des êtres"
+	cont "vivants! Ils"
+	cont "doivent aussi se"
+	cont "reposer quand ils"
+	cont "sont fatigués!"
 	done
 
 _BluesHouseText3::

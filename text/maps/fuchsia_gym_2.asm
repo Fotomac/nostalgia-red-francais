@@ -23,7 +23,7 @@ _FuchsiaGymText9::
 	done
 
 _ReceivedTM06Text::
-	text $52," reçoit:"
+	text "<PLAYER> reçoit:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

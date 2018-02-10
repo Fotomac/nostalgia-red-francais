@@ -22,7 +22,7 @@ _AgathaBeforeBattleText::
 	cont "#MON servent"
 	cont "à combattre!"
 
-	para $52,"! Je vais"
+	para "<PLAYER>! Je vais"
 	line "te montrer"
 	cont "comment les"
 	cont "grands dresseurs"

@@ -1,6 +1,6 @@
 _PokemonTower2Text_6062d::
-	text $53,": Hé,"
-	line $52,"!"
+	text "<RIVAL>: Hé,"
+	line "<PLAYER>!"
 	cont "Kesstu fais là?"
 	cont "Tes #MON sont"
 	cont "pas morts!"
@@ -20,7 +20,7 @@ _PokemonTower2Text_60632::
 	prompt
 
 _PokemonTower2Text_60637::
-	text $53,": Haha,"
+	text "<RIVAL>: Haha,"
 	line "Tes #MON sont"
 	cont "minables..."
 	cont "Comme toi!"

@@ -350,7 +350,7 @@ OaksLabScript10:
 	call SetSpriteFacingDirectionAndDelay
 	ld a, PLAYER_DIR_UP
 	ld [wPlayerMovingDirection], a
-	ld c, BANK(Music_MeetRival)
+	ld c, 0 ; BANK(Music_MeetRival)
 	ld a, MUSIC_MEET_RIVAL
 	call PlayMusic
 	ld a, $f
@@ -381,6 +381,8 @@ OaksLabScript11:
 	ret nz
 
 	; define which team rival uses, and fight it
+	ld a, 1
+	ld [wIsTrainerBattle], a
 	ld a, OPP_SONY1
 	ld [wCurOpponent], a
 	ld a, [wRivalStarter]
@@ -415,6 +417,8 @@ OaksLabScript11:
 	ret
 
 OaksLabScript12:
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, $f0
 	ld [wJoyIgnore], a
 	ld a, PLAYER_DIR_UP

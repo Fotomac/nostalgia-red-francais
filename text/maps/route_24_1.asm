@@ -11,7 +11,7 @@ _Route24Text_51515::
 	prompt
 
 _Route24Text_5151a::
-	text $52," obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

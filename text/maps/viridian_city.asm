@@ -104,7 +104,7 @@ _ViridianCityText_191ca::
 	prompt
 
 _ReceivedTM42Text::
-	text $52, " reçoit:"
+	text "<PLAYER> reçoit:"
 	line "CT42!@@"
 
 _TM42Explanation::

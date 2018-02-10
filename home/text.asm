@@ -198,12 +198,15 @@ MonsterNameCharsCommon::
 	jr FinishDTE
 
 .Enemy
-	; print “Enemy ”
+	; print “Enemy ” or “Wild ”
 	ld de,wEnemyMonNick
 	call PlaceString
 	ld h,b
 	ld l,c
-	ld de,Char5AText
+	ld de,Char5AText_Trainer
+	jr FinishDTE
+.wild
+	ld de,Char5AText_Wild
 
 FinishDTE::
 	call PlaceString
@@ -227,8 +230,10 @@ Char5DText::
 	db "DRES.@"
 Char54Text::
 	db "POKé@"
-Char5AText::
+Char5AText_Trainer::
 	db " ennemi@"
+Char5AText_Wild::
+	db " sauv.@"
 
 Char55::
 	push de
@@ -619,10 +624,9 @@ TextCommand0B::
 
 ; format: text command ID, sound ID or cry ID
 TextCommandSounds::
-	db $0B, SFX_GET_ITEM_1 ; actually plays SFX_LEVEL_UP when the battle music engine is loaded
+	db $0B, SFX_GET_ITEM_1
 	db $12, SFX_CAUGHT_MON
 	db $0E, SFX_POKEDEX_RATING ; unused?
-	db $0F, SFX_GET_ITEM_1 ; unused?
 	db $10, SFX_GET_ITEM_2
 	db $11, SFX_GET_KEY_ITEM
 	db $13, SFX_DEX_PAGE_ADDED

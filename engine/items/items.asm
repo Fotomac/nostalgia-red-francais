@@ -99,6 +99,7 @@ ItemUsePtrTable:
 	dw ItemUsePPRestore  ; MAX_ETHER
 	dw ItemUsePPRestore  ; ELIXER
 	dw ItemUsePPRestore  ; MAX_ELIXER
+	dw UnusableItem      ; STAR_PIECE
 
 ItemUseBall:
 
@@ -995,7 +996,7 @@ ItemUseMedicine:
 	jp .cureStatusAilment
 .notFullHP ; if the pokemon's current HP doesn't equal its max HP
 	xor a
-	ld [wLowHealthAlarm],a ;disable low health alarm
+	ld [wDanger],a ;disable low health alarm
 	ld [wChannelSoundIDs + Ch4],a
 	push hl
 	push de
@@ -1777,11 +1778,11 @@ ItemUsePokeflute:
 ; if some pokemon were asleep
 	ld hl,PlayedFluteHadEffectText
 	call PrintText
-	ld a,[wLowHealthAlarm]
+	ld a,[wDanger]
 	and a,$80
 	jr nz,.skipMusic
 	call WaitForSoundToFinish ; wait for sound to end
-	callba Music_PokeFluteInBattle ; play in-battle pokeflute music
+	;callba Music_PokeFluteInBattle ; play in-battle pokeflute music ; XXX
 .musicWaitLoop ; wait for music to finish playing
 	ld a,[wChannelSoundIDs + Ch6]
 	and a ; music off?
@@ -1852,13 +1853,10 @@ PlayedFluteHadEffectText:
 ; play out-of-battle pokeflute music
 	ld a,$ff
 	call PlaySound ; turn off music
-	ld a, SFX_POKEFLUE
-	ld c, BANK(SFX_Pokeflute)
-	call PlayMusic
-.musicWaitLoop ; wait for music to finish playing
-	ld a,[wChannelSoundIDs + Ch2]
-	cp a, SFX_POKEFLUE
-	jr z,.musicWaitLoop
+	ld a, SFX_POKEFLUTE
+	ld c, 0 ; BANK(SFX_Pokeflute)
+	call PlaySound
+	call WaitForSoundToFinish
 	call PlayDefaultMusic ; start playing normal music again
 .done
 	jp TextScriptEnd ; end text
@@ -1877,9 +1875,42 @@ CoinCaseNumCoinsText:
 ItemUseOldRod:
 	call FishingInit
 	jp c, ItemUseNotTime
-	lb bc, 5, MAGIKARP
-	ld a, $1 ; set bite
+.RandomLoop ; choose which slot
+	call Random
+	srl a
+	jr c, .SetBite
+	and %111
+	cp 6
+	jr nc, .RandomLoop
+; Determine if we need to load normal or sea route data
+	push af
+	ld a,[wCurMap]
+	ld hl,OldRodMons2 ; Sea Routes
+	cp ROUTE_19
+	jr z,.done
+	cp ROUTE_20
+	jr z,.done
+	cp ROUTE_21
+	jr z,.done
+	ld hl,OldRodMons1 ; Normal Routes
+.done
+; Set up the encounter
+	pop af
+	add a,a
+	ld c,a
+	ld b,0
+	add hl,bc
+	ld b,[hl]
+	inc hl
+	ld c,[hl]
+	and a
+.SetBite
+	ld a,0
+	rla
+	xor 1
 	jr RodResponse
+
+INCLUDE "data/old_rod.asm"
 
 ItemUseGoodRod:
 	call FishingInit
@@ -1888,8 +1919,8 @@ ItemUseGoodRod:
 	call Random
 	srl a
 	jr c, .SetBite
-	and %11
-	cp 2
+	and %111
+	cp 6
 	jr nc, .RandomLoop
 	; choose which monster appears
 	ld hl,GoodRodMons

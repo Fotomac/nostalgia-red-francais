@@ -5,7 +5,7 @@ _SilphCo3Text_59ff9::
 	done
 
 _SilphCo3Text_59ffe::
-	text $52, "! Toi et"
+	text "<PLAYER>! Toi et"
 	line "tes #MON,"
 	cont "vous nous avez"
 	cont "sauvés!"

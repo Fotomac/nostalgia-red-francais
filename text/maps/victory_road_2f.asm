@@ -30,7 +30,7 @@ _VictoryRoad2EndBattleText2::
 	prompt
 
 _VictoryRoad2AfterBattleText2::
-	text $53," est aussi"
+	text "<RIVAL> est aussi"
 	line "arrivé ici!"
 	done
 

@@ -52,7 +52,7 @@ _CeruleanHouse2Text_74e9b::
 	prompt
 
 _CeruleanHouse2Text_74ea0::
-	text "La VITESSE de"
+	text "La DEFENSE de"
 	line "tous tes #MON"
 	cont "sera un peu"
 	cont "augmentée."
@@ -78,7 +78,7 @@ _CeruleanHouse2Text_74ea5::
 	prompt
 
 _CeruleanHouse2Text_74eaa::
-	text "La DEFENSE de"
+	text "La VITESSE de"
 	line "tous tes #MON"
 	cont "sera augmentée."
 

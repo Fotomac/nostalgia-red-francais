@@ -12,7 +12,7 @@ _BrunoBeforeBattleText::
 	cont "rien de tel qu'un"
 	cont "corps de rêve!"
 
-	para $52,"!"
+	para "<PLAYER>!"
 
 	para "Ton équipe..."
 	line "J'vais en faire"

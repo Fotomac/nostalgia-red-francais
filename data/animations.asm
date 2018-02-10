@@ -78,7 +78,7 @@ AttackAnimationPointers:
 	dw PoisonPowderAnim
 	dw StunSporeAnim
 	dw SleepPowderAnim
-	dw PedalDanceAnim
+	dw PetalDanceAnim
 	dw StringShotAnim
 	dw DragonRageAnim
 	dw FireSpinAnim
@@ -164,18 +164,25 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw MetalClawAnim
+	dw IronTailAnim
 	dw CrunchAnim
 	dw ThiefAnim
 	dw FaintAttackAnim
 	dw OutrageAnim
 	dw TwisterAnim
+	dw ShadowBallAnim
+	dw ShadowPunchAnim
 	dw RolloutAnim
 	dw AncientPowerAnim
 	dw RockTombAnim
+	dw RockBlastAnim
 	dw CalmMindAnim
+	dw MudSlapAnim
+	dw SandTombAnim
 	dw SludgeBombAnim
 	dw CrossChopAnim
 	dw BrickBreakAnim
+	dw BulkUpAnim
 	dw PowderSnowAnim
 	dw GigaDrainAnim
 	dw BulletSeedAnim
@@ -312,6 +319,7 @@ SwordsDanceAnim:
 	db $FF
 
 CutAnim:
+IronTailAnim:
 	db SE_DARK_SCREEN_FLASH, $0E
 	db $04,$FF,$16
 	db $FF
@@ -373,6 +381,7 @@ RollingKickAnim:
 	db $FF
 
 SandAttackAnim:
+MudSlapAnim:
 	db $46,$1B,$28
 	db $FF
 
@@ -653,7 +662,6 @@ GrowthAnim:
 	db $FF
 
 RazorLeafAnim:
-MagicalLeafAnim:
 	db SE_LEAVES_FALLING, $4A
 	db $41,$80,$44
 	db $01,$0C,$16
@@ -677,7 +685,8 @@ SleepPowderAnim:
 	db $06,$4E,$36
 	db $FF
 
-PedalDanceAnim:
+PetalDanceAnim:
+MagicalLeafAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $4F
 	db SE_PETALS_FALLING, $FF
 	db SE_RESET_SCREEN_PALETTE, $FF
@@ -727,6 +736,7 @@ ThunderAnim:
 
 RockThrowAnim:
 AncientPowerAnim:
+RockBlastAnim:
 	db $04,$57,$30
 	db $FF
 
@@ -874,6 +884,7 @@ WithdrawAnim:
 	db $FF
 
 DefenseCurlAnim:
+BulkUpAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $6E
 	db $06,$FF,$43
 	db SE_DARK_SCREEN_FLASH, $FF
@@ -942,6 +953,7 @@ LickAnim:
 	db $FF
 
 SmogAnim:
+ShadowBallAnim:
 	db SE_DARKEN_MON_PALETTE, $48
 	db $46,$7A,$19
 	db SE_RESET_SCREEN_PALETTE, $FF
@@ -1180,6 +1192,17 @@ FaintAttackAnim:
 	db SE_SLIDE_MON_DOWN, $5A
 	db $46,$FF,$04
 	db SE_SHOW_MON_PIC, $FF
+	db $FF
+
+ShadowPunchAnim:
+	db SE_DARK_SCREEN_PALETTE, $48
+	db $08,$00,$01
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+SandTombAnim:
+	db $46,$1B,$28
+	db $46,$FF,$04
 	db $FF
 
 SludgeBombAnim:

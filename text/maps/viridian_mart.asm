@@ -18,7 +18,7 @@ ViridianMartParcelQuestText::
 	cont "Peux-tu la lui"
 	cont "apporter?"
 
-	para $52," obtient"
+	para "<PLAYER> obtient"
 	line "le COLIS DE CHEN!@@"
 
 _ViridianMartText2::
@@ -28,8 +28,8 @@ _ViridianMartText2::
 	done
 
 _ViridianMartText3::
-	text "Plus de POTIONS!"
-	line "Nous sommes en"
-	cont "rupture de stock."
+	text "Cette boutique a"
+	line "enfin reçu des"
+	cont "POTIONS."
 	done
 

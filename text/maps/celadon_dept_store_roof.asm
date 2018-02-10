@@ -14,7 +14,7 @@ _CeladonMartRoofText_484f3::
 	line "pour toi!@@"
 
 _CeladonMartRoofText_484f9::
-	text $52," reçoit"
+	text "<PLAYER> reçoit"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -41,7 +41,7 @@ _CeladonMartRoofText_48504::
 	para "Tiens, prends ça!@@"
 
 _CeladonMartRoofText_4850a::
-	text $52," reçoit"
+	text "<PLAYER> reçoit"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"
@@ -68,13 +68,13 @@ _CeladonMartRoofText_48515::
 	para "V'là pour toi!@@"
 
 _ReceivedTM49Text::
-	text $52," reçoit:"
+	text "<PLAYER> reçoit:"
 	line "CT49!@@"
 
 _CeladonMartRoofText_48520::
 	text ""
 
-	para "TM49..."
+	para "CT49..."
 	line "TRIPLATTAQUE!@@"
 
 _CeladonMartRoofText_48526::

@@ -76,6 +76,6 @@ _PokemonTower5Text7::
 	cont "sanctuaire!"
 
 	para "Les #MON de"
-	line $52," sont"
+	line "<PLAYER> sont"
 	cont "soignés!"
 	done

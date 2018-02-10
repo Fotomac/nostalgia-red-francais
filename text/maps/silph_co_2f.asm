@@ -9,7 +9,7 @@ _SilphCo2Text_59ded::
 	prompt
 
 _ReceivedTM36Text::
-	text $52, " obtient"
+	text "<PLAYER> obtient"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

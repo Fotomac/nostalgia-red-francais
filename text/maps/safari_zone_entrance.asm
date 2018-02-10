@@ -20,7 +20,7 @@ SafariZoneEntranceText_9e747::
 	line "type de # BALL"
 	cont "est utilisé ici."
 
-	para $52," reçoit"
+	para "<PLAYER> reçoit"
 	line "30 SAFARI BALL!@@"
 
 _SafariZoneEntranceText_75360::

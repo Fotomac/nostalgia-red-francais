@@ -10,13 +10,13 @@ _SSAnne2Text1::
 	done
 
 _SSAnneRivalBeforeBattleText::
-	text $53, ": Salut!"
-	line $52, "!"
+	text "<RIVAL>: Salut!"
+	line "<PLAYER>!"
 
 	para "Toi! Ici!"
 	line "Sans blague!"
 
-	para $52, ", as-tu"
+	para "<PLAYER>, as-tu"
 	line "vraiment été"
 	cont "invité?"
 
@@ -43,7 +43,7 @@ _SSAnneRivalDefeatedText::
 	prompt
 
 _SSAnneRivalWonText::
-	text $52, "! Tu as"
+	text "<PLAYER>! Tu as"
 	line "le mal de mer?"
 
 	para "Tu devrais te"
@@ -52,7 +52,7 @@ _SSAnneRivalWonText::
 	prompt
 
 _SSAnneRivalCaptainText::
-	text $53, ": Il y"
+	text "<RIVAL>: Il y"
 	line "a le maître de la"
 	cont "technique COUPE"
 	cont "à bord."

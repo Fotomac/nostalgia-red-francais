@@ -6,10 +6,8 @@ DisplayPokemonCenterDialogue_:
 	bit 2, [hl]
 	set 1, [hl]
 	set 2, [hl]
-	jr nz, .skipShallWeHealYourPokemon
 	ld hl, ShallWeHealYourPokemonText
 	call PrintText
-.skipShallWeHealYourPokemon
 	call YesNoChoicePokeCenter ; yes/no menu
 	ld a, [wCurrentMenuItem]
 	and a
@@ -30,7 +28,7 @@ DisplayPokemonCenterDialogue_:
 	ld a, [wMapMusicSoundID]
 	ld [wLastMusicSoundID], a
 	ld [wNewSoundID], a
-	call PlaySound
+	call PlayMusic
 	ld hl, PokemonFightingFitText
 	call PrintText
 	ld a, $14

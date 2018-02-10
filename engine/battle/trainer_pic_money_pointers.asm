@@ -37,7 +37,7 @@ TrainerPicAndMoneyPointers:
 ;	dw EngineerPic
 	money 5000
 
-;	dw JugglerPic
+;	dw SwimmerFPic
 	money 500
 
 ;	dw FisherPic

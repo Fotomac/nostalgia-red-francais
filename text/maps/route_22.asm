@@ -1,6 +1,6 @@
 _Route22RivalBeforeBattleText1::
-	text $53,": Hé!"
-	line $52,"!"
+	text "<RIVAL>: Hé!"
+	line "<PLAYER>!"
 
 	para "Tu vas à la"
 	line "LIGUE #MON?"
@@ -45,7 +45,7 @@ _Route22RivalDefeatedText1::
 	prompt
 
 _Route22Text_511bc::
-	text $53,": Quoi?"
+	text "<RIVAL>: Quoi?"
 	line "Pourquoi j'ai 2"
 	cont "#MON?"
 
@@ -56,8 +56,8 @@ _Route22Text_511bc::
 	prompt
 
 _Route22RivalBeforeBattleText2::
-	text $53,": Tiens?"
-	line $52,"! Quelle"
+	text "<RIVAL>: Tiens?"
+	line "<PLAYER>! Quelle"
 	cont "bonne surprise,"
 	cont "tu es là aussi?!"
 
@@ -87,7 +87,7 @@ _Route22RivalAfterBattleText2::
 	cont "chaud pour la"
 	cont "LIGUE #MON!"
 
-	para $52,", t'es"
+	para "<PLAYER>, t'es"
 	line "vraiment un"
 	cont "minable!"
 

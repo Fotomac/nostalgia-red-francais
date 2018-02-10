@@ -54,10 +54,10 @@ _PalletTownText5::
 
 _PalletTownText6::
 	text "Maison de"
-	line $52
+	line "<PLAYER>"
 	done
 
 _PalletTownText7::
 	text "Maison de"
-	line $53
+	line "<RIVAL>"
 	done

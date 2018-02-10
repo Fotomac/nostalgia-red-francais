@@ -153,12 +153,12 @@ _SilphCo7AfterBattleText4::
 	done
 
 _SilphCo7Text_51ebe::
-	text $53, ": C'que tu"
-	line "es lent, ",$52,"!"
+	text "<RIVAL>: C'que tu"
+	line "es lent, <PLAYER>!"
 	done
 
 _SilphCo7Text_51ec3::
-	text $53, ": Hahaha!"
+	text "<RIVAL>: Hahaha!"
 	line "J'étais sûr que"
 	cont "tu passerais par"
 	cont "là!"
@@ -175,14 +175,14 @@ _SilphCo7Text_51ec3::
 	done
 
 _SilphCo7Text_51ec8::
-	text "Oh non!"
+	text "Haha!"
 	line "Tu es donc prêt"
 	cont "pour le chef de"
 	cont "la TEAM ROCKET!"
 	prompt
 
 _SilphCo7Text_51ecd::
-	text $53, ": Quelle"
+	text "<RIVAL>: Quelle"
 	line "perte de temps!"
 
 	para "Va jouer dans ton"
@@ -190,7 +190,7 @@ _SilphCo7Text_51ecd::
 	prompt
 
 _SilphCo7Text_51ed2::
-	text "OK, ",$52,"!"
+	text "OK, <PLAYER>!"
 
 	para "Je décampe!"
 
@@ -212,7 +212,7 @@ _SilphCo7Text_51ed2::
 	cont "monde!"
 
 	para "Bonne chance,"
-	line $52,"!"
+	line "<PLAYER>!"
 	cont "Tu en auras"
 	cont "besoin, minable!"
 	done

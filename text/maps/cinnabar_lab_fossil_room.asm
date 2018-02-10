@@ -64,7 +64,7 @@ _Lab4Text_610b3::
 	text "Tu te grouilles,"
 	line "file-moi ça!"
 
-	para $52," donne:"
+	para "<PLAYER> donne:"
 	line "@"
 	TX_RAM wcd6d
 	text "!"

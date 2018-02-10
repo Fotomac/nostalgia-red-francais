@@ -8,7 +8,7 @@ _TM35PreReceiveText::
 	prompt
 
 _ReceivedTM35Text::
-	text $52," reçoit:"
+	text "<PLAYER> reçoit:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

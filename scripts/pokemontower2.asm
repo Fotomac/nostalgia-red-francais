@@ -25,7 +25,7 @@ PokemonTower2Script0:
 	ld a, $ff
 	ld [wNewSoundID], a
 	call PlaySound
-	ld c, BANK(Music_MeetRival)
+	ld c, 0 ; BANK(Music_MeetRival)
 	ld a, MUSIC_MEET_RIVAL
 	call PlayMusic
 	ResetEvent EVENT_POKEMON_TOWER_RIVAL_ON_LEFT
@@ -62,6 +62,8 @@ PokemonTower2Script1:
 	ld a, [wIsInBattle]
 	cp $ff
 	jp z, PokemonTower2Script_604fe
+	xor a
+	ld [wIsTrainerBattle], a
 	ld a, $f0
 	ld [wJoyIgnore], a
 	SetEvent EVENT_BEAT_POKEMON_TOWER_RIVAL
@@ -160,6 +162,8 @@ PokemonTower2Text1:
 	ld a, $6
 .done
 	ld [wTrainerNo], a
+	ld a, 1
+	ld [wIsTrainerBattle], a
 
 	ld a, $1
 	ld [wPokemonTower2CurScript], a

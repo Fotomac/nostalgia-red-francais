@@ -19,7 +19,7 @@ _FuchsiaHouse3Text_561c2::
 	cont "Pêche soit avec"
 	cont "toi, p'tit!"
 
-	para $52," reçoit"
+	para "<PLAYER> reçoit"
 	line "une @"
 	TX_RAM wcf50
 	text "!@@"
@@ -31,7 +31,7 @@ _FuchsiaHouse3Text_56212::
 
 _FuchsiaHouse3Text_56217::
 	text "Salut,"
-	line $52,"!"
+	line "<PLAYER>!"
 
 	para "Ca mord?"
 	done

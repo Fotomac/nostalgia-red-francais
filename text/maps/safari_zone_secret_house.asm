@@ -14,7 +14,7 @@ _SecretHouseText_4a350::
 	prompt
 
 _ReceivedHM03Text::
-	text $52, " obtient:"
+	text "<PLAYER> obtient:"
 	line "@"
 	TX_RAM wcf50
 	text "!@@"

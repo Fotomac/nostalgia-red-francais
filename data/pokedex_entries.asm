@@ -1274,7 +1274,7 @@ PikabluDexEntry:
  
 RaibluDexEntry:
 	db "AQUALAPIN@"
-	db 08
+	db 8
 	dw 285
 	TX_FAR _RaibluDexEntry
 	db "@"
