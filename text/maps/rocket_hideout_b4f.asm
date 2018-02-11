@@ -21,7 +21,7 @@ _RocketHideout4Text_4557a::
 	done
 
 _RocketHideout4Text_4557f::
-	text "QUOI!"
+	text "GIOVANNI: QUOI!"
 	line "Damnation!"
 	prompt
 
@@ -51,8 +51,8 @@ _RocketHideout4BattleText2::
 	done
 
 _RocketHideout4EndBattleText2::
-	text "Enfer!"
-	line "Et encore enfer!"
+	text "Enfer! Et encore"
+	line "enfer!"
 	prompt
 
 _RocketHide4AfterBattleText2::

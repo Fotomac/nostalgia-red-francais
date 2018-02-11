@@ -60,8 +60,7 @@ _FuchsiaGymBattleText1::
 	done
 
 _FuchsiaGymEndBattleText1::
-	text "Que?"
-	line "Que quoi?"
+	text "Que? Que quoi?"
 	prompt
 
 _FuchsiaGymAfterBattleText1::
@@ -93,9 +92,8 @@ _FuchsiaGymBattleText3::
 	done
 
 _FuchsiaGymEndBattleText3::
-	text "Quoi?"
-	line "Eul'nabot m'a"
-	cont "battu?"
+	text "Quoi? Eul'nabot"
+	line "m'a battu?"
 	prompt
 
 _FuchsiaGymAfterBattleText3::
@@ -114,8 +112,7 @@ _FuchsiaGymBattleText4::
 	done
 
 _FuchsiaGymEndBattleText4::
-	text "Whoa!"
-	line "Tout mort!"
+	text "Whoa! Tout mort!"
 	prompt
 
 _FuchsiaGymAfterBattleText4::

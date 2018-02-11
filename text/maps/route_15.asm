@@ -5,8 +5,7 @@ _Route15BattleText1::
 	done
 
 _Route15EndBattleText1::
-	text "Oh!"
-	line "Perdu!"
+	text "Oh! Perdu!"
 	prompt
 
 _Route15AfterBattleText1::
@@ -43,8 +42,8 @@ _Route15BattleText3::
 	done
 
 _Route15EndBattleText3::
-	text "Ho!"
-	line "Quelle horreur!"
+	text "Ho! Quelle"
+	line "horreur!"
 	prompt
 
 _Route15AfterBattleText3::
@@ -78,8 +77,8 @@ _Route15BattleText5::
 	done
 
 _Route15EndBattleText5::
-	text "T'étais"
-	line "mignon, pourtant!"
+	text "T'étais mignon,"
+	line "pourtant!"
 	prompt
 
 _Route15AfterBattleText5::
@@ -110,8 +109,7 @@ _Route15BattleText7::
 	done
 
 _Route15EndBattleText7::
-	text "Bon,"
-	line "ben, t'as vu!"
+	text "Bon, ben, t'as vu!"
 	prompt
 
 _Route15AfterBattleText7::
@@ -127,8 +125,8 @@ _Route15BattleText8::
 	done
 
 _Route15EndBattleText8::
-	text "Tiens,"
-	line "voilà ma bourse!"
+	text "Tiens, voilà ma"
+	line "bourse!"
 	prompt
 
 _Route15AfterBattleText8::
@@ -143,8 +141,7 @@ _Route15BattleText9::
 	done
 
 _Route15EndBattleText9::
-	text "Hé!"
-	line "Je parlais"
+	text "Hé! Je parlais"
 	cont "d'échanges, pas"
 	cont "de bastons!"
 	prompt

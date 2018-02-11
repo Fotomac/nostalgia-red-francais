@@ -21,7 +21,7 @@ _LoreleiBeforeBattleText::
 	done
 
 _LoreleiEndBattleText::
-	text "Comment"
+	text "OLGA: Comment"
 	line "as-tu ozé?"
 	prompt
 

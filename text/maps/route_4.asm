@@ -11,8 +11,7 @@ _Route4BattleText1::
 	done
 
 _Route4EndBattleText1::
-	text "Oh!"
-	line "Mon #MON!"
+	text "Oh! Mon #MON!"
 	prompt
 
 _Route4AfterBattleText1::

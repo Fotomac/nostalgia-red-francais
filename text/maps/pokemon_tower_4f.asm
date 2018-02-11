@@ -4,8 +4,7 @@ _PokemonTower4BattleText1::
 	done
 
 _PokemonTower4EndBattleText1::
-	text "Ben!"
-	line "Où est le"
+	text "Ben! Où est le"
 	cont "SPECTRE?"
 	prompt
 
@@ -34,8 +33,7 @@ _PokemonTower4BattleText3::
 	done
 
 _PokemonTower4EndBattleText3::
-	text "Hein?"
-	line "Qui? Quoi?"
+	text "Hein? Qui? Quoi?"
 	prompt
 
 _PokemonTower4AfterBattleText3::

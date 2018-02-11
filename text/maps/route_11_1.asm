@@ -4,8 +4,7 @@ _Route11BattleText1::
 	done
 
 _Route11EndBattleText1::
-	text "OK."
-	line "T'as gagné!"
+	text "OK. T'as gagné!"
 	prompt
 
 _Route11AfterBattleText1::
@@ -20,8 +19,7 @@ _Route11BattleText2::
 	done
 
 _Route11EndBattleText2::
-	text "J'ai eu"
-	line "ma chance!"
+	text "J'ai eu ma chance!"
 	prompt
 
 _Route11AfterBattleText2::
@@ -37,8 +35,8 @@ _Route11BattleText3::
 	done
 
 _Route11EndBattleText3::
-	text "Rha!"
-	line "C'est pas vrai!"
+	text "Rha! C'est pas"
+	line "vrai!"
 	prompt
 
 _Route11AfterBattleText3::
@@ -55,8 +53,8 @@ _Route11BattleText4::
 	done
 
 _Route11EndBattleText4::
-	text "J",$e0,"me" ; I'm wondering why I even have $e5 in charmap.asm
-	line "suis pris du jus!"
+	text "J",$e0,"me suis pris du" ; I'm wondering why I even have $e5 in charmap.asm
+	line "jus!"
 	prompt
 
 _Route11AfterBattleText4::
@@ -72,8 +70,7 @@ _Route11BattleText5::
 	done
 
 _Route11EndBattleText5::
-	text "Mes"
-	line "#MON sont"
+	text "Mes #MON sont"
 	cont "nuls! Beuh..."
 	prompt
 
@@ -87,8 +84,8 @@ _Route11BattleText6::
 	done
 
 _Route11EndBattleText6::
-	text "Heu? Ma"
-	line "première défaite!"
+	text "Heu? Ma première"
+	line "défaite!"
 	prompt
 
 _Route11AfterBattleText6::
@@ -102,7 +99,7 @@ _Route11BattleText7::
 	done
 
 _Route11EndBattleText7::
-	text "Je m'y"
+	text "Enfer, je m'y"
 	line "attendais..."
 	prompt
 

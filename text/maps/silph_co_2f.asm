@@ -55,8 +55,7 @@ _SilphCo2BattleText2::
 	done
 
 _SilphCo2EndBattleText2::
-	text "OK."
-	line "J'suis battu!"
+	text "OK. J'suis battu!"
 	prompt
 
 _SilphCo2AfterBattleText2::
@@ -92,8 +91,7 @@ _SilphCo2BattleText4::
 	done
 
 _SilphCo2EndBattleText4::
-	text "Oups,"
-	line "j'ai perdu!"
+	text "Oups, j'ai perdu!"
 	prompt
 
 _SilphCo2AfterBattleText4::

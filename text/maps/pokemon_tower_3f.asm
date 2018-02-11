@@ -4,8 +4,8 @@ _PokemonTower3BattleText1::
 	done
 
 _PokemonTower3EndBattleText1::
-	text "Ha!"
-	line "Je suis sauvée!"
+	text "Ha! Je suis"
+	line "sauvée!"
 	prompt
 
 _PokemonTower3AfterBattleText1::
@@ -20,9 +20,8 @@ _PokemonTower3BattleText2::
 	done
 
 _PokemonTower3EndBattleText2::
-	text "Hmm?"
-	line "Qu'est-ce que je"
-	cont "fais là?"
+	text "Hmm? Qu'est-ce que"
+	line "je fais là?"
 	prompt
 
 _PokemonTower3AfterBattleText2::
@@ -36,9 +35,8 @@ _PokemonTower3BattleText3::
 	done
 
 _PokemonTower3EndBattleText3::
-	text "Pfiou!"
-	line "L'esprit s'en est"
-	cont "allé!"
+	text "Pfiou! L'esprit"
+	line "s'en est allé!"
 	prompt
 
 _PokemonTower3AfterBattleText3::

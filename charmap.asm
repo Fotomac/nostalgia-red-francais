@@ -262,7 +262,7 @@ charmap "'", $E0
 
 charmap "-", $E3
 charmap "+", $E4
-charmap "'m", $E5
+charmap "¡", $E5
 charmap "?", $E6
 charmap "!", $E7
 charmap ".", $E8

@@ -11,7 +11,7 @@ _PokemonTower2Text_6062d::
 	done
 
 _PokemonTower2Text_60632::
-	text "Hein?"
+	text "<RIVAL>: Hein?"
 	line "Petit fennec!"
 
 	para "Je ne t'ai pas"

@@ -48,7 +48,7 @@ _TM34NoRoomText::
 	done
 
 _ReceivedThunderbadgeText::
-	text "Whoo!"
+	text "MAJOR BOB: Whoo!"
 
 	para "Gard'vous! T'iras"
 	line "loin toi!"
@@ -65,8 +65,7 @@ _VermilionGymBattleText1::
 	done
 
 _VermilionGymEndBattleText1::
-	text "Stop!"
-	line "Tu es fort!"
+	text "Stop! Tu es fort!"
 	prompt
 
 _VermilionGymAfterBattleText1::
@@ -85,8 +84,7 @@ _VermilionGymBattleText2::
 	done
 
 _VermilionGymEndBattleText2::
-	text "Argh!"
-	line "J'suis cuit!"
+	text "Argh! J'suis cuit!"
 	prompt
 
 _VermilionGymAfterBattleText2::
@@ -106,9 +104,8 @@ _VermilionGymBattleText3::
 	done
 
 _VermilionGymEndBattleText3::
-	text "Argh!"
-	line "Tu m'as eu par"
-	cont "surprise!"
+	text "Argh! Tu m'as eu"
+	line "par surprise!"
 	prompt
 
 _VermilionGymAfterBattleText3::
@@ -122,26 +119,26 @@ _VermilionGymAfterBattleText3::
 	done
 
 _VermilionGymBattleText4::
-	text "I may be just a"
-	line "little girl, but"
-	cont "I volunteered to"
-	cont "defend our LEADER!"
+	text "J'suis plus qu'une"
+	line "simple fille!"
+	cont "J'suis défenseuse"
+	cont "de notre CHAMPION!"
 	done
 
 _VermilionGymEndBattleText4::
-	text "God"
-	line "bless America and"
-	cont "democracy!"
+	text "Nous pouvons"
+	line "remercier la"
+	cont "Démocratie, non?"
 	prompt
 
 _VermilionGymAfterBattleText4::
-	text "You ever been to"
-	line "DIGLETT'S CAVE?"
+	text "Tu as allé au"
+	line "CAVE TAUPIQUEUR?"
 
-	para "It's full of"
-	line "pests, but they"
-	cont "can be useful in"
-	cont "your challenge!"
+	para "C'est plein des"
+	line "pestes, oui, mais"
+	cont "ils pouvent être"
+	cont "pestes utiles!"
 	done
 
 _VermilionGymText_5cbf4::

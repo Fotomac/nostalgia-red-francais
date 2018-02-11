@@ -22,8 +22,8 @@ _VictoryRoad3BattleText3::
 	done
 
 _VictoryRoad3EndBattleText3::
-	text "Non!"
-	line "Je suis furieuse!"
+	text "Non! Je suis"
+	line "furieuse!"
 	prompt
 
 _VictoryRoad3AfterBattleText3::
@@ -37,8 +37,7 @@ _VictoryRoad3BattleText4::
 	done
 
 _VictoryRoad3EndBattleText4::
-	text "Oh!"
-	line "J'y crois pas!"
+	text "Oh! J'y crois pas!"
 	prompt
 
 _VictoryRoad3AfterBattleText4::
@@ -56,8 +55,8 @@ _VictoryRoad3BattleText5::
 	done
 
 _VictoryRoad3EndBattleText5::
-	text "Oh!"
-	line "T'es un dur toi!"
+	text "Oh! T'es un dur"
+	line "toi!"
 	prompt
 
 _VictoryRoad3AfterBattleText5::

@@ -1,6 +1,5 @@
 _SilphCo5EndBattleText4::
-	text "Non!"
-	line "Mon Dieu!"
+	text "Non! Mon Dieu!"
 	prompt
 
 _SilphCo5AfterBattleText4::

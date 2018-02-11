@@ -23,7 +23,7 @@ _ViridianGymText_74ace::
 	done
 
 _ViridianGymText_74ad3::
-	text "Ah!"
+	text "GIOVANNI: Ah!"
 	line "Voilà ce que"
 	cont "j'appelle un vrai"
 	cont "combat! Tu as"
@@ -103,8 +103,8 @@ _ViridianGymBattleText1::
 	done
 
 _ViridianGymEndBattleText1::
-	text "Ha!"
-	line "J'suis essoufflé!"
+	text "Ha! J'suis"
+	line "essoufflé!"
 	prompt
 
 _ViridianGymAfterBattleText1::
@@ -135,8 +135,7 @@ _ViridianGymBattleText3::
 	done
 
 _ViridianGymEndBattleText3::
-	text "Tu es"
-	line "très fort!"
+	text "Tu es très fort!"
 	prompt
 
 _ViridianGymAfterBattleText3::

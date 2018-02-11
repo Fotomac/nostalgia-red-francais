@@ -5,8 +5,8 @@ _RocketHideout3BattleText2::
 	done
 
 _RocketHideout3EndBattleText2::
-	text "Paf!"
-	line "J'suis au tapis!"
+	text "Paf! J'suis au"
+	line "tapis!"
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
@@ -24,8 +24,8 @@ _RocketHideout3BattleTxt::
 	done
 
 _RocketHideout3EndBattleText3::
-	text "Quoi?"
-	line "J'ai perdu? NON!"
+	text "Quoi? J'ai perdu?"
+	line "NON!"
 	prompt
 
 _RocketHide3AfterBattleText3::

@@ -5,8 +5,7 @@ _Mansion2BattleText1::
 	done
 
 _Mansion2EndBattleText1::
-	text "Non!"
-	line "Mon butin!"
+	text "Non! Mon butin!"
 	prompt
 
 _Mansion2AfterBattleText1::

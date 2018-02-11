@@ -32,7 +32,7 @@ _LanceBeforeBattleText::
 	done
 
 _LanceEndBattleText::
-	text "Incroyable!"
+	text "PETER: Incroyable!"
 
 	para "Tu as bien mérité"
 	line "le titre de..."

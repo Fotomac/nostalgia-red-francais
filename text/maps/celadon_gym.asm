@@ -29,7 +29,7 @@ _CeladonGymText_48a5e::
 	done
 
 _CeladonGymText_48a63::
-	text "Oh!"
+	text "ERIKA: Oh!"
 	line "J'ai perdu?"
 
 	para "Je dois avouer que"
@@ -117,8 +117,7 @@ _CeladonGymBattleText3::
 	done
 
 _CeladonGymEndBattleText3::
-	text "Hein?"
-	line "Mes cheveux!"
+	text "Hein? Mes cheveux!"
 	prompt
 
 _CeladonGymAfterBattleText3::
@@ -183,8 +182,7 @@ _CeladonGymBattleText6::
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "Vilain."
+	text "Oh! Vilain."
 	prompt
 
 _CeladonGymAfterBattleText6::
@@ -226,8 +224,7 @@ _CeladonGymBattleText8::
 	done
 
 _CeladonGymEndBattleText8::
-	text "Oh!"
-	line "Pourquoi?"
+	text "Oh! Pourquoi?"
 	prompt
 
 _CeladonGymAfterBattleText8::

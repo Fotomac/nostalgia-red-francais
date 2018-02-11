@@ -251,7 +251,7 @@ _OaksLabRivalChallengeText::
 	done
 
 _OaksLabText_1d3be::
-	text "QUOI???"
+	text "<RIVAL>: QUOI???"
 	line "Incroyable!"
 	cont "J'ai pas pris le"
 	cont "bon #MON!"

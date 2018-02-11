@@ -38,7 +38,7 @@ _Route22RivalAfterBattleText1::
 	done
 
 _Route22RivalDefeatedText1::
-	text "Haha!"
+	text "<RIVAL>: Haha!"
 	line "Tu as eu une"
 	cont "chance de"
 	cont "minable, minable!"
@@ -97,7 +97,7 @@ _Route22RivalAfterBattleText2::
 	done
 
 _Route22RivalDefeatedText2::
-	text "Quoi!?"
+	text "<RIVAL>: Quoi!?"
 
 	para "Je pensais à"
 	line "autre chose!"

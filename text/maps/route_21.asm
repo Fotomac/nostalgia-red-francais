@@ -21,8 +21,7 @@ _Route21BattleText2::
 	done
 
 _Route21EndBattleText2::
-	text "Zut!"
-	line "Encore un"
+	text "Zut! Encore un"
 	cont "MAGICARPE!"
 	prompt
 
@@ -56,9 +55,8 @@ _Route21BattleText4::
 	done
 
 _Route21EndBattleText4::
-	text "Yah!"
-	line "Coup bas, c'est"
-	cont "pas réglo!"
+	text "Yah! Coup bas,"
+	line "c'est pas réglo!"
 	prompt
 
 _Route21AfterBattleText4::
@@ -109,8 +107,7 @@ _Route21BattleText7::
 	done
 
 _Route21EndBattleText7::
-	text "Woh!"
-	line "J'ai perdu!"
+	text "Woh! J'ai perdu!"
 	prompt
 
 _Route21AfterBattleText7::
@@ -124,8 +121,8 @@ _Route21BattleText8::
 	done
 
 _Route21EndBattleText8::
-	text "Heu!"
-	line "J'le ferai plus!"
+	text "Heu! J'le ferai"
+	line "plus!"
 	prompt
 
 _Route21AfterBattleText8::
@@ -142,8 +139,8 @@ _Route21BattleText9::
 	done
 
 _Route21EndBattleText9::
-	text "Argh!"
-	line "Perte de temps!"
+	text "Argh! Perte de"
+	line "temps!"
 	prompt
 
 _Route21AfterBattleText9::

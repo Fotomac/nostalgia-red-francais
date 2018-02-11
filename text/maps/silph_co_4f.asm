@@ -31,8 +31,7 @@ _SilphCo4BattleText3::
 	done
 
 _SilphCo4EndBattleText3::
-	text "NAN!"
-	line "Mes #MON!"
+	text "NAN! Mes #MON!"
 	prompt
 
 _SilphCo4AfterBattleText3::
@@ -49,8 +48,7 @@ _SilphCo4BattleText4::
 	done
 
 _SilphCo4EndBattleText4::
-	text "Mais?"
-	line "Qui es-tu?"
+	text "Mais? Qui es-tu?"
 	prompt
 
 _SilphCo4AfterBattleText4::

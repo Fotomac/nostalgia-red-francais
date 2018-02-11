@@ -20,7 +20,7 @@ _BlaineBattleText::
 	done
 
 _BlaineEndBattleText::
-	text "Vlouff!"
+	text "AUGUSTE: Vlouff!"
 	line "Je me suis fait"
 	cont "vaporiser!"
 
@@ -105,9 +105,8 @@ _CinnabarGymText_75994::
 	done
 
 _CinnabarGymText_75999::
-	text "Ah!"
-	line "J'ai honte, je me"
-	cont "rends!"
+	text "Ah! J'ai honte,"
+	line "je me rends!"
 	prompt
 
 _CinnabarGymText_7599e::
@@ -212,8 +211,7 @@ _CinnabarGymText_75a9d::
 	done
 
 _CinnabarGymText_75aa2::
-	text "Oh!"
-	line "Tu l'savais!"
+	text "Oh! Tu l'savais!"
 	prompt
 
 _CinnabarGymText_75aa7::

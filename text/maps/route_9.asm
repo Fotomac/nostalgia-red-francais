@@ -5,8 +5,7 @@ _Route9BattleText1::
 	done
 
 _Route9EndBattleText1::
-	text "Ah!"
-	line "Bien défendu!"
+	text "Ah! Bien défendu!"
 	prompt
 
 _Route9AfterBattleText1::
@@ -22,8 +21,7 @@ _Route9BattleText2::
 	done
 
 _Route9EndBattleText2::
-	text "Paf!"
-	line "J'suis fini!"
+	text "Paf! J'suis fini!"
 	prompt
 
 _Route9AfterBattleText2::
@@ -72,8 +70,7 @@ _Route9BattleText5::
 	done
 
 _Route9EndBattleText5::
-	text "Ha!"
-	line "Viens, viens!"
+	text "Ha! Viens, viens!"
 
 	para "Heu, j'ai plus"
 	line "de #MON!"
@@ -91,8 +88,7 @@ _Route9BattleText6::
 	done
 
 _Route9EndBattleText6::
-	text "Dur,"
-	line "très dur!"
+	text "Dur, très dur!"
 	prompt
 
 _Route9AfterBattleText6::
@@ -127,8 +123,8 @@ _Route9BattleText8::
 	done
 
 _Route9EndBattleText8::
-	text "Ha!"
-	line "Tu m'as bien eu!"
+	text "Ha! Tu m'as bien"
+	line "eu!"
 	prompt
 
 _Route9AfterBattleText8::
@@ -143,8 +139,8 @@ _Route9BattleText9::
 	done
 
 _Route9EndBattleText9::
-	text "Super-"
-	line "cafards! Houhou!"
+	text "Super-cafards!"
+	line "Houhou!"
 	cont "Réveillez-vous!"
 	prompt
 

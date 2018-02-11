@@ -21,9 +21,8 @@ _Route6BattleText2::
 	done
 
 _Route6EndBattleText2::
-	text "Merde"
-	line "alors! Pas bon"
-	cont "perdre!"
+	text "Merde alors!"
+	line "Pas bon perdre!"
 	prompt
 
 _Route6BattleText3::
@@ -32,8 +31,8 @@ _Route6BattleText3::
 	done
 
 _Route6EndBattleText3::
-	text "Non!"
-	line "C'est une blague!"
+	text "Non! C'est une"
+	line "blague!"
 	prompt
 
 _Route6AfterBattleText3::
@@ -65,8 +64,7 @@ _Route6BattleText5::
 	done
 
 _Route6EndBattleText5::
-	text "Ho."
-	line "Pas glop!"
+	text "Ho. Pas glop!"
 	prompt
 
 _Route6AfterBattleText5::
@@ -83,8 +81,8 @@ _Route6BattleText6::
 	done
 
 _Route6EndBattleText6::
-	text "Whaa!"
-	line "Trop puissant!"
+	text "Whaa! Trop"
+	line "puissant!"
 	prompt
 
 _Route6AfterBattleText6::

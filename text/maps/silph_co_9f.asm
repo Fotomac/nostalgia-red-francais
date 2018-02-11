@@ -36,8 +36,7 @@ _SilphCo9BattleText2::
 	done
 
 _SilphCo9EndBattleText2::
-	text "Non!"
-	line "J'ai perdu!"
+	text "Non! J'ai perdu!"
 	prompt
 
 _SilphCo9AfterBattleText2::

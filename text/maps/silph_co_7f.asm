@@ -125,8 +125,8 @@ _SilphCo7BattleText3::
 	done
 
 _SilphCo7EndBattleText3::
-	text "Yaaah!"
-	line "Frères! A l'aide!"
+	text "Yaaah! Frères!"
+	line "A l'aide!"
 	prompt
 
 _SilphCo7AfterBattleText3::
@@ -142,8 +142,7 @@ _SilphCo7BattleText4::
 	done
 
 _SilphCo7EndBattleText4::
-	text "OK."
-	line "J'ai perdu."
+	text "OK. J'ai perdu."
 	prompt
 
 _SilphCo7AfterBattleText4::
@@ -175,7 +174,7 @@ _SilphCo7Text_51ec3::
 	done
 
 _SilphCo7Text_51ec8::
-	text "Haha!"
+	text "<RIVAL>: Haha!"
 	line "Tu es donc prêt"
 	cont "pour le chef de"
 	cont "la TEAM ROCKET!"

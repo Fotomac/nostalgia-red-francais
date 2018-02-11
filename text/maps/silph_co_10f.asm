@@ -17,8 +17,7 @@ _SilphCo10BattleText1::
 	done
 
 _SilphCo10EndBattleText1::
-	text "Aïe!"
-	line "Bobo!"
+	text "Aïe! Bobo!"
 	prompt
 
 _SilphCo10AfterBattleText1::
@@ -34,12 +33,10 @@ _SilphCo10BattleText2::
 	done
 
 _SilphCo10EndBattleText2::
-	text "Oh!"
-	line "Game Over!"
+	text "Oh! Game Over!"
 	prompt
 
 _SilphCo10AfterBattleText2::
 	text "T'as gagné!"
 	line "T'es content?"
 	done
-

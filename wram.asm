@@ -2745,7 +2745,6 @@ wRoute3CurScript:: ; d5f8
 	ds 1
 wRoute4CurScript:: ; d5f9
 	ds 1
-	ds 1
 wViridianGymCurScript:: ; d5fb
 	ds 1
 wPewterGymCurScript:: ; d5fc
@@ -2778,7 +2777,6 @@ wSSAnne9CurScript:: ; d609
 	ds 1
 wRoute22CurScript:: ; d60a
 	ds 1
-	ds 1
 wRedsHouse2CurScript:: ; d60c
 	ds 1
 wViridianMarketCurScript:: ; d60d
@@ -2787,7 +2785,6 @@ wRoute22GateCurScript:: ; d60e
 	ds 1
 wCeruleanCityCurScript:: ; d60f
 	ds 1
-	ds 7
 wSSAnne5CurScript:: ; d617
 	ds 1
 wViridianForestCurScript:: ; d618
@@ -2809,7 +2806,6 @@ wSafariZoneEntranceCurScript:: ; d61f
 wRockTunnel2CurScript:: ; d620
 	ds 1
 wRockTunnel1CurScript:: ; d621
-	ds 1
 	ds 1
 wRoute11CurScript:: ; d623
 	ds 1
@@ -2846,15 +2842,15 @@ wRocketHideout2CurScript:: ; d632
 wRocketHideout3CurScript:: ; d633
 	ds 1
 wRocketHideout4CurScript:: ; d634
-	ds 2
+	ds 1
 wRoute6GateCurScript:: ; d636
 	ds 1
 wRoute8GateCurScript:: ; d637
-	ds 2
+	ds 1
 wCinnabarIslandCurScript:: ; d639
 	ds 1
 wMansion1CurScript:: ; d63a
-	ds 2
+	ds 1
 wMansion2CurScript:: ; d63c
 	ds 1
 wMansion3CurScript:: ; d63d
@@ -2864,7 +2860,7 @@ wMansion4CurScript:: ; d63e
 wVictoryRoad2CurScript:: ; d63f
 	ds 1
 wVictoryRoad3CurScript:: ; d640
-	ds 2
+	ds 1
 wFightingDojoCurScript:: ; d642
 	ds 1
 wSilphCo2CurScript:: ; d643
@@ -2939,10 +2935,14 @@ wSeafoamIslands5CurScript:: ; d668
 wRoute18GateCurScript:: ; d669
 	ds 1
 
-	ds 78
+	ds 84
 wGameProgressFlagsEnd::
 
-	ds 56
+	ds 36
+
+wCurTrainerName::
+; used to store individual trainer names
+	ds 13
 
 wObtainedHiddenItemsFlags::
 	ds 14

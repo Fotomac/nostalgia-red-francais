@@ -17,8 +17,8 @@ _SilphCo3BattleText1::
 	done
 
 _SilphCo3EndBattleText1::
-	text "Yaha!"
-	line "T'es trop fort!"
+	text "Yaha! T'es trop"
+	line "fort!"
 	prompt
 
 _SilphCo3AfterBattleText1::

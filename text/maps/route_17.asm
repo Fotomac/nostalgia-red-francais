@@ -37,8 +37,7 @@ _Route17BattleText3::
 	done
 
 _Route17EndBattleText3::
-	text "Argh!"
-	line "Fumée!"
+	text "Argh! Fumée!"
 	prompt
 
 _Route17AfterBattleText3::
@@ -57,9 +56,8 @@ _Route17BattleText4::
 	done
 
 _Route17EndBattleText4::
-	text "Nyargh!"
-	line "J'ai crevé une"
-	cont "roue!"
+	text "Nyargh! J'ai crevé"
+	line "une roue!"
 	prompt
 
 _Route17AfterBattleText4::
@@ -138,8 +136,8 @@ _Route17BattleText9::
 	done
 
 _Route17EndBattleText9::
-	text "Pan!"
-	line "Dans les dents!"
+	text "Pan! Dans les"
+	line "dents!"
 	prompt
 
 _Route17AfterBattleText9::
@@ -154,8 +152,8 @@ _Route17BattleText10::
 	done
 
 _Route17EndBattleText10::
-	text "Voilà,"
-	line "t'es content?"
+	text "Voilà, t'es"
+	line "content?"
 	prompt
 
 _Route17AfterBattleText10::

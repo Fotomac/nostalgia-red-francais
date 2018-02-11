@@ -13,8 +13,7 @@ _ViridianForestBattleText1::
 	done
 
 _ViridianForestEndBattleText1::
-	text "NON!"
-	line "CHENIPAN n'y"
+	text "NON! CHENIPAN n'y"
 	cont "arrivera pas!"
 	prompt
 
@@ -32,9 +31,9 @@ _ViridianForestBattleText2::
 	done
 
 _ViridianForestEndBattleText2::
-	text "Oups!"
-	line "N'en n'a plus des"
-	cont "#MON, moi!"
+	text "Oups! N'en n'a"
+	line "plus des #MON,"
+	line "moi!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
@@ -50,8 +49,7 @@ _ViridianForestBattleText3::
 	done
 
 _ViridianForestEndBattleText3::
-	text "Houlà!"
-	line "J'abandonne!"
+	text "Houlà! J'abandonne!"
 	cont "T'es trop fort!"
 	prompt
 
@@ -73,9 +71,8 @@ _ViridianForestBattleText4::
 	done
 
 _ViridianForestEndBattleText4::
-	text "Oh, bordel!"
-	line "Tout va de"
-	cont "travers!"
+	text "Oh, bordel! Tout"
+	line "va de travers!"
 	prompt
 
 _ViridianFrstAfterBattleText4::

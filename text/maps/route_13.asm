@@ -5,8 +5,7 @@ _Route13BattleText2::
 	done
 
 _Route13EndBattleText2::
-	text "Tu"
-	line "m'as volé dans"
+	text "Tu m'as volé dans"
 	cont "les plumes!"
 	prompt
 
@@ -23,8 +22,7 @@ _Route13BattleText3::
 	done
 
 _Route13EndBattleText3::
-	text "Oh!"
-	line "Perdu!"
+	text "Oh! Perdu!"
 	prompt
 
 _Route13AfterBattleText3::
@@ -56,8 +54,7 @@ _Route13BattleText5::
 	done
 
 _Route13EndBattleText5::
-	text "Wow!"
-	line "J'suis morte!"
+	text "Wow! J'suis morte!"
 	prompt
 
 _Route13AfterBattleText5::
@@ -74,8 +71,7 @@ _Route13BattleText6::
 	done
 
 _Route13EndBattleText6::
-	text "J'ai"
-	line "tout raté!"
+	text "J'ai tout raté!"
 	prompt
 
 _Route13AfterBattleText6::
@@ -91,8 +87,7 @@ _Route13BattleText7::
 	done
 
 _Route13EndBattleText7::
-	text "Le"
-	line "vent a tourné!"
+	text "Le vent a tourné!"
 	prompt
 
 _Route13AfterBattleText7::
@@ -106,8 +101,7 @@ _Route13BattleText8::
 	done
 
 _Route13EndBattleText8::
-	text "Oh!"
-	line "Petit voyou!"
+	text "Oh! Petit voyou!"
 	prompt
 
 _Route13AfterBattleText8::
@@ -124,8 +118,7 @@ _Route13BattleText9::
 	done
 
 _Route13EndBattleText9::
-	text "Fini?"
-	line "Déjà?"
+	text "Fini? Déjà?"
 	prompt
 
 _Route13AfterBattleText9::
@@ -141,8 +134,7 @@ _Route13BattleText10::
 	done
 
 _Route13EndBattleText10::
-	text "Zipp!"
-	line "J'ai dérapé!"
+	text "Zipp! J'ai dérapé!"
 	prompt
 
 _Route13AfterBattleText10::
@@ -157,8 +149,7 @@ _Route13BattleText11::
 	done
 
 _Route13EndBattleText11::
-	text "Oh!"
-	line "Ma cage!"
+	text "Oh! Ma cage!"
 	prompt
 
 _Route13AfterBattleText11::

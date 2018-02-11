@@ -15,7 +15,7 @@ _FightingDojoText_5ce8e::
 	done
 
 _FightingDojoText_5ce93::
-	text "STOP!"
+	text "FEI: STOP!"
 	line "Tu m'as battu!"
 	cont "J'ai honte!"
 	prompt
@@ -51,8 +51,8 @@ _FightingDojoBattleText1::
 	done
 
 _FightingDojoEndBattleText1::
-	text "Oh!"
-	line "Tu m'as éclaté!"
+	text "Oh! Tu m'as"
+	line "éclaté!"
 	prompt
 
 _FightingDojoAfterBattleText1::
@@ -73,8 +73,7 @@ _FightingDojoBattleText2::
 	done
 
 _FightingDojoEndBattleText2::
-	text "Nyaha!"
-	line "T'es fort!"
+	text "Nyaha! T'es fort!"
 	prompt
 
 _FightingDojoAfterBattleText2::
@@ -93,9 +92,8 @@ _FightingDojoBattleText3::
 	done
 
 _FightingDojoEndBattleText3::
-	text "Woaa!"
-	line "Les pierres, ça"
-	cont "rend pas les"
+	text "Woaa! Les pierres,"
+	line "ça rend pas les"
 	cont "coups!"
 	prompt
 
@@ -116,8 +114,7 @@ _FightingDojoBattleText4::
 	done
 
 _FightingDojoEndBattleText4::
-	text "Ping!"
-	line "J'suis K.O.!"
+	text "Ping! J'suis K.O.!"
 	prompt
 
 _FightingDojoAfterBattleText4::

@@ -21,8 +21,7 @@ _Route8BattleText2::
 	done
 
 _Route8EndBattleText2::
-	text "Haaa!"
-	line "Le hasard..."
+	text "Haaa! Le hasard..."
 	prompt
 
 _Route8AfterBattleText2::
@@ -36,8 +35,7 @@ _Route8BattleText3::
 	done
 
 _Route8EndBattleText3::
-	text "Hé!"
-	line "Pas logique!"
+	text "Hé! Pas logique!"
 	prompt
 
 _Route8AfterBattleText3::
@@ -121,8 +119,8 @@ _Route8BattleText8::
 	done
 
 _Route8EndBattleText8::
-	text "J'ai"
-	line "raté le jackpot!"
+	text "J'ai raté le"
+	line "jackpot!"
 	prompt
 
 _Route8AfterBattleText8::

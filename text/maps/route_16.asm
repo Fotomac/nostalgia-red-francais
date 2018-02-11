@@ -19,8 +19,8 @@ _Route16BattleText2::
 	done
 
 _Route16EndBattleText2::
-	text "Tu peux"
-	line "garder le vélo!"
+	text "Tu peux garder"
+	line "le vélo!"
 	prompt
 
 _Route16AfterBattleText2::
@@ -84,8 +84,8 @@ _Route16BattleText6::
 	done
 
 _Route16EndBattleText6::
-	text "Bah!"
-	line "J'suis débile!"
+	text "Bah! J'suis"
+	line "débile!"
 	prompt
 
 _Route16AfterBattleText6::

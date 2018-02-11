@@ -15,9 +15,8 @@ _Route3BattleText1::
 	done
 
 _Route3EndBattleText1::
-	text "Ben,"
-	line "tu m'as encore"
-	cont "battu!"
+	text "Ben, tu m'as"
+	line "encore battu!"
 	prompt
 
 _Route3AfterBattleText1::
@@ -34,9 +33,8 @@ _Route3BattleText2::
 	done
 
 _Route3EndBattleText2::
-	text "Nyahaa,"
-	line "tu m'as taillé"
-	cont "un short!"
+	text "Nyahaa, tu m'as"
+	line "taillé un short!"
 	prompt
 
 _Route3AfterBattleText2::
@@ -54,8 +52,8 @@ _Route3BattleText3::
 	done
 
 _Route3EndBattleText3::
-	text "Tiens,"
-	line "c'est ma photo!"
+	text "Tiens, c'est ma"
+	line "photo!"
 	prompt
 
 _Route3AfterBattleText3::
@@ -70,9 +68,9 @@ _Route3BattleText4::
 	done
 
 _Route3EndBattleText4::
-	text "Avec"
-	line "d'autres #MON"
-	cont "j'aurais gagné!"
+	text "Avec d'autres"
+	line "#MON j'aurais"
+	cont "gagné!"
 	prompt
 
 _Route3AfterBattleText4::
@@ -123,8 +121,7 @@ _Route3BattleText7::
 	done
 
 _Route3EndBattleText7::
-	text "Ben,"
-	line "y m'en faut"
+	text "Ben, y m'en faut"
 	cont "des nouveaux!"
 	prompt
 

@@ -60,9 +60,9 @@ _SSAnne9BattleText1::
 	done
 
 _SSAnne9EndBattleText1::
-	text "Woah!"
-	line "Ha! Je me sens"
-	cont "en pleine forme!"
+	text "Woah! Ha!"
+	line "Je me sens en"
+	cont "pleine forme!"
 	prompt
 
 _SSAnne9AfterBattleText1::
@@ -77,8 +77,7 @@ _SSAnne9BattleText2::
 	done
 
 _SSAnne9EndBattleText2::
-	text "OK!"
-	line "J'suis fait!!"
+	text "OK! J'suis fait!!"
 	prompt
 
 _SSAnne9AfterBattleText2::
@@ -95,8 +94,8 @@ _SSAnne9BattleText3::
 	done
 
 _SSAnne9EndBattleText3::
-	text "Bravo!"
-	line "Tu es très fort!"
+	text "Bravo! Tu es très"
+	line "fort!"
 	prompt
 
 _SSAnne9AfterBattleText3::

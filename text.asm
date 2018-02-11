@@ -237,6 +237,19 @@ INCLUDE "text/maps/rock_tunnel_b2f_2.asm"
 INCLUDE "text/maps/seafoam_islands_b4f.asm"
 
 _AIBattleWithdrawText::
+	TX_RAM wCurTrainerName
+	text " le"
+	line "@"
+	TX_RAM wTrainerName
+	text ""
+	cont "rappelle..."
+	cont "@"
+	TX_RAM wEnemyMonNick
+	text "!"
+	prompt
+
+_AIBattleWithdrawText2::
+	text "Le @"
 	TX_RAM wTrainerName
 	text ""
 	line "rappelle..."
@@ -245,10 +258,49 @@ _AIBattleWithdrawText::
 	text "!"
 	prompt
 
+_AIBattleWithdrawTextR::
+	text "Le @"
+	TX_RAM wCurTrainerName
+	text ""
+	line "ROCKET"
+	cont "rappelle..."
+	cont "@"
+	TX_RAM wEnemyMonNick
+	text "!"
+	prompt
+
 _AIBattleUseItemText::
+	TX_RAM wCurTrainerName
+	text " le"
+	line "@"
+	TX_RAM wTrainerName
+	text " uti-"
+	cont "lise @"
+	TX_RAM wcd6d
+	text ""
+	cont "sur @"
+	TX_RAM wEnemyMonNick
+	text "!"
+	prompt
+
+_AIBattleUseItemText2::
+	text "Le @"
 	TX_RAM wTrainerName
 	text " uti-"
 	line "lise @"
+	TX_RAM wcd6d
+	text ""
+	cont "sur @"
+	TX_RAM wEnemyMonNick
+	text "!"
+	prompt
+
+_AIBattleUseItemTextR::
+	text "Le @"
+	TX_RAM wCurTrainerName
+	text ""
+	line "ROCKET uti-"
+	cont "lise @"
 	TX_RAM wcd6d
 	text ""
 	cont "sur @"
@@ -1158,8 +1210,26 @@ _MoneyForWinningText::
 _TrainerDefeatedText::
 	text "<PLAYER> a vaincu"
 	line "@"
+	TX_RAM wCurTrainerName
+	text " le"
+	cont "@"
 	TX_RAM wTrainerName
 	text "!"
+	prompt
+
+_TrainerDefeatedText2::
+	text "<PLAYER> a vaincu"
+	line "le @"
+	TX_RAM wTrainerName
+	text "!"
+	prompt
+
+_RocketDefeatedText::
+	text "<PLAYER> a vaincu"
+	line "le @"
+	TX_RAM wCurTrainerName
+	text ""
+	cont "ROCKET!"
 	prompt
 
 _PlayerMonFaintedText::
@@ -1194,6 +1264,23 @@ _LinkBattleLostText::
 	prompt
 
 _TrainerAboutToUseText::
+	TX_RAM wCurTrainerName
+	text " le"
+	line "@"
+	TX_RAM wTrainerName
+	text ""
+	cont "va appeler..."
+	cont"@"
+	TX_RAM wEnemyMonNick
+	text "!"
+
+	para "<PLAYER> va-t-il"
+	line "changer de"
+	cont "#MON?"
+	done
+
+_TrainerAboutToUseText2::
+	text "Le @"
 	TX_RAM wTrainerName
 	text ""
 	line "va appeler..."
@@ -1206,10 +1293,49 @@ _TrainerAboutToUseText::
 	cont "#MON?"
 	done
 
+_RocketAboutToUseText::
+	text "Le @"
+	TX_RAM wCurTrainerName
+	text ""
+	line "ROCKET"
+	cont "va appeler..."
+	cont"@"
+	TX_RAM wEnemyMonNick
+	text "!"
+
+	para "<PLAYER> va-t-il"
+	line "changer de"
+	cont "#MON?"
+	done
+
 _TrainerSentOutText::
+	TX_RAM wCurTrainerName
+	text " le"
+	line "@"
 	TX_RAM wTrainerName
 	text ""
 	line "fait appel à... "
+	cont "@"
+	TX_RAM wEnemyMonNick
+	text "!"
+	done
+
+_TrainerSentOutText2::
+	text "Le @"
+	TX_RAM wTrainerName
+	text ""
+	line "fait appel à... "
+	cont "@"
+	TX_RAM wEnemyMonNick
+	text "!"
+	done
+
+_RocketSentOutText::
+	text "Le @"
+	TX_RAM wCurTrainerName
+	text ""
+	line "ROCKET"
+	cont "fait appel à... "
 	cont "@"
 	TX_RAM wEnemyMonNick
 	text "!"
@@ -1544,9 +1670,27 @@ _EnemyAppearedText::
 	prompt
 
 _TrainerWantsToFightText::
+	TX_RAM wCurTrainerName
+	text " le"
+	line "@"
+	TX_RAM wTrainerName
+	text " veut"
+	cont "se battre!"
+	prompt
+
+_TrainerWantsToFightText2::
+	text "Le @"
 	TX_RAM wTrainerName
 	text " veut"
 	line "se battre!"
+	prompt
+
+_RocketWantsToFightText::
+	text "Le @"
+	TX_RAM wCurTrainerName
+	text ""
+	line "ROCKET veut"
+	cont "se battre!"
 	prompt
 
 _UnveiledGhostText::
@@ -2924,8 +3068,7 @@ _ItemUseBallText06::
 	TX_RAM wEnemyMonNick
 	text " sont"
 	cont "ajoutées au"
-	cont "#DEX!"
-	prompt
+	cont "#DEX!@@"
 
 _SurfingGotOnText::
 	text "@"

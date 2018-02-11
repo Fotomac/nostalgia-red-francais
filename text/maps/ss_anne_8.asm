@@ -12,8 +12,8 @@ _SSAnne8BattleText1::
 	done
 
 _SSAnne8EndBattleText1::
-	text "Non!"
-	line "Mes p'tits amis!"
+	text "Non! Mes p'tits"
+	line "amis!"
 	prompt
 
 _SSAnne8AfterBattleText1::
@@ -28,8 +28,8 @@ _SSAnne8BattleText2::
 	done
 
 _SSAnne8EndBattleText2::
-	text "Huf!"
-	line "Tu es mal élevé!!"
+	text "Huf! Tu es mal"
+	line "élevé!!"
 	prompt
 
 _SSAnne8AfterBattleText2::
@@ -43,8 +43,8 @@ _SSAnne8BattleText3::
 	done
 
 _SSAnne8EndBattleText3::
-	text "Woo!"
-	line "T'es cool, toi!"
+	text "Woo! T'es cool,"
+	line "toi!"
 	prompt
 
 _SSAnne8AfterBattleText3::
@@ -64,9 +64,9 @@ _SSAnne8BattleText4::
 	done
 
 _SSAnne8EndBattleText4::
-	text "Quoi!"
-	line "Un tour du monde"
-	cont "pour ce résultat!"
+	text "Quoi! Un tour du"
+	line "monde pour ce"
+	cont "résultat!"
 	cont "C'est nul!"
 	prompt
 

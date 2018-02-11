@@ -1020,7 +1020,21 @@ TrainerBattleVictory:
 	cp LINK_STATE_BATTLING
 	ld a, b
 	call nz, PlayBattleVictoryMusic
+	ld hl, SpecialTrainerIDs
+	ld a, [wTrainerClass]
+	cp ROCKET
+	jr z, .Rocket3
+	ld de, 1
+	call IsInArray
+	jr c, .specialTrainer3
 	ld hl, TrainerDefeatedText
+	jr .next12
+.specialTrainer3
+	ld hl, TrainerDefeatedText2
+	jr .next12
+.Rocket3
+	ld hl, RocketDefeatedText
+.next12
 	call PrintText
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
@@ -1043,6 +1057,14 @@ MoneyForWinningText:
 
 TrainerDefeatedText:
 	TX_FAR _TrainerDefeatedText
+	db "@"
+
+TrainerDefeatedText2:
+	TX_FAR _TrainerDefeatedText2
+	db "@"
+
+RocketDefeatedText:
+	TX_FAR _RocketDefeatedText
 	db "@"
 
 PlayBattleVictoryMusic:
@@ -1465,7 +1487,21 @@ EnemySendOutFirstMon:
 	ld a,[wOptions]
 	bit 6,a
 	jr nz,.next4
+	ld hl, SpecialTrainerIDs
+	ld a, [wTrainerClass]
+	cp ROCKET
+	jr z, .Rocket2
+	ld de, 1
+	call IsInArray
+	jr c, .specialTrainer2
 	ld hl, TrainerAboutToUseText
+	jr .next11
+.specialTrainer2
+	ld hl, TrainerAboutToUseText2
+	jr .next11
+.Rocket2
+	ld hl, RocketAboutToUseText
+.next11
 	call PrintText
 	coord hl, 0, 7
 	lb bc, 8, 1
@@ -1508,7 +1544,21 @@ EnemySendOutFirstMon:
 	ld b, SET_PAL_BATTLE
 	call RunPaletteCommand
 	call GBPalNormal
+	ld hl, SpecialTrainerIDs
+	ld a, [wTrainerClass]
+	cp ROCKET
+	jr z, .Rocket1
+	ld de, 1
+	call IsInArray
+	jr c, .specialTrainer1
 	ld hl,TrainerSentOutText
+	jr .next10
+.specialTrainer1
+	ld hl,TrainerSentOutText2
+	jr .next10
+.Rocket1
+	ld hl,RocketSentOutText
+.next10
 	call PrintText
 	ld a,[wEnemyMonSpecies2]
 	ld [wcf91],a
@@ -1536,8 +1586,24 @@ TrainerAboutToUseText:
 	TX_FAR _TrainerAboutToUseText
 	db "@"
 
+TrainerAboutToUseText2:
+	TX_FAR _TrainerAboutToUseText2
+	db "@"
+
+RocketAboutToUseText:
+	TX_FAR _RocketAboutToUseText
+	db "@"
+
 TrainerSentOutText:
 	TX_FAR _TrainerSentOutText
+	db "@"
+
+TrainerSentOutText2:
+	TX_FAR _TrainerSentOutText2
+	db "@"
+
+RocketSentOutText:
+	TX_FAR _RocketSentOutText
 	db "@"
 
 ; tests if the player has any pokemon that are not fainted
@@ -5579,8 +5645,11 @@ MoveHitTest:
 	ld a,[wEnemyMoveAccuracy]
 	ld b,a
 .doAccuracyCheck
-; if the random number generated is greater than or equal to the scaled accuracy, the move misses
-; note that this means that even the highest accuracy is still just a 255/256 chance, not 100%
+; if the move is 100% accurate, don't miss
+	ld a, b
+	cp $FF
+	ret z
+; else if the random number generated is greater than or equal to the scaled accuracy, the move misses
 	call BattleRandom
 	cp b
 	jr nc,.moveMissed

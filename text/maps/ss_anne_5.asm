@@ -45,8 +45,7 @@ _SSAnne5BattleText2::
 	done
 
 _SSAnne5EndBattleText2::
-	text "Oh!"
-	line "Beau combat!"
+	text "Oh! Beau combat!"
 	prompt
 
 _SSAnne5AfterBattleText2::

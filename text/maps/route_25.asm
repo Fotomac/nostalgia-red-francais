@@ -5,8 +5,7 @@ _Route25BattleText1::
 	done
 
 _Route25EndBattleText1::
-	text "Tu es"
-	line "bon gagnant."
+	text "Tu es bon gagnant."
 	prompt
 
 _Route25AfterBattleText1::
@@ -27,8 +26,8 @@ _Route25BattleText2::
 	done
 
 _Route25EndBattleText2::
-	text "Yaha!"
-	line "J'suis pas fou!"
+	text "Yaha! J'suis pas"
+	line "fou!"
 	prompt
 
 _Route25AfterBattleText2::
@@ -98,8 +97,8 @@ _Route25BattleText6::
 	done
 
 _Route25EndBattleText6::
-	text "J'suis"
-	line "pas jalouse,"
+	text "J'suis pas"
+	line "jalouse,"
 	cont "j'suis nulle!"
 	prompt
 
@@ -116,8 +115,8 @@ _Route25BattleText7::
 	done
 
 _Route25EndBattleText7::
-	text "Pfiou!"
-	line "T'es un balèze!"
+	text "Pfiou! T'es un"
+	line "balèze!"
 	prompt
 
 _Route25AfterBattleText7::
@@ -134,8 +133,7 @@ _Route25BattleText8::
 	done
 
 _Route25EndBattleText8::
-	text "Heu!"
-	line "J'suis eu."
+	text "Heu! J'suis eu."
 	prompt
 
 _Route25AfterBattleText8::
@@ -151,8 +149,8 @@ _Route25BattleText9::
 	done
 
 _Route25EndBattleText9::
-	text "Hmm."
-	line "Tu te bats bien."
+	text "Hmm. Tu te bats"
+	line "bien."
 	prompt
 
 _Route25AfterBattleText9::

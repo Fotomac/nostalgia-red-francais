@@ -50,8 +50,7 @@ _Route20BattleText4::
 	done
 
 _Route20EndBattleText4::
-	text "Non!"
-	line "Pas de pitié!"
+	text "Non! Pas de pitié!"
 	prompt
 
 _Route20AfterBattleText4::
@@ -85,8 +84,7 @@ _Route20BattleText6::
 	done
 
 _Route20EndBattleText6::
-	text "Ouch!"
-	line "Je coule!"
+	text "Ouch! Je coule!"
 	prompt
 
 _Route20AfterBattleText6::
@@ -102,8 +100,7 @@ _Route20BattleText7::
 	done
 
 _Route20EndBattleText7::
-	text "Oh!"
-	line "NOoOoOon!"
+	text "Oh! NOoOoOon!"
 	prompt
 
 _Route20AfterBattleText7::
@@ -119,8 +116,8 @@ _Route20BattleText8::
 	done
 
 _Route20EndBattleText8::
-	text "Non!"
-	line "Pas mes perles!"
+	text "Non! Pas mes"
+	line "perles!"
 	prompt
 
 _Route20AfterBattleText8::

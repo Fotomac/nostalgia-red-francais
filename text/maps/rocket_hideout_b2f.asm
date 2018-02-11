@@ -6,8 +6,7 @@ _RocketHideout2BattleText2::
 	done
 
 _RocketHideout2EndBattleText2::
-	text "STOP!"
-	line "J'",$ac,"e rends!" ; Stop 'm being replaced by $E5
+	text "STOP! J'",$ac,"e rends!" ; Stop 'm being replaced by $E5
 	prompt
 
 _RocketHideout2AfterBattleTxt2::

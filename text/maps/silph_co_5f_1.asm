@@ -34,8 +34,8 @@ _SilphCo5BattleText3::
 	done
 
 _SilphCo5EndBattleText3::
-	text "PAF!"
-	line "J'suis mauvais!"
+	text "PAF! J'suis"
+	line "mauvais!"
 	prompt
 
 _SilphCo5AfterBattleText3::

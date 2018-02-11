@@ -19,7 +19,7 @@ _KogaBeforeBattleText::
 	done
 
 _KogaAfterBattleText::
-	text "Gwaha...heu?"
+	text "KOGA: Gwaha...heu?"
 	line "Tu as prouvé ta"
 	cont "valeur!"
 

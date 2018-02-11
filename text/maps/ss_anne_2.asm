@@ -10,10 +10,10 @@ _SSAnne2Text1::
 	done
 
 _SSAnneRivalBeforeBattleText::
-	text "<RIVAL>: Salut!"
-	line "<PLAYER>!"
+	text "<RIVAL>: ¡Saludos"
+	line "amigo!"
 
-	para "Toi! Ici!"
+	para "<PLAYER>! Toi! Ici!"
 	line "Sans blague!"
 
 	para "<PLAYER>, as-tu"
@@ -35,7 +35,7 @@ _SSAnneRivalBeforeBattleText::
 	done
 
 _SSAnneRivalDefeatedText::
-	text "Mouaff!"
+	text "<RIVAL>: Mouaff!"
 
 	para "Au moins, tu"
 	line "t'occupes de tes"
@@ -43,8 +43,9 @@ _SSAnneRivalDefeatedText::
 	prompt
 
 _SSAnneRivalWonText::
-	text "<PLAYER>! Tu as"
-	line "le mal de mer?"
+	text "<RIVAL>: <PLAYER>!"
+	line "Tu as le mal de"
+	cont "mer?"
 
 	para "Tu devrais te"
 	line "mettre au frais!"
@@ -67,5 +68,5 @@ _SSAnneRivalCaptainText::
 
 	para "Tu devrais le"
 	line "rencontrer!"
-	cont "Salut! Minable!"
+	cont "¡Adios amigo!"
 	done

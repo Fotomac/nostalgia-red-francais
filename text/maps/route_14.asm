@@ -6,7 +6,6 @@ _Route14BattleText1::
 	cont "#MON!"
 	done
 
-
 _Route14EndBattleText1::
 	text "..."
 	line "Pas assez bon!"
@@ -44,8 +43,8 @@ _Route14BattleText3::
 	done
 
 _Route14EndBattleText3::
-	text "Ah!"
-	line "Fiasco complet!"
+	text "Ah! Fiasco"
+	line "complet!"
 	prompt
 
 _Route14AfterBattleText3::
@@ -64,8 +63,7 @@ _Route14BattleText4::
 	done
 
 _Route14EndBattleText4::
-	text "Ah!"
-	line "Chute libre!"
+	text "Ah! Chute libre!"
 	prompt
 
 _Route14AfterBattleText4::
@@ -81,8 +79,7 @@ _Route14BattleText5::
 	done
 
 _Route14EndBattleText5::
-	text "Ah?"
-	line "J'ai perdu?"
+	text "Ah? J'ai perdu?"
 	prompt
 
 _Route14AfterBattleText5::
@@ -98,8 +95,8 @@ _Route14BattleText6::
 	done
 
 _Route14EndBattleText6::
-	text "Ben,"
-	line "t'as gagné, non?"
+	text "Ben, t'as gagné,"
+	line "non?"
 	prompt
 
 _Route14AfterBattleText6::
@@ -116,10 +113,9 @@ _Route14BattleText7::
 	done
 
 _Route14EndBattleText7::
-	text "Arrg!"
-	line "T'as fait une"
-	cont "tête au carré à"
-	cont "mes #MON!"
+	text "Arrg! T'as fait"
+	cont "une tête au carré"
+	cont "à mes #MON!"
 	prompt
 
 _Route14AfterBattleText7::
@@ -133,8 +129,7 @@ _Route14BattleText8::
 	done
 
 _Route14EndBattleText8::
-	text "Oh!"
-	line "Plein ma face!"
+	text "Oh! Plein ma face!"
 	prompt
 
 _Route14AfterBattleText8::

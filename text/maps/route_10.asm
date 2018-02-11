@@ -6,8 +6,8 @@ _Route10BattleText1::
 	done
 
 _Route10EndBattleText1::
-	text "Nyan!"
-	line "Ma belle collec'!"
+	text "Nyan! Ma belle"
+	line "collec'!"
 	prompt
 
 _Route10AfterBattleText1::
@@ -21,8 +21,7 @@ _Route10BattleText2::
 	done
 
 _Route10EndBattleText2::
-	text "Ha!"
-	line "Je ris pas!"
+	text "Ha! Je ris pas!"
 	cont "C'est les nerfs!"
 	prompt
 
@@ -39,8 +38,7 @@ _Route10BattleText3::
 	done
 
 _Route10EndBattleText3::
-	text "Yah!"
-	line "Mes #MON!"
+	text "Yah! Mes #MON!"
 	prompt
 
 _Route10AfterBattleText3::
@@ -56,9 +54,8 @@ _Route10BattleText4::
 	done
 
 _Route10EndBattleText4::
-	text "Ben,"
-	line "voilà! J'ai"
-	cont "encore perdu!"
+	text "Ben, voilà! J'ai"
+	line "encore perdu!"
 	prompt
 
 _Route10AfterBattleText4::

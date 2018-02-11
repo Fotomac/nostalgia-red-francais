@@ -1,6 +1,5 @@
 _Route24EndBattleText1::
-	text "Oh!"
-	line "J'ai vu ma"
+	text "Oh! J'ai vu ma"
 	cont "défaite!"
 	prompt
 
@@ -16,8 +15,7 @@ _Route24BattleText2::
 	done
 
 _Route24EndBattleText2::
-	text "Ah!"
-	line "Purée!"
+	text "Ah! Purée!"
 	prompt
 
 _Route24AfterBattleText2::
@@ -47,8 +45,8 @@ _Route24BattleText4::
 	done
 
 _Route24EndBattleText4::
-	text "Oh!"
-	line "Tu m'as écrasé!"
+	text "Oh! Tu m'as"
+	line "écrasé!"
 	prompt
 
 _Route24AfterBattleText4::
@@ -85,8 +83,7 @@ _Route24BattleText6::
 	done
 
 _Route24EndBattleText6::
-	text "Haha!"
-	line "Bien joué!"
+	text "Haha! Bien joué!"
 	prompt
 
 _Route24AfterBattleText6::

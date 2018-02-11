@@ -7,8 +7,7 @@ _RocketHideout1BattleText2::
 	done
 
 _RocketHideout1EndBattleText2::
-	text "Aïe!"
-	line "J'suis battu!"
+	text "Aïe! J'suis battu!"
 	prompt
 
 _RocketHideout1AfterBattleTxt2::
@@ -52,10 +51,9 @@ _RocketHideout1BattleText5::
 	line "t'es là?"
 	done
 
-
 _RocketHideout1EndBattleText5::
-	text "J'suis"
-	line "pas à la hauteur!"
+	text "J'suis pas à la"
+	line "hauteur!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5::

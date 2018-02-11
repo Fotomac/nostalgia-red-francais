@@ -101,7 +101,7 @@ _CeruleanGymText_5c7d3::
 	done
 
 _CeruleanGymText_5c7d8::
-	text "Whouha!"
+	text "ONDINE: Whouha!"
 	line "T'es super fort!"
 
 	para "Très bien!"
@@ -118,9 +118,8 @@ _CeruleanGymBattleText1::
 	done
 
 _CeruleanGymEndBattleText1::
-	text "Oh!"
-	line "J",$e0,"me suis fait" ; So sick of your shit NoE
-	cont "écraser!"
+	text "Oh! J",$e0,"me suis" ; So sick of your shit NoE
+	line "fait écraser!"
 	prompt
 
 _CeruleanGymAfterBattleText1::

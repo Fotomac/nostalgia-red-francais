@@ -4,8 +4,7 @@ _RockTunnel2BattleText2::
 	done
 
 _RockTunnel2EndBattleText2::
-	text "Oh!"
-	line "Au secours!"
+	text "Oh! Au secours!"
 	prompt
 
 _RockTunnel2AfterBattleText2::
@@ -19,9 +18,8 @@ _RockTunnel2BattleText3::
 	done
 
 _RockTunnel2EndBattleText3::
-	text "Oups!"
-	line "Niveau muscles:"
-	cont "zéro!"
+	text "Oups! Niveau"
+	line "muscles: zéro!"
 	prompt
 
 _RockTunnel2AfterBattleText3::
@@ -36,8 +34,8 @@ _RockTunnel2BattleText4::
 	done
 
 _RockTunnel2EndBattleText4::
-	text "Zut!"
-	line "J'suis jaloux!"
+	text "Zut! J'suis"
+	line "jaloux!"
 	prompt
 
 _RockTunnel2AfterBattleText4::
@@ -72,8 +70,7 @@ _RockTunnel2BattleText6::
 	done
 
 _RockTunnel2EndBattleText6::
-	text "Ah!"
-	line "Je pleure."
+	text "Ah! Je pleure."
 	prompt
 
 _RockTunnel2AfterBattleText6::
@@ -89,8 +86,7 @@ _RockTunnel2BattleText7::
 	done
 
 _RockTunnel2EndBattleText7::
-	text "Oh!"
-	line "Perdu!"
+	text "Oh! Perdu!"
 	prompt
 
 _RockTunnel2AfterBattleText7::
@@ -105,6 +101,5 @@ _RockTunnel2BattleText8::
 	done
 
 _RockTunnel2EndBattleText8::
-	text "Mince!"
-	line "Détruit!"
+	text "Mince! Détruit!"
 	prompt

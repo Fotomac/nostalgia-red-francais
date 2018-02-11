@@ -22,8 +22,8 @@ _MtMoon1BattleText3::
 	done
 
 _MtMoon1EndBattleText3::
-	text "Hmm!"
-	line "Perdre c'est MAL!"
+	text "Hmm! Perdre c'est"
+	line "MAL!"
 	prompt
 
 _MtMoon1AfterBattleText3::
@@ -40,8 +40,7 @@ _MtMoon1BattleText4::
 	done
 
 _MtMoon1EndBattleText4::
-	text "RHAA!"
-	line "J'ai perdu!"
+	text "RHAA! J'ai perdu!"
 	prompt
 
 _MtMoon1AfterBattleText4::
@@ -55,9 +54,8 @@ _MtMoon1BattleText5::
 	done
 
 _MtMoon1EndBattleText5::
-	text "Mes"
-	line "#MON"
-	cont "sont nuls!"
+	text "Mes #MON"
+	line "sont nuls!"
 	prompt
 
 _MtMoon1AfterBattleText5::
@@ -72,8 +70,7 @@ _MtMoon1BattleText6::
 	done
 
 _MtMoon1EndBattleText6::
-	text "Nan!"
-	line "J'ai perdu?"
+	text "Nan! J'ai perdu?"
 	prompt
 
 _MtMoon1AfterBattleText6::
@@ -91,8 +88,7 @@ _MtMoon1BattleText7::
 	done
 
 _MtMoon1EndBattleText7::
-	text "Ha!"
-	line "Tu m'as eu!"
+	text "Ha! Tu m'as eu!"
 	prompt
 
 _MtMoon1AfterBattleText7::

@@ -63,8 +63,7 @@ _MtMoon3BattleText2::
 	done
 
 _MtMoon3EndBattleText2::
-	text "Grrr!"
-	line "J'suis vert!"
+	text "Grrr! J'suis vert!"
 	prompt
 
 _MtMoon3AfterBattleText2::
@@ -100,14 +99,14 @@ _MtMoon3BattleText4::
 	done
 
 _MtMoon3EndBattleText4::
-	text "OK,"
-	line "t'es pas mauvais!"
+	text "OK, t'es pas"
+	line "mauvais!"
 	prompt
 
 _MtMoon3AfterBattleText4::
 	text "Si tu trouves un"
-	line "fossile, tu me le"
-	cont "donnes et tu"
+	line "fossile, tu me"
+	cont "dis où et tu"
 	cont "décampes, pigé?"
 	done
 

@@ -4,8 +4,7 @@ _RockTunnel1BattleText1::
 	done
 
 _RockTunnel1EndBattleText1::
-	text "Rôooh!"
-	line "T'as gagné!"
+	text "Rôooh! T'as gagné!"
 	prompt
 
 _RockTunnel1AfterBattleText1::
@@ -55,8 +54,7 @@ _RockTunnel1BattleText4::
 	done
 
 _RockTunnel1EndBattleText4::
-	text "Game"
-	line "over!"
+	text "Game over!"
 	prompt
 
 _RockTunnel1AfterBattleText4::
@@ -71,8 +69,7 @@ _RockTunnel1BattleText5::
 	done
 
 _RockTunnel1EndBattleText5::
-	text "J'ai"
-	line "rien compris!"
+	text "J'ai rien compris!"
 	prompt
 
 _RockTunnel1AfterBattleText5::
@@ -87,8 +84,8 @@ _RockTunnel1BattleText6::
 	done
 
 _RockTunnel1EndBattleText6::
-	text "Ho!"
-	line "Plus de #MON!"
+	text "Ho! Plus de"
+	line "#MON!"
 	prompt
 
 _RockTunnel1AfterBattleText6::
@@ -102,8 +99,7 @@ _RockTunnel1BattleText7::
 	done
 
 _RockTunnel1EndBattleText7::
-	text "T'es"
-	line "un dur toi!"
+	text "T'es un dur toi!"
 	prompt
 
 _RockTunnel1AfterBattleText7::

@@ -4,8 +4,7 @@ _VictoryRoad1BattleText1::
 	done
 
 _VictoryRoad1EndBattleText1::
-	text "Oh!"
-	line "Vilain!"
+	text "Oh! Vilain!"
 	prompt
 
 _VictoryRoad1AfterBattleText1::
@@ -20,11 +19,10 @@ _VictoryRoad1BattleText2::
 	done
 
 _VictoryRoad1EndBattleText2::
-	text "OK."
-	line "T'es fort."
+	text "OK. T'es fort."
 	prompt
 
 _VictoryRoad1AfterBattleText2::
-	text "T'es fort, "
+	text "T'es fort,"
 	line "on a compris!"
 	done

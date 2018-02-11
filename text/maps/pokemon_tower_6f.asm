@@ -33,8 +33,8 @@ _PokemonTower6BattleText2::
 	done
 
 _PokemonTower6EndBattleText2::
-	text "Haaa!"
-	line "Je me sens mieux!"
+	text "Haaa! Je me sens"
+	line "mieux!"
 	prompt
 
 _PokemonTower6AfterBattleText2::

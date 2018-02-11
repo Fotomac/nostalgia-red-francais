@@ -28,8 +28,7 @@ _PokemonTower5BattleText2::
 	done
 
 _PokemonTower5EndBattleText2::
-	text "Hein!"
-	line "J'ai fait un"
+	text "Hein! J'ai fait un"
 	cont "cauchemar!"
 	prompt
 
@@ -57,11 +56,10 @@ _PokemonTower5BattleText4::
 	done
 
 _PokemonTower5EndBattleText4::
-	text "Quoi?"
-	line "Jeune taoïste, tu"
-	cont "oses m'ôter le"
-	cont "yang de la "
-	cont "bouche!"
+	text "Quoi? Jeune"
+	line "taoïste, tu oses"
+	line "m'ôter le yang de"
+	line "la bouche!"
 	prompt
 
 _PokemonTower5AfterBattleText4::

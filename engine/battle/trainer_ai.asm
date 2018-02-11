@@ -693,7 +693,21 @@ SwitchEnemyMon:
 	ld bc,4
 	call CopyData
 
+	ld hl, SpecialTrainerIDs
+	ld a, [wTrainerClass]
+	cp ROCKET
+	jr z, .Rocket1
+	ld de, 1
+	call IsInArray
+	jr c, .specialTrainer1
 	ld hl, AIBattleWithdrawText
+	jr .next1
+.specialTrainer1
+	ld hl, AIBattleWithdrawText2
+	jr .next1
+.Rocket1
+	ld hl, AIBattleWithdrawTextR
+.next1
 	call PrintText
 
 	; This wFirstMonsNotOutYet variable is abused to prevent the player from
@@ -712,6 +726,14 @@ SwitchEnemyMon:
 
 AIBattleWithdrawText:
 	TX_FAR _AIBattleWithdrawText
+	db "@"
+
+AIBattleWithdrawText2:
+	TX_FAR _AIBattleWithdrawText2
+	db "@"
+
+AIBattleWithdrawTextR:
+	TX_FAR _AIBattleWithdrawTextR
 	db "@"
 
 AIUseFullHeal:
@@ -832,9 +854,31 @@ AIPrintItemUse_:
 	ld a,[wAIItem]
 	ld [wd11e],a
 	call GetItemName
+	ld hl, SpecialTrainerIDs
+	ld a, [wTrainerClass]
+	cp ROCKET
+	jr z, .Rocket2
+	ld de, 1
+	call IsInArray
+	jr c, .specialTrainer2
 	ld hl, AIBattleUseItemText
+	jr .next2
+.specialTrainer2
+	ld hl, AIBattleUseItemText2
+	jr .next2
+.Rocket2
+	ld hl, AIBattleUseItemTextR
+.next2
 	jp PrintText
 
 AIBattleUseItemText:
 	TX_FAR _AIBattleUseItemText
+	db "@"
+
+AIBattleUseItemText2:
+	TX_FAR _AIBattleUseItemText2
+	db "@"
+
+AIBattleUseItemTextR:
+	TX_FAR _AIBattleUseItemTextR
 	db "@"

@@ -17,13 +17,13 @@ _CeruleanCityText_19668::
 	done
 
 _CeruleanCityText_1966d::
-	text "Houlà!"
+	text "<RIVAL>: Houlà!"
 	line "Calmos minable!"
 	cont "T'as gagné, OK!"
 	prompt
 
 _CeruleanCityText_19672::
-	text "Pfff!"
+	text "<RIVAL>: Pfff!"
 	line "Une perte de"
 	cont "temps. Mi-nable!"
 	prompt
@@ -89,9 +89,8 @@ _TM28NoRoomText::
 	done
 
 _CeruleanCityText_196ee::
-	text "Stop!"
-	line "J",$e0,"me rends!" ; Stop 'm converting to $E5
-	cont "T'es trop fort!"
+	text "Stop! J",$e0,"me rends!" ; Stop 'm converting to $E5
+	line "T'es trop fort!"
 	prompt
 
 _CeruleanCityText_196f3::
@@ -139,49 +138,43 @@ _CeruleanCityText6::
 	done
 
 _CeruleanCityText_19730::
-	text "Allez! FLAGADOSS!"
-	line "Attaque! Attaque!"
-	cont "Mais non!!! Tu"
-	cont "m'écoutes, oui?"
+	text "Lance SONICBOOM!"
+	line "Fais attention!"
 	done
 
 _CeruleanCityText_19735::
-	text "FLAGADOSS, cogne!"
-	line "Mais non! Tu fais"
-	cont "n'importe quoi!"
+	text "Oh, non!"
+	line "..."
 	done
 
 _CeruleanCityText_1973a::
-	text "FLAGADOSS, REPLI!"
-	line "Non! Pas ça!"
+	text "Non! Pas ça!"
 
-	para "Pfff... C'est dur"
-	line "de contrôler un"
-	cont "#MON!"
+	para "L'obéssiance de"
+	line "tes #MON"
+	cont "dépend de tes"
 
-	para "Seuls les bons"
-	line "dresseurs se font"
-	cont "obéir par leurs"
-	cont "#MON!"
+	para "qualités de"
+	line "dresseur!"
 	done
 
 _CeruleanCityText_1976f::
-	text "FLAGADOSS pionce"
+	text "ELECTRODE pionce"
 	line "comme une masse."
 	done
 
 _CeruleanCityText_19774::
-	text "FLAGADOSS"
+	text "ELECTRODE"
 	line "flâne..."
 	done
 
 _CeruleanCityText_19779::
-	text "FLAGADOSS se"
+	text "ELECTRODE se"
 	line "balade..."
 	done
 
 _CeruleanCityText_1977e::
-	text "FLAGADOSS ignore"
+	text "ELECTRODE ignore"
 	line "les ordres..."
 	done
 

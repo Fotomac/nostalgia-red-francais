@@ -26,8 +26,7 @@ _Route12BattleText1::
 	done
 
 _Route12EndBattleText1::
-	text "Tsss!"
-	line "Trop p'tit!"
+	text "Tsss! Trop p'tit!"
 	prompt
 
 _Route12AfterBattleText1::
@@ -42,8 +41,8 @@ _Route12BattleText2::
 	done
 
 _Route12EndBattleText2::
-	text "Je l'ai"
-	line "laissé filer!"
+	text "Je l'ai laissé"
+	line "filer!"
 	prompt
 
 _Route12AfterBattleText2::
@@ -59,8 +58,7 @@ _Route12BattleText3::
 	done
 
 _Route12EndBattleText3::
-	text "Bordel"
-	line "de merde!"
+	text "Bordel de merde!"
 	prompt
 
 _Route12AfterBattleText3::
@@ -94,8 +92,7 @@ _Route12BattleText5::
 	done
 
 _Route12EndBattleText5::
-	text "T'as"
-	line "gagné!"
+	text "T'as gagné!"
 	prompt
 
 _Route12AfterBattleText5::
@@ -111,8 +108,8 @@ _Route12BattleText6::
 	done
 
 _Route12EndBattleText6::
-	text "C'est"
-	line "pas facile..."
+	text "C'est pas"
+	line "facile..."
 	prompt
 
 _Route12AfterBattleText6::
@@ -128,8 +125,7 @@ _Route12BattleText7::
 	done
 
 _Route12EndBattleText7::
-	text "Hop,"
-	line "perdu!"
+	text "Hop, perdu!"
 	prompt
 
 _Route12AfterBattleText7::

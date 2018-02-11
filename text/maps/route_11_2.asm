@@ -1,6 +1,5 @@
 _Route11EndBattleText9::
-	text "Whoa!"
-	line "Tu fais des"
+	text "Whoa! Tu fais des"
 	cont "étincelles!"
 	prompt
 
@@ -15,8 +14,8 @@ _Route11BattleText10::
 	done
 
 _Route11EndBattleText10::
-	text "Trop,"
-	line "trop trop balèze!"
+	text "Trop, trop trop"
+	line "balèze!"
 	prompt
 
 _Route11AfterBattleText10::

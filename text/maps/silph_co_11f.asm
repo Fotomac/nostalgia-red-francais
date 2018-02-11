@@ -74,7 +74,7 @@ _SilphCo11Text3::
 	done
 
 _SilphCo10Text_62330::
-	text "Arrgh!!"
+	text "GIOVANNI: Arrgh!!"
 	line "Encore perdu!?"
 	prompt
 
@@ -122,8 +122,8 @@ _SilphCo11BattleText2::
 	done
 
 _SilphCo11EndBattleText2::
-	text "Gaah!"
-	line "Cassé la tête!"
+	text "Gaah! Cassé la"
+	line "tête!"
 	prompt
 
 _SilphCo11AfterBattleText2::

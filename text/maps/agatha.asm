@@ -30,7 +30,7 @@ _AgathaBeforeBattleText::
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
+	text "AGATHA: Oh ho!"
 	line "Tu es doué mon"
 	cont "petit!"
 	prompt

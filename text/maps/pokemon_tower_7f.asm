@@ -58,8 +58,7 @@ _PokemonTower7BattleText2::
 	done
 
 _PokemonTower7EndBattleText2::
-	text "Argh!"
-	line "Assez!"
+	text "Argh! Assez!"
 	prompt
 
 _PokemonTower7AfterBattleText2::

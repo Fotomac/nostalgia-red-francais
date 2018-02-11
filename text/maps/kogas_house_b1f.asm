@@ -10,7 +10,7 @@ _JanineBeforeBattleText::
 	done
 
 _JanineEndBattleText::
-	text "T'as de"
+	text "JEANNINE: T'as de"
 	line "talent, toi. T'as"
 	cont "gagné..."
 	done
@@ -61,8 +61,11 @@ _KogasHouseEndBattleText1::
 	done
 
 _KogasHouseAfterBattleText1::
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "Tu penses quoi de"
+	line "mon déguisement?"
+
+	para "Tout le monde m'en"
+	line "dit du bien!"
 	done
 
 _KogasHouseBattleText2::
@@ -74,13 +77,14 @@ _KogasHouseBattleText2::
 	done
 
 _KogasHouseEndBattleText2::
-	text "Zut!"
-	line "Presque!"
+	text "Zut! Presque!"
 	done
 
 _KogasHouseAfterBattleText2::
-	text "You must be"
-	line "getting tired."
+	text "Quand je suis"
+	line "déguisée en elle,"
+	cont "je me sens plus"
+	cont "forte!"
 	done
 
 _KogasHouseBattleText3::
@@ -91,15 +95,18 @@ _KogasHouseBattleText3::
 	done
 
 _KogasHouseEndBattleText3::
-	text "C'est"
-	line "trop bien de se"
-	cont "déguiser!"
+	text "C'est trop bien de"
+	line "se déguiser!"
 	done
 
 _KogasHouseAfterBattleText3::
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Et oui, je suis un"
+	line "garçon!"
+
+	para "J'ai bien le droit"
+	line "de me déguiser en"
+	cont "JEANNINE si je"
+	cont "veux!"
 	done
 
 _KogasHouseBattleText4::
@@ -112,12 +119,13 @@ _KogasHouseBattleText4::
 	done
 
 _KogasHouseEndBattleText4::
-	text "Tu m'as"
-	line "crue, hein?"
+	text "Tu m'as crue,"
+	line "hein?"
 	done
 
 _KogasHouseAfterBattleText4::
-	text "How will you"
-	line "distinguish the"
-	cont "real JANINE?"
+	text "C'est trop génial"
+	line "de se déguiser en"
+	cont "quelqu'un qu'on"
+	cont "admire comme ça!"
 	done

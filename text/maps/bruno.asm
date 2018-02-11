@@ -22,7 +22,7 @@ _BrunoBeforeBattleText::
 	done
 
 _BrunoEndBattleText::
-	text "Pourquoi?"
+	text "ALDO: Pourquoi?"
 	line "Et mes muscles?"
 	prompt
 

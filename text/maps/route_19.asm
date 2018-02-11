@@ -5,8 +5,8 @@ _Route19BattleText1::
 	done
 
 _Route19EndBattleText1::
-	text "J'suis"
-	line "tout chaud, là!"
+	text "J'suis tout chaud,"
+	line "là!"
 	prompt
 
 _Route19AfterBattleText1::
@@ -21,8 +21,8 @@ _Route19BattleText2::
 	done
 
 _Route19EndBattleText2::
-	text "Ha!"
-	line "L'eau ça mouille!"
+	text "Ha! L'eau ça"
+	line "mouille!"
 	prompt
 
 _Route19AfterBattleText2::
@@ -70,8 +70,7 @@ _Route19BattleText5::
 	done
 
 _Route19EndBattleText5::
-	text "Glubb!"
-	line "J",$e0,"me noie!"
+	text "Glubb! J",$e0,"me noie!"
 	prompt
 
 _Route19AfterBattleText5::
@@ -88,8 +87,8 @@ _Route19BattleText6::
 	done
 
 _Route19EndBattleText6::
-	text "Aïe!"
-	line "T'es pas poète!"
+	text "Aïe! T'es pas"
+	line "poète!"
 	prompt
 
 _Route19AfterBattleText6::
@@ -104,8 +103,7 @@ _Route19BattleText7::
 	done
 
 _Route19EndBattleText7::
-	text "Oh!"
-	line "J'ai perdu!"
+	text "Oh! J'ai perdu!"
 	prompt
 
 _Route19AfterBattleText7::
@@ -135,8 +133,7 @@ _Route19BattleText9::
 	done
 
 _Route19EndBattleText9::
-	text "Argh!"
-	line "Dangereux!"
+	text "Argh! Dangereux!"
 	prompt
 
 _Route19AfterBattleText9::
@@ -150,8 +147,7 @@ _Route19BattleText10::
 	done
 
 _Route19EndBattleText10::
-	text "J'en"
-	line "peux plus..."
+	text "J'en peux plus..."
 	prompt
 
 _Route19AfterBattleText10::

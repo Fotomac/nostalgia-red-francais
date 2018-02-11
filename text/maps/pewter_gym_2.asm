@@ -66,7 +66,7 @@ _TM39NoRoomText::
 	done
 
 _PewterGymText_5c4bc::
-	text "Hmm..."
+	text "PIERRE: Hmm..."
 	line "Beau combat."
 	cont "J'étais trop sûr"
 	cont "de moi, c'est"
@@ -129,9 +129,8 @@ _PewterGymBattleText2::
 	done
 
 _PewterGymEndBattleText2::
-	text "C'était"
-	line "juste la"
-	cont "commencement!"
+	text "C'était juste la"
+	line "commencement!"
 	prompt
 
 _PewterGymAfterBattleText2::

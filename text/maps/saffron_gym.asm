@@ -22,7 +22,7 @@ _SaffronGymText_5d162::
 	done
 
 _SaffronGymText_5d167::
-	text "Ha!"
+	text "MORGANE: Ha!"
 	line "Je suis surprise!"
 	cont "Tu as gagné."
 
@@ -119,8 +119,8 @@ _SaffronGymBattleText1::
 	done
 
 _SaffronGymEndBattleText1::
-	text "Rhhâ!"
-	line "J'suis nulle!"
+	text "Rhhâ! J'suis"
+	line "nulle!"
 	prompt
 
 _SaffronGymAfterBattleText1::
@@ -143,9 +143,8 @@ _SaffronGymBattleText2::
 	done
 
 _SaffronGymEndBattleText2::
-	text "Nyan!"
-	line "T'as pas l'air"
-	cont "effrayé!"
+	text "Nyan! T'as pas"
+	line "l'air effrayé!"
 	prompt
 
 _SaffronGymAfterBattleText2::
@@ -165,8 +164,7 @@ _SaffronGymBattleText3::
 	done
 
 _SaffronGymEndBattleText3::
-	text "Argh!"
-	line "Je l'savais!"
+	text "Argh! Je l'savais!"
 	prompt
 
 _SaffronGymAfterBattleText3::
@@ -183,9 +181,8 @@ _SaffronGymBattleText4::
 	done
 
 _SaffronGymEndBattleText4::
-	text "Huh!"
-	line "J'appelle pas ça"
-	cont "rien!"
+	text "Huh! J'appelle pas"
+	line "ça rien!"
 	prompt
 
 _SaffronGymAfterBattleText4::
@@ -202,8 +199,7 @@ _SaffronGymBattleText5::
 	done
 
 _SaffronGymEndBattleText5::
-	text "Puff!"
-	line "J'ai perdu!"
+	text "Puff! J'ai perdu!"
 	prompt
 
 _SaffronGymAfterBattleText5::
@@ -224,8 +220,8 @@ _SaffronGymBattleText6::
 	done
 
 _SaffronGymEndBattleText6::
-	text "Oups!"
-	line "J'ai rien capté!"
+	text "Oups! J'ai rien"
+	line "capté!"
 	prompt
 
 _SaffronGymAfterBattleText6::

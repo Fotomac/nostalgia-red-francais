@@ -41,7 +41,7 @@ _GaryChampionIntroText::
 	done
 
 _GaryDefeatedText::
-	text "NOoOoON!"
+	text "<RIVAL>: NOoOoON!"
 	line "IMPOSSIBLE!!!"
 	cont "Mon équipe de"
 	cont "rêve est fichue!"
@@ -57,7 +57,7 @@ _GaryDefeatedText::
 	prompt
 
 _GaryVictoryText::
-	text "Hahaha!"
+	text "<RIVAL>: Hahaha!"
 	line "J'ai gagné!"
 	cont "Nya na nana na!"
 

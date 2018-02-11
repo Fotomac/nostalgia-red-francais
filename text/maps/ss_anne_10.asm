@@ -10,8 +10,8 @@ _SSAnne10BattleText1::
 	done
 
 _SSAnne10EndBattleText1::
-	text "Ouaip!"
-	line "Beau combat!"
+	text "Ouaip! Beau"
+	line "combat!"
 	prompt
 
 _SSAnne10AfterBattleText1::
@@ -26,8 +26,7 @@ _SSAnne10BattleText2::
 	done
 
 _SSAnne10EndBattleText2::
-	text "Ha!"
-	line "Je sombre!"
+	text "Ha! Je sombre!"
 	prompt
 
 _SSAnne10AfterBattleText2::
@@ -43,8 +42,7 @@ _SSAnne10BattleText3::
 	done
 
 _SSAnne10EndBattleText3::
-	text "OK!"
-	line "T'es pas nul!"
+	text "OK! T'es pas nul!"
 	prompt
 
 _SSAnne10AfterBattleText3::
@@ -59,8 +57,8 @@ _SSAnne10BattleText4::
 	cont "comme toi!@@"
 
 _SSAnne10EndBattleText4::
-	text "Hein!"
-	line "J'ai perdu? Argh!"
+	text "Hein! J'ai perdu?"
+	line "Argh!"
 	prompt
 
 _SSAnne10AfterBattleText4::
@@ -79,8 +77,8 @@ _SSAnne10BattleText5::
 	done
 
 _SSAnne10EndBattleText5::
-	text "Hein?"
-	line "Battu par toi?"
+	text "Hein? Battu par"
+	line "toi?"
 	prompt
 
 _SSAnne10AfterBattleText5::
@@ -100,9 +98,8 @@ _SSAnne10BattleText6::
 	done
 
 _SSAnne10EndBattleText6::
-	text "Zut!"
-	line "Celui-là s'est"
-	cont "échappé!"
+	text "Zut! Celui-là"
+	line "s'est échappé!"
 	prompt
 
 _SSAnne10AfterBattleText6::

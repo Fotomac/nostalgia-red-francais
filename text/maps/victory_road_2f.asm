@@ -25,8 +25,7 @@ _VictoryRoad2BattleText2::
 	done
 
 _VictoryRoad2EndBattleText2::
-	text "Argh!"
-	line "T'as gagné!"
+	text "Argh! T'as gagné!"
 	prompt
 
 _VictoryRoad2AfterBattleText2::
@@ -40,9 +39,8 @@ _VictoryRoad2BattleText3::
 	done
 
 _VictoryRoad2EndBattleText3::
-	text "Beuh!"
-	line "J",$e0,"me suis pris" ; yet another one stopping 'm being converted to $E5
-	cont "une claque!"
+	text "Beuh! J",$e0,"me suis" ; yet another one stopping 'm being converted to $E5
+	line "pris une claque!"
 	prompt
 
 _VictoryRoad2AfterBattleText3::
@@ -61,8 +59,7 @@ _VictoryRoad2BattleText4::
 	done
 
 _VictoryRoad2EndBattleText4::
-	text "Ha!"
-	line "J'y crois pas!"
+	text "Ha! J'y crois pas!"
 	prompt
 
 _VictoryRoad2AfterBattleText4::

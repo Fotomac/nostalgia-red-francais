@@ -49,8 +49,8 @@ _Route24Text_51526::
 	done
 
 _Route24Text_5152b::
-	text "Arrgh!"
-	line "Tu es très fort!"
+	text "Arrgh! Tu es très"
+	line "fort!"
 	prompt
 
 _Route24Text_51530::
