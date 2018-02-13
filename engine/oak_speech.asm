@@ -271,7 +271,7 @@ BoyGirlChoice::
 	ld a, BOY_GIRL_MENU
 	ld [wTwoOptionMenuID], a
 	; set the coords
-	coord hl, 13, 7
+	coord hl, 11, 7
 	lb bc, 8, 14
 	; show the menu
 	ld a, TWO_OPTION_MENU
