@@ -10,9 +10,10 @@ _KogaExplainToxicText::
 	done
 
 _FuchsiaGymText9::
-	text "Le BADGE AME fera"
-	line "monter la DEFENSE"
-	cont "de tes #MON!"
+	text "Le BADGE MARAIS"
+	line "fera monter la"
+	cont "DEFENSE de tes"
+	cont "#MON!"
 
 	para "Il te permettra"
 	line "aussi d'utiliser"

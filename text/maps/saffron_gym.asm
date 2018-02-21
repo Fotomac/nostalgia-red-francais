@@ -33,7 +33,7 @@ _SaffronGymText_5d167::
 	cont "victoire!"
 
 	para "Tu gagnes le"
-	line "BADGE MARAIS!@@"
+	line "BADGE AME!@@"
 
 _SaffronGymText_5d16e::
 	text "Tout le monde est"
@@ -45,9 +45,9 @@ _SaffronGymText_5d16e::
 
 _SaffronGymText_5d173::
 	text "Avec le BADGE"
-	line "MARAIS, les"
-	cont "#MON de niveau"
-	cont "70 t'obéiront!"
+	line "AME, les #MON"
+	cont "de niveau 70"
+	cont "t'obéiront!"
 
 	para "Les #MON plus"
 	line "puissants seront"

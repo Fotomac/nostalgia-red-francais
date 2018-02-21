@@ -25,5 +25,5 @@ _KogaAfterBattleText::
 
 	para "Ouvre ta mimine"
 	line "car voici..."
-	cont "le BADGE AME!"
+	cont "le BADGE MARAIS!"
 	prompt
