@@ -488,10 +488,11 @@ PrintNamingText:
 	call GetMonName
 	coord hl, 4, 1
 	call PlaceString
-	ld hl, $C3DD
-	ld de, $69F2
-	jr .placeString
-
+	ld hl, $1
+	add hl, bc
+	ld [hl], $cd
+	coord hl, 1, 3
+	ld de, NicknameTextString
 .placeString
 	jp PlaceString
 

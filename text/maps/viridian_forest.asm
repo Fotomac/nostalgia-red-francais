@@ -49,7 +49,8 @@ _ViridianForestBattleText3::
 	done
 
 _ViridianForestEndBattleText3::
-	text "Houlà! J'abandonne!"
+	text "Houlà!"
+	line "J'abandonne!"
 	cont "T'es trop fort!"
 	prompt
 

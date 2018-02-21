@@ -122,7 +122,7 @@ _Route3BattleText7::
 
 _Route3EndBattleText7::
 	text "Ben, y m'en faut"
-	cont "des nouveaux!"
+	line "des nouveaux!"
 	prompt
 
 _Route3AfterBattleText7::

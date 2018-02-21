@@ -1314,7 +1314,7 @@ _TrainerSentOutText::
 	line "@"
 	TX_RAM wTrainerName
 	text ""
-	line "fait appel à... "
+	cont "fait appel à... "
 	cont "@"
 	TX_RAM wEnemyMonNick
 	text "!"
