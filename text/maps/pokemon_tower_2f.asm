@@ -46,7 +46,7 @@ _PokemonTower2Text_6063c::
 	cont "pain sur la"
 	cont "planche, minable!"
 
-	para "A bientôt..."
+	para "A Pluto..."
 	line "Gros minable!"
 	done
 

@@ -34,8 +34,8 @@ _BlaineFireBlastText::
 
 	para "Ne la donne pas"
 	line "à un #MON de"
-	cont "l'eau, ça ferait"
-	cont "pas bon ménage!"
+	cont "l'eau, ça serait"
+	cont "du gâchis!"
 	done
 
 _BlaineBadgeText::
@@ -66,8 +66,9 @@ _TM38ExplanationText::
 	cont "feu!"
 
 	para "REPTINCEL ou"
-	line "PONYTA feront"
-	cont "l'affaire!"
+	line "PONYTA sont"
+	cont "parfaits pour"
+	cont "cette capacité!"
 	done
 
 _TM38NoRoomText::

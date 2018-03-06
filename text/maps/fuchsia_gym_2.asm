@@ -5,8 +5,13 @@ _KogaExplainToxicText::
 	cont "#MON pendant"
 	cont "un combat!"
 
-	para "De quoi filer la"
-	line "pétoche!"
+	para "Les dégâts"
+	line "augmentent si le"
+	cont "combat se"
+	cont "prolonge!"
+
+	para "De quoi terroriser"
+	line "ses ennemis!"
 	done
 
 _FuchsiaGymText9::
@@ -17,7 +22,8 @@ _FuchsiaGymText9::
 
 	para "Il te permettra"
 	line "aussi d'utiliser"
-	cont "SURF!"
+	cont "SURF hors des"
+	cont "combats!"
 
 	para "Attends! Prends"
 	line "aussi ceci!"
@@ -38,7 +44,6 @@ _TM06ExplanationText::
 	line "secrète et sacrée"
 	cont "est vieille d'au"
 	cont "moins 400 ans!"
-	cont "...j'te jure!"
 	done
 
 _TM06NoRoomText::

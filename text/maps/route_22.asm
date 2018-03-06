@@ -94,6 +94,7 @@ _Route22RivalAfterBattleText2::
 	para "Mais je crois que"
 	line "tu commences à le"
 	cont "savoir, minable!"
+	cont "¡Adios amigo!"
 	done
 
 _Route22RivalDefeatedText2::

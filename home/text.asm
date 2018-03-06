@@ -203,6 +203,9 @@ MonsterNameCharsCommon::
 	call PlaceString
 	ld h,b
 	ld l,c
+	ld a, [wIsInBattle]
+	dec a
+	jr z, .wild
 	ld de,Char5AText_Trainer
 	jr FinishDTE
 .wild

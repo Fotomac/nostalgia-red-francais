@@ -9,7 +9,7 @@ _Route16HouseText3::
 	prompt
 
 _ReceivedHM02Text::
-	text "<PL;AYER> obtient:"
+	text "<PLAYER> obtient:"
 	line "CS02!@@"
 
 _HM02ExplanationText::
